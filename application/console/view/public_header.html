@@ -1,0 +1,35 @@
+<script src="__ASSETS__/js/jquery-1.11.1.min.js"></script>
+<script src="__ASSETS__/layer/layer.js"></script>
+<script>
+    //注销操作
+    function logout() {
+        layer.confirm('即将退出后台', {
+            title :'提示信息',
+            btn: ['确定','取消'] //按钮
+        }, function(){
+            location.href="{:url('Console/Login/logout')}";
+        });
+    }
+</script>
+<div class="headerbar">
+    <a class="menutoggle"><i class="fa fa-bars"></i></a>
+    <form class="searchform" action="index.html" method="post"></form>
+
+    <div class="header-right">
+        <ul class="headermenu">
+            <li>
+                <div class="btn-group">
+                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                        <img src="__ASSETS__/images/photos/loggeduser.png" alt=""/>
+                        {$Think.session.admin_user_name}
+                        <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-usermenu pull-right">
+                        <li><a href="{:url('Console/AdminUser/modify')}"><i class="glyphicon glyphicon-log-out"></i>修改个人信息</a></li>
+                        <li><a href="#" onclick="logout()"><i class="glyphicon glyphicon-log-out"></i>注销登录</a></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </div><!-- header-right -->
+</div>

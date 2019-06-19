@@ -1,0 +1,3110 @@
+---------------------------------------------------------------
+[ 2018-07-13T09:47:05+08:00 ] 192.168.100.1 GET /
+[ info ] 192.168.100.200:8083/ [运行时间：0.153534s][吞吐率：6.51req/s] [内存消耗：1,714.21kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://192.168.100.200:8888/site',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=5qh5dbjs963etjvlo607fmqbc2; serverType=nginx; order=id%20desc; memSize=458; backup_path=/www/backup; adminer_version=4.6.3; vcodesum=16; BT_PANEL=3f0c584b81097f01334da5d9882d4d07d4ce9bd6; memRealUsed=379; mem-before=379/458%20%28MB%29; fifteen=0.12; conterError=; upNet=0.69; downNet=1.98; one=1.07; five=0.33; SetId=inputPath; SetName=; thinkphp_show_page_trace=0|0; ChangePath=11',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/yangming/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-13T10:26:08+08:00 ] 192.168.100.1 GET /Dashboard/index
+[ info ] 192.168.100.200:8083/Dashboard/index [运行时间：0.099942s][吞吐率：10.01req/s] [内存消耗：1,786.67kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Dashboard',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=5qh5dbjs963etjvlo607fmqbc2; serverType=nginx; order=id%20desc; memSize=458; backup_path=/www/backup; adminer_version=4.6.3; vcodesum=16; BT_PANEL=3f0c584b81097f01334da5d9882d4d07d4ce9bd6; memRealUsed=379; mem-before=379/458%20%28MB%29; fifteen=0.12; conterError=; upNet=0.69; downNet=1.98; one=1.07; five=0.33; SetId=inputPath; SetName=; thinkphp_show_page_trace=0|0; ChangePath=11',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-13T10:26:08+08:00 ] 192.168.100.1 GET /Dashboard/index
+[ info ] 192.168.100.200:8083/Dashboard/index [运行时间：0.103425s][吞吐率：9.67req/s] [内存消耗：1,786.56kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '404',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=5qh5dbjs963etjvlo607fmqbc2; serverType=nginx; order=id%20desc; memSize=458; backup_path=/www/backup; adminer_version=4.6.3; vcodesum=16; BT_PANEL=3f0c584b81097f01334da5d9882d4d07d4ce9bd6; memRealUsed=379; mem-before=379/458%20%28MB%29; fifteen=0.12; conterError=; upNet=0.69; downNet=1.98; one=1.07; five=0.33; SetId=inputPath; SetName=; thinkphp_show_page_trace=0|0; ChangePath=11',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-13T10:26:23+08:00 ] 192.168.100.1 GET /
+[ info ] 192.168.100.200:8083/ [运行时间：0.110705s][吞吐率：9.03req/s] [内存消耗：1,713.95kb] [文件加载：33]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=5qh5dbjs963etjvlo607fmqbc2; serverType=nginx; order=id%20desc; memSize=458; backup_path=/www/backup; adminer_version=4.6.3; vcodesum=16; BT_PANEL=3f0c584b81097f01334da5d9882d4d07d4ce9bd6; memRealUsed=379; mem-before=379/458%20%28MB%29; fifteen=0.12; conterError=; upNet=0.69; downNet=1.98; one=1.07; five=0.33; SetId=inputPath; SetName=; thinkphp_show_page_trace=0|0; ChangePath=11',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/yangming/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-13T10:26:37+08:00 ] 192.168.100.1 GET /console/Dashboard/index
+[ info ] 192.168.100.200:8083/console/Dashboard/index [运行时间：0.157225s][吞吐率：6.36req/s] [内存消耗：2,215.16kb] [文件加载：45]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'console',
+    1 => 'Dashboard',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=5qh5dbjs963etjvlo607fmqbc2; serverType=nginx; order=id%20desc; memSize=458; backup_path=/www/backup; adminer_version=4.6.3; vcodesum=16; BT_PANEL=3f0c584b81097f01334da5d9882d4d07d4ce9bd6; memRealUsed=379; mem-before=379/458%20%28MB%29; fifteen=0.12; conterError=; upNet=0.69; downNet=1.98; one=1.07; five=0.33; SetId=inputPath; SetName=; thinkphp_show_page_trace=0|0; ChangePath=11',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\console\controller\Dashboard->index[ /www/wwwroot/yangming/application/console/controller/Dashboard.php ]
+[ info ] [ VIEW ] /www/wwwroot/yangming/public/../application/console/view/dashboard/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]模板文件不存在:[/www/wwwroot/yangming/thinkphp/library/think/Template.php:1074]
+---------------------------------------------------------------
+[ 2018-07-13T10:27:18+08:00 ] 192.168.100.1 GET /console/Dashboard/index
+[ info ] 192.168.100.200:8083/console/Dashboard/index [运行时间：0.140879s][吞吐率：7.10req/s] [内存消耗：2,158.63kb] [文件加载：44]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'console',
+    1 => 'Dashboard',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=5qh5dbjs963etjvlo607fmqbc2; serverType=nginx; order=id%20desc; memSize=458; backup_path=/www/backup; adminer_version=4.6.3; vcodesum=16; BT_PANEL=3f0c584b81097f01334da5d9882d4d07d4ce9bd6; memRealUsed=379; mem-before=379/458%20%28MB%29; fifteen=0.12; conterError=; upNet=0.69; downNet=1.98; one=1.07; five=0.33; SetId=inputPath; SetName=; thinkphp_show_page_trace=0|0; ChangePath=11',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\console\controller\Dashboard->index[ /www/wwwroot/yangming/application/console/controller/Dashboard.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-13T10:27:54+08:00 ] 192.168.100.1 GET /console/Dashboard/index
+[ info ] 192.168.100.200:8083/console/Dashboard/index [运行时间：0.152173s][吞吐率：6.57req/s] [内存消耗：2,234.50kb] [文件加载：46]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'console',
+    1 => 'Dashboard',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=5qh5dbjs963etjvlo607fmqbc2; serverType=nginx; order=id%20desc; memSize=458; backup_path=/www/backup; adminer_version=4.6.3; vcodesum=16; BT_PANEL=3f0c584b81097f01334da5d9882d4d07d4ce9bd6; memRealUsed=379; mem-before=379/458%20%28MB%29; fifteen=0.12; conterError=; upNet=0.69; downNet=1.98; one=1.07; five=0.33; SetId=inputPath; SetName=; thinkphp_show_page_trace=0|0; ChangePath=11',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\console\controller\Dashboard->index[ /www/wwwroot/yangming/application/console/controller/Dashboard.php ]
+[ info ] [ VIEW ] /www/wwwroot/yangming/public/../application/console/view/dashboard/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]模板文件不存在:[/www/wwwroot/yangming/thinkphp/library/think/Template.php:1074]
+---------------------------------------------------------------
+[ 2018-07-13T10:28:39+08:00 ] 192.168.100.1 GET /console/Dashboard/index
+[ info ] 192.168.100.200:8083/console/Dashboard/index [运行时间：0.135653s][吞吐率：7.37req/s] [内存消耗：2,158.63kb] [文件加载：44]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'console',
+    1 => 'Dashboard',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=5qh5dbjs963etjvlo607fmqbc2; serverType=nginx; order=id%20desc; memSize=458; backup_path=/www/backup; adminer_version=4.6.3; vcodesum=16; BT_PANEL=3f0c584b81097f01334da5d9882d4d07d4ce9bd6; memRealUsed=379; mem-before=379/458%20%28MB%29; fifteen=0.12; conterError=; upNet=0.69; downNet=1.98; one=1.07; five=0.33; SetId=inputPath; SetName=; thinkphp_show_page_trace=0|0; ChangePath=11',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\console\controller\Dashboard->index[ /www/wwwroot/yangming/application/console/controller/Dashboard.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-13T10:31:36+08:00 ] 192.168.100.1 GET /console/Dashboard/index
+[ info ] 192.168.100.200:8083/console/Dashboard/index [运行时间：0.187419s][吞吐率：5.34req/s] [内存消耗：2,414.87kb] [文件加载：49]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'console',
+    1 => 'Dashboard',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=5qh5dbjs963etjvlo607fmqbc2; serverType=nginx; order=id%20desc; memSize=458; backup_path=/www/backup; adminer_version=4.6.3; vcodesum=16; BT_PANEL=3f0c584b81097f01334da5d9882d4d07d4ce9bd6; memRealUsed=379; mem-before=379/458%20%28MB%29; fifteen=0.12; conterError=; upNet=0.69; downNet=1.98; one=1.07; five=0.33; SetId=inputPath; SetName=; thinkphp_show_page_trace=0|0; ChangePath=11',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\console\controller\Dashboard->index[ /www/wwwroot/yangming/application/console/controller/Dashboard.php ]
+[ info ] [ VIEW ] /www/wwwroot/yangming/public/../application/console/view/dashboard/index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: title[/www/wwwroot/yangming/runtime/temp/b34d5a00c50c39d814142c5c079b7085.php:20]
+---------------------------------------------------------------
+[ 2018-07-13T10:32:04+08:00 ] 192.168.100.1 GET /console/Dashboard/index
+[ info ] 192.168.100.200:8083/console/Dashboard/index [运行时间：0.173866s][吞吐率：5.75req/s] [内存消耗：2,203.05kb] [文件加载：44]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'console',
+    1 => 'Dashboard',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=5qh5dbjs963etjvlo607fmqbc2; serverType=nginx; order=id%20desc; memSize=458; backup_path=/www/backup; adminer_version=4.6.3; vcodesum=16; BT_PANEL=3f0c584b81097f01334da5d9882d4d07d4ce9bd6; memRealUsed=379; mem-before=379/458%20%28MB%29; fifteen=0.12; conterError=; upNet=0.69; downNet=1.98; one=1.07; five=0.33; SetId=inputPath; SetName=; thinkphp_show_page_trace=0|0; ChangePath=11',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\console\controller\Dashboard->index[ /www/wwwroot/yangming/application/console/controller/Dashboard.php ]
+[ info ] [ VIEW ] /www/wwwroot/yangming/public/../application/console/view/dashboard/index.html [ array (
+  0 => 'title',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-13T10:32:38+08:00 ] 192.168.100.1 GET /console/Dashboard/index
+[ info ] 192.168.100.200:8083/console/Dashboard/index [运行时间：0.173635s][吞吐率：5.76req/s] [内存消耗：2,419.45kb] [文件加载：46]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'console',
+    1 => 'Dashboard',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'history=%7Btitle%3A%22%E4%B8%BB%E9%9D%A2%E6%9D%BF%22%2Curl%3A%22http%3A%2F%2F192.168.100.200%3A8083%2Fconsole%2FDashboard%2Findex%22%7D; PHPSESSID=5qh5dbjs963etjvlo607fmqbc2; serverType=nginx; order=id%20desc; memSize=458; backup_path=/www/backup; adminer_version=4.6.3; vcodesum=16; BT_PANEL=3f0c584b81097f01334da5d9882d4d07d4ce9bd6; memRealUsed=379; mem-before=379/458%20%28MB%29; fifteen=0.12; conterError=; upNet=0.69; downNet=1.98; one=1.07; five=0.33; SetId=inputPath; SetName=; thinkphp_show_page_trace=0|0; ChangePath=11',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\console\controller\Dashboard->index[ /www/wwwroot/yangming/application/console/controller/Dashboard.php ]
+[ info ] [ VIEW ] /www/wwwroot/yangming/public/../application/console/view/dashboard/index.html [ array (
+  0 => 'title',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-13T10:32:39+08:00 ] 192.168.100.1 GET /console/Dashboard/index
+[ info ] 192.168.100.200:8083/console/Dashboard/index [运行时间：0.160157s][吞吐率：6.24req/s] [内存消耗：2,203.56kb] [文件加载：44]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'console',
+    1 => 'Dashboard',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'history=%7Btitle%3A%22%E4%B8%BB%E9%9D%A2%E6%9D%BF%22%2Curl%3A%22http%3A%2F%2F192.168.100.200%3A8083%2Fconsole%2FDashboard%2Findex%22%7D; PHPSESSID=5qh5dbjs963etjvlo607fmqbc2; serverType=nginx; order=id%20desc; memSize=458; backup_path=/www/backup; adminer_version=4.6.3; vcodesum=16; BT_PANEL=3f0c584b81097f01334da5d9882d4d07d4ce9bd6; memRealUsed=379; mem-before=379/458%20%28MB%29; fifteen=0.12; conterError=; upNet=0.69; downNet=1.98; one=1.07; five=0.33; SetId=inputPath; SetName=; thinkphp_show_page_trace=0|0; ChangePath=11',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\console\controller\Dashboard->index[ /www/wwwroot/yangming/application/console/controller/Dashboard.php ]
+[ info ] [ VIEW ] /www/wwwroot/yangming/public/../application/console/view/dashboard/index.html [ array (
+  0 => 'title',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-13T10:32:40+08:00 ] 192.168.100.1 GET /console/Dashboard/index
+[ info ] 192.168.100.200:8083/console/Dashboard/index [运行时间：0.144994s][吞吐率：6.90req/s] [内存消耗：2,203.56kb] [文件加载：44]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'console',
+    1 => 'Dashboard',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'history=%7Btitle%3A%22%E4%B8%BB%E9%9D%A2%E6%9D%BF%22%2Curl%3A%22http%3A%2F%2F192.168.100.200%3A8083%2Fconsole%2FDashboard%2Findex%22%7D; PHPSESSID=5qh5dbjs963etjvlo607fmqbc2; serverType=nginx; order=id%20desc; memSize=458; backup_path=/www/backup; adminer_version=4.6.3; vcodesum=16; BT_PANEL=3f0c584b81097f01334da5d9882d4d07d4ce9bd6; memRealUsed=379; mem-before=379/458%20%28MB%29; fifteen=0.12; conterError=; upNet=0.69; downNet=1.98; one=1.07; five=0.33; SetId=inputPath; SetName=; thinkphp_show_page_trace=0|0; ChangePath=11',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\console\controller\Dashboard->index[ /www/wwwroot/yangming/application/console/controller/Dashboard.php ]
+[ info ] [ VIEW ] /www/wwwroot/yangming/public/../application/console/view/dashboard/index.html [ array (
+  0 => 'title',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-13T10:33:00+08:00 ] 192.168.100.1 GET /console/Dashboard/index
+[ info ] 192.168.100.200:8083/console/Dashboard/index [运行时间：0.175633s][吞吐率：5.69req/s] [内存消耗：2,419.45kb] [文件加载：46]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'console',
+    1 => 'Dashboard',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'history=%7Btitle%3A%22%E4%B8%BB%E9%9D%A2%E6%9D%BF%22%2Curl%3A%22http%3A%2F%2F192.168.100.200%3A8083%2Fconsole%2FDashboard%2Findex%22%7D; PHPSESSID=5qh5dbjs963etjvlo607fmqbc2; serverType=nginx; order=id%20desc; memSize=458; backup_path=/www/backup; adminer_version=4.6.3; vcodesum=16; BT_PANEL=3f0c584b81097f01334da5d9882d4d07d4ce9bd6; memRealUsed=379; mem-before=379/458%20%28MB%29; fifteen=0.12; conterError=; upNet=0.69; downNet=1.98; one=1.07; five=0.33; SetId=inputPath; SetName=; thinkphp_show_page_trace=0|0; ChangePath=11',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\console\controller\Dashboard->index[ /www/wwwroot/yangming/application/console/controller/Dashboard.php ]
+[ info ] [ VIEW ] /www/wwwroot/yangming/public/../application/console/view/dashboard/index.html [ array (
+  0 => 'title',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-13T10:33:13+08:00 ] 192.168.100.1 GET /console/Dashboard/index
+[ info ] 192.168.100.200:8083/console/Dashboard/index [运行时间：0.162752s][吞吐率：6.14req/s] [内存消耗：2,419.59kb] [文件加载：46]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'console',
+    1 => 'Dashboard',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'history=%7Btitle%3A%22%E4%B8%BB%E9%9D%A2%E6%9D%BF%22%2Curl%3A%22http%3A%2F%2F192.168.100.200%3A8083%2Fconsole%2FDashboard%2Findex%22%7D; PHPSESSID=5qh5dbjs963etjvlo607fmqbc2; serverType=nginx; order=id%20desc; memSize=458; backup_path=/www/backup; adminer_version=4.6.3; vcodesum=16; BT_PANEL=3f0c584b81097f01334da5d9882d4d07d4ce9bd6; memRealUsed=379; mem-before=379/458%20%28MB%29; fifteen=0.12; conterError=; upNet=0.69; downNet=1.98; one=1.07; five=0.33; SetId=inputPath; SetName=; thinkphp_show_page_trace=0|0; ChangePath=11',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\console\controller\Dashboard->index[ /www/wwwroot/yangming/application/console/controller/Dashboard.php ]
+[ info ] [ VIEW ] /www/wwwroot/yangming/public/../application/console/view/dashboard/index.html [ array (
+  0 => 'title',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-13T10:33:22+08:00 ] 192.168.100.1 GET /Console/login/logout.html
+[ info ] 192.168.100.200:8083/Console/login/logout.html [运行时间：0.110793s][吞吐率：9.03req/s] [内存消耗：1,797.72kb] [文件加载：37]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Console',
+    1 => 'login',
+    2 => 'logout',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://192.168.100.200:8083/console/Dashboard/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=5qh5dbjs963etjvlo607fmqbc2; serverType=nginx; order=id%20desc; memSize=458; backup_path=/www/backup; adminer_version=4.6.3; vcodesum=16; BT_PANEL=3f0c584b81097f01334da5d9882d4d07d4ce9bd6; memRealUsed=379; mem-before=379/458%20%28MB%29; fifteen=0.12; conterError=; upNet=0.69; downNet=1.98; one=1.07; five=0.33; SetId=inputPath; SetName=; thinkphp_show_page_trace=0|0; ChangePath=11',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-13T10:33:22+08:00 ] 192.168.100.1 GET /Console/login/logout.html
+[ info ] 192.168.100.200:8083/Console/login/logout.html [运行时间：0.092208s][吞吐率：10.85req/s] [内存消耗：1,786.91kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '404',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://192.168.100.200:8083/console/Dashboard/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=5qh5dbjs963etjvlo607fmqbc2; serverType=nginx; order=id%20desc; memSize=458; backup_path=/www/backup; adminer_version=4.6.3; vcodesum=16; BT_PANEL=3f0c584b81097f01334da5d9882d4d07d4ce9bd6; memRealUsed=379; mem-before=379/458%20%28MB%29; fifteen=0.12; conterError=; upNet=0.69; downNet=1.98; one=1.07; five=0.33; SetId=inputPath; SetName=; thinkphp_show_page_trace=0|0; ChangePath=11',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-13T10:33:24+08:00 ] 192.168.100.1 GET /console/Dashboard/index
+[ info ] 192.168.100.200:8083/console/Dashboard/index [运行时间：0.130728s][吞吐率：7.65req/s] [内存消耗：2,203.28kb] [文件加载：44]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'console',
+    1 => 'Dashboard',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'history=%7Btitle%3A%22%E4%B8%BB%E9%9D%A2%E6%9D%BF%22%2Curl%3A%22http%3A%2F%2F192.168.100.200%3A8083%2Fconsole%2FDashboard%2Findex%22%7D; PHPSESSID=5qh5dbjs963etjvlo607fmqbc2; serverType=nginx; order=id%20desc; memSize=458; backup_path=/www/backup; adminer_version=4.6.3; vcodesum=16; BT_PANEL=3f0c584b81097f01334da5d9882d4d07d4ce9bd6; memRealUsed=379; mem-before=379/458%20%28MB%29; fifteen=0.12; conterError=; upNet=0.69; downNet=1.98; one=1.07; five=0.33; SetId=inputPath; SetName=; thinkphp_show_page_trace=0|0; ChangePath=11',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\console\controller\Dashboard->index[ /www/wwwroot/yangming/application/console/controller/Dashboard.php ]
+[ info ] [ VIEW ] /www/wwwroot/yangming/public/../application/console/view/dashboard/index.html [ array (
+  0 => 'title',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-13T11:09:59+08:00 ] 192.168.100.1 GET /console/Dashboard/index
+[ info ] 192.168.100.200:8083/console/Dashboard/index [运行时间：0.130302s][吞吐率：7.67req/s] [内存消耗：2,266.03kb] [文件加载：44]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'console',
+    1 => 'Dashboard',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'history=%7Btitle%3A%22%E4%B8%BB%E9%9D%A2%E6%9D%BF%22%2Curl%3A%22http%3A%2F%2F192.168.100.200%3A8083%2Fconsole%2FDashboard%2Findex%22%7D; PHPSESSID=5qh5dbjs963etjvlo607fmqbc2; serverType=nginx; order=id%20desc; memSize=458; backup_path=/www/backup; adminer_version=4.6.3; vcodesum=16; BT_PANEL=3f0c584b81097f01334da5d9882d4d07d4ce9bd6; memRealUsed=379; mem-before=379/458%20%28MB%29; fifteen=0.12; conterError=; upNet=0.69; downNet=1.98; one=1.07; five=0.33; SetId=inputPath; SetName=; thinkphp_show_page_trace=0|0; ChangePath=11',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\console\controller\Dashboard->index[ /www/wwwroot/yangming/application/console/controller/Dashboard.php ]
+[ info ] [ VIEW ] /www/wwwroot/yangming/public/../application/console/view/dashboard/index.html [ array (
+  0 => 'title',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-13T11:10:25+08:00 ] 192.168.100.1 GET /console/adminer/index
+[ info ] 192.168.100.200:8083/console/adminer/index [运行时间：0.251329s][吞吐率：3.98req/s] [内存消耗：3,831.88kb] [文件加载：60]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'console',
+    1 => 'adminer',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://192.168.100.200:8083/console/Dashboard/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'history=%7Btitle%3A%22%E7%AE%A1%E7%90%86%E5%91%98%E7%AE%A1%E7%90%86%22%2Curl%3A%22http%3A%2F%2F192.168.100.200%3A8082%2Fconsole%2Fadminer%2Findex%22%7D; PHPSESSID=5qh5dbjs963etjvlo607fmqbc2; serverType=nginx; order=id%20desc; memSize=458; backup_path=/www/backup; adminer_version=4.6.3; vcodesum=16; BT_PANEL=3f0c584b81097f01334da5d9882d4d07d4ce9bd6; memRealUsed=379; mem-before=379/458%20%28MB%29; fifteen=0.12; conterError=; upNet=0.69; downNet=1.98; one=1.07; five=0.33; SetId=inputPath; SetName=; thinkphp_show_page_trace=0|0; ChangePath=11',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\console\controller\Adminer->index[ /www/wwwroot/yangming/application/console/controller/Adminer.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000476s ] mysql:host=127.0.0.1;dbname=wantao;charset=utf8
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'wantao.mx_adminer' doesn't exist[/www/wwwroot/yangming/thinkphp/library/think/db/Connection.php:390]
+---------------------------------------------------------------
+[ 2018-07-13T11:10:29+08:00 ] 192.168.100.1 GET /console/Dashboard/index
+[ info ] 192.168.100.200:8083/console/Dashboard/index [运行时间：0.136615s][吞吐率：7.32req/s] [内存消耗：2,265.70kb] [文件加载：44]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'console',
+    1 => 'Dashboard',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'history=%7Btitle%3A%22%E4%B8%BB%E9%9D%A2%E6%9D%BF%22%2Curl%3A%22http%3A%2F%2F192.168.100.200%3A8083%2Fconsole%2FDashboard%2Findex%22%7D; PHPSESSID=5qh5dbjs963etjvlo607fmqbc2; serverType=nginx; order=id%20desc; memSize=458; backup_path=/www/backup; adminer_version=4.6.3; vcodesum=16; BT_PANEL=3f0c584b81097f01334da5d9882d4d07d4ce9bd6; memRealUsed=379; mem-before=379/458%20%28MB%29; fifteen=0.12; conterError=; upNet=0.69; downNet=1.98; one=1.07; five=0.33; SetId=inputPath; SetName=; thinkphp_show_page_trace=0|0; ChangePath=11',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\console\controller\Dashboard->index[ /www/wwwroot/yangming/application/console/controller/Dashboard.php ]
+[ info ] [ VIEW ] /www/wwwroot/yangming/public/../application/console/view/dashboard/index.html [ array (
+  0 => 'title',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-13T11:11:21+08:00 ] 192.168.100.1 GET /console/Dashboard/index
+[ info ] 192.168.100.200:8083/console/Dashboard/index [运行时间：0.134723s][吞吐率：7.42req/s] [内存消耗：2,266.03kb] [文件加载：44]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'console',
+    1 => 'Dashboard',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'history=%7Btitle%3A%22%E4%B8%BB%E9%9D%A2%E6%9D%BF%22%2Curl%3A%22http%3A%2F%2F192.168.100.200%3A8083%2Fconsole%2FDashboard%2Findex%22%7D; PHPSESSID=5qh5dbjs963etjvlo607fmqbc2; serverType=nginx; order=id%20desc; memSize=458; backup_path=/www/backup; adminer_version=4.6.3; vcodesum=16; BT_PANEL=3f0c584b81097f01334da5d9882d4d07d4ce9bd6; memRealUsed=379; mem-before=379/458%20%28MB%29; fifteen=0.12; conterError=; upNet=0.69; downNet=1.98; one=1.07; five=0.33; SetId=inputPath; SetName=; thinkphp_show_page_trace=0|0; ChangePath=11',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\console\controller\Dashboard->index[ /www/wwwroot/yangming/application/console/controller/Dashboard.php ]
+[ info ] [ VIEW ] /www/wwwroot/yangming/public/../application/console/view/dashboard/index.html [ array (
+  0 => 'title',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-13T11:11:23+08:00 ] 192.168.100.1 GET /console/dashboard/index
+[ info ] 192.168.100.200:8083/console/dashboard/index [运行时间：0.133366s][吞吐率：7.50req/s] [内存消耗：2,266.16kb] [文件加载：44]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'console',
+    1 => 'dashboard',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://192.168.100.200:8083/console/Dashboard/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'history=%7Btitle%3A%22%E4%B8%BB%E9%9D%A2%E6%9D%BF%22%2Curl%3A%22http%3A%2F%2F192.168.100.200%3A8082%2Fconsole%2Fdashboard%2Findex.html%22%7D; PHPSESSID=5qh5dbjs963etjvlo607fmqbc2; serverType=nginx; order=id%20desc; memSize=458; backup_path=/www/backup; adminer_version=4.6.3; vcodesum=16; BT_PANEL=3f0c584b81097f01334da5d9882d4d07d4ce9bd6; memRealUsed=379; mem-before=379/458%20%28MB%29; fifteen=0.12; conterError=; upNet=0.69; downNet=1.98; one=1.07; five=0.33; SetId=inputPath; SetName=; thinkphp_show_page_trace=0|0; ChangePath=11',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\console\controller\Dashboard->index[ /www/wwwroot/yangming/application/console/controller/Dashboard.php ]
+[ info ] [ VIEW ] /www/wwwroot/yangming/public/../application/console/view/dashboard/index.html [ array (
+  0 => 'title',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-13T11:11:24+08:00 ] 192.168.100.1 GET /console/dashboard/index
+[ info ] 192.168.100.200:8083/console/dashboard/index [运行时间：0.132396s][吞吐率：7.55req/s] [内存消耗：2,266.16kb] [文件加载：44]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'console',
+    1 => 'dashboard',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://192.168.100.200:8083/console/dashboard/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'history=%7Btitle%3A%22%E4%B8%BB%E9%9D%A2%E6%9D%BF%22%2Curl%3A%22http%3A%2F%2F192.168.100.200%3A8082%2Fconsole%2Fdashboard%2Findex.html%22%7D; PHPSESSID=5qh5dbjs963etjvlo607fmqbc2; serverType=nginx; order=id%20desc; memSize=458; backup_path=/www/backup; adminer_version=4.6.3; vcodesum=16; BT_PANEL=3f0c584b81097f01334da5d9882d4d07d4ce9bd6; memRealUsed=379; mem-before=379/458%20%28MB%29; fifteen=0.12; conterError=; upNet=0.69; downNet=1.98; one=1.07; five=0.33; SetId=inputPath; SetName=; thinkphp_show_page_trace=0|0; ChangePath=11',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\console\controller\Dashboard->index[ /www/wwwroot/yangming/application/console/controller/Dashboard.php ]
+[ info ] [ VIEW ] /www/wwwroot/yangming/public/../application/console/view/dashboard/index.html [ array (
+  0 => 'title',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-13T11:11:27+08:00 ] 192.168.100.1 GET /console/adminer/index
+[ info ] 192.168.100.200:8083/console/adminer/index [运行时间：0.204512s][吞吐率：4.89req/s] [内存消耗：3,832.09kb] [文件加载：60]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'console',
+    1 => 'adminer',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://192.168.100.200:8083/console/dashboard/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'history=%7Btitle%3A%22%E7%AE%A1%E7%90%86%E5%91%98%E7%AE%A1%E7%90%86%22%2Curl%3A%22http%3A%2F%2F192.168.100.200%3A8082%2Fconsole%2Fadminer%2Findex%22%7D; PHPSESSID=5qh5dbjs963etjvlo607fmqbc2; serverType=nginx; order=id%20desc; memSize=458; backup_path=/www/backup; adminer_version=4.6.3; vcodesum=16; BT_PANEL=3f0c584b81097f01334da5d9882d4d07d4ce9bd6; memRealUsed=379; mem-before=379/458%20%28MB%29; fifteen=0.12; conterError=; upNet=0.69; downNet=1.98; one=1.07; five=0.33; SetId=inputPath; SetName=; thinkphp_show_page_trace=0|0; ChangePath=11',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\console\controller\Adminer->index[ /www/wwwroot/yangming/application/console/controller/Adminer.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000374s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yangming.mx_adminer' doesn't exist[/www/wwwroot/yangming/thinkphp/library/think/db/Connection.php:390]
+---------------------------------------------------------------
+[ 2018-07-13T11:11:31+08:00 ] 192.168.100.1 GET /console/dashboard/index
+[ info ] 192.168.100.200:8083/console/dashboard/index [运行时间：0.144096s][吞吐率：6.94req/s] [内存消耗：2,266.16kb] [文件加载：44]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'console',
+    1 => 'dashboard',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://192.168.100.200:8083/console/dashboard/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'history=%7Btitle%3A%22%E4%B8%BB%E9%9D%A2%E6%9D%BF%22%2Curl%3A%22http%3A%2F%2F192.168.100.200%3A8082%2Fconsole%2Fdashboard%2Findex.html%22%7D; PHPSESSID=5qh5dbjs963etjvlo607fmqbc2; serverType=nginx; order=id%20desc; memSize=458; backup_path=/www/backup; adminer_version=4.6.3; vcodesum=16; BT_PANEL=3f0c584b81097f01334da5d9882d4d07d4ce9bd6; memRealUsed=379; mem-before=379/458%20%28MB%29; fifteen=0.12; conterError=; upNet=0.69; downNet=1.98; one=1.07; five=0.33; SetId=inputPath; SetName=; thinkphp_show_page_trace=0|0; ChangePath=11',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\console\controller\Dashboard->index[ /www/wwwroot/yangming/application/console/controller/Dashboard.php ]
+[ info ] [ VIEW ] /www/wwwroot/yangming/public/../application/console/view/dashboard/index.html [ array (
+  0 => 'title',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-13T11:11:47+08:00 ] 192.168.100.1 GET /console/adminer/index
+[ info ] 192.168.100.200:8083/console/adminer/index [运行时间：0.218327s][吞吐率：4.58req/s] [内存消耗：3,897.56kb] [文件加载：60]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'console',
+    1 => 'adminer',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://192.168.100.200:8083/console/dashboard/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'history=%7Btitle%3A%22%E7%AE%A1%E7%90%86%E5%91%98%E7%AE%A1%E7%90%86%22%2Curl%3A%22http%3A%2F%2F192.168.100.200%3A8082%2Fconsole%2Fadminer%2Findex%22%7D; PHPSESSID=5qh5dbjs963etjvlo607fmqbc2; serverType=nginx; order=id%20desc; memSize=458; backup_path=/www/backup; adminer_version=4.6.3; vcodesum=16; BT_PANEL=3f0c584b81097f01334da5d9882d4d07d4ce9bd6; memRealUsed=379; mem-before=379/458%20%28MB%29; fifteen=0.12; conterError=; upNet=0.69; downNet=1.98; one=1.07; five=0.33; SetId=inputPath; SetName=; thinkphp_show_page_trace=0|0; ChangePath=11',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\console\controller\Adminer->index[ /www/wwwroot/yangming/application/console/controller/Adminer.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000365s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_adminer` [ RunTime:0.000871s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lc_adminer` LIMIT 1 [ RunTime:0.000256s ]
+[ sql ] [ SQL ] SELECT `id`,`login`,`name` FROM `lc_adminer` LIMIT 0,20 [ RunTime:0.000184s ]
+[ error ] [0]模板文件不存在:/www/wwwroot/yangming/public/../application/console/view/adminer/index.html[/www/wwwroot/yangming/thinkphp/library/think/view/driver/Think.php:82]
+---------------------------------------------------------------
+[ 2018-07-13T11:11:50+08:00 ] 192.168.100.1 GET /console/dashboard/index
+[ info ] 192.168.100.200:8083/console/dashboard/index [运行时间：0.155398s][吞吐率：6.44req/s] [内存消耗：2,266.16kb] [文件加载：44]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'console',
+    1 => 'dashboard',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://192.168.100.200:8083/console/dashboard/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'history=%7Btitle%3A%22%E4%B8%BB%E9%9D%A2%E6%9D%BF%22%2Curl%3A%22http%3A%2F%2F192.168.100.200%3A8082%2Fconsole%2Fdashboard%2Findex.html%22%7D; PHPSESSID=5qh5dbjs963etjvlo607fmqbc2; serverType=nginx; order=id%20desc; memSize=458; backup_path=/www/backup; adminer_version=4.6.3; vcodesum=16; BT_PANEL=3f0c584b81097f01334da5d9882d4d07d4ce9bd6; memRealUsed=379; mem-before=379/458%20%28MB%29; fifteen=0.12; conterError=; upNet=0.69; downNet=1.98; one=1.07; five=0.33; SetId=inputPath; SetName=; thinkphp_show_page_trace=0|0; ChangePath=11',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\console\controller\Dashboard->index[ /www/wwwroot/yangming/application/console/controller/Dashboard.php ]
+[ info ] [ VIEW ] /www/wwwroot/yangming/public/../application/console/view/dashboard/index.html [ array (
+  0 => 'title',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-13T11:16:20+08:00 ] 192.168.100.1 GET /console/login
+[ info ] 192.168.100.200:8083/console/login [运行时间：0.134934s][吞吐率：7.41req/s] [内存消耗：2,272.59kb] [文件加载：43]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'console',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=5qh5dbjs963etjvlo607fmqbc2; serverType=nginx; order=id%20desc; memSize=458; backup_path=/www/backup; adminer_version=4.6.3; vcodesum=16; BT_PANEL=3f0c584b81097f01334da5d9882d4d07d4ce9bd6; memRealUsed=379; mem-before=379/458%20%28MB%29; fifteen=0.12; conterError=; upNet=0.69; downNet=1.98; one=1.07; five=0.33; SetId=inputPath; SetName=; thinkphp_show_page_trace=0|0; ChangePath=11',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-13T11:16:20+08:00 ] 192.168.100.1 GET /console/dashboard/index.html
+[ info ] 192.168.100.200:8083/console/dashboard/index.html [运行时间：0.131625s][吞吐率：7.60req/s] [内存消耗：2,265.81kb] [文件加载：44]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'console',
+    1 => 'dashboard',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'history=%7Btitle%3A%22%E4%B8%BB%E9%9D%A2%E6%9D%BF%22%2Curl%3A%22http%3A%2F%2F192.168.100.200%3A8082%2Fconsole%2Fdashboard%2Findex.html%22%7D; PHPSESSID=5qh5dbjs963etjvlo607fmqbc2; serverType=nginx; order=id%20desc; memSize=458; backup_path=/www/backup; adminer_version=4.6.3; vcodesum=16; BT_PANEL=3f0c584b81097f01334da5d9882d4d07d4ce9bd6; memRealUsed=379; mem-before=379/458%20%28MB%29; fifteen=0.12; conterError=; upNet=0.69; downNet=1.98; one=1.07; five=0.33; SetId=inputPath; SetName=; thinkphp_show_page_trace=0|0; ChangePath=11',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\console\controller\Dashboard->index[ /www/wwwroot/yangming/application/console/controller/Dashboard.php ]
+[ info ] [ VIEW ] /www/wwwroot/yangming/public/../application/console/view/dashboard/index.html [ array (
+  0 => 'title',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-13T11:16:27+08:00 ] 192.168.100.1 GET /Console/login/logout.html
+[ info ] 192.168.100.200:8083/Console/login/logout.html [运行时间：0.125034s][吞吐率：8.00req/s] [内存消耗：2,208.09kb] [文件加载：43]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Console',
+    1 => 'login',
+    2 => 'logout',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://192.168.100.200:8083/console/dashboard/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=5qh5dbjs963etjvlo607fmqbc2; serverType=nginx; order=id%20desc; memSize=458; backup_path=/www/backup; adminer_version=4.6.3; vcodesum=16; BT_PANEL=3f0c584b81097f01334da5d9882d4d07d4ce9bd6; memRealUsed=379; mem-before=379/458%20%28MB%29; fifteen=0.12; conterError=; upNet=0.69; downNet=1.98; one=1.07; five=0.33; SetId=inputPath; SetName=; thinkphp_show_page_trace=0|0; ChangePath=11',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\console\controller\Login->logout[ /www/wwwroot/yangming/application/console/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-13T11:16:27+08:00 ] 192.168.100.1 GET /console/login/index.html
+[ info ] 192.168.100.200:8083/console/login/index.html [运行时间：0.124204s][吞吐率：8.05req/s] [内存消耗：2,290.85kb] [文件加载：43]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'console',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://192.168.100.200:8083/console/dashboard/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=5qh5dbjs963etjvlo607fmqbc2; serverType=nginx; order=id%20desc; memSize=458; backup_path=/www/backup; adminer_version=4.6.3; vcodesum=16; BT_PANEL=3f0c584b81097f01334da5d9882d4d07d4ce9bd6; memRealUsed=379; mem-before=379/458%20%28MB%29; fifteen=0.12; conterError=; upNet=0.69; downNet=1.98; one=1.07; five=0.33; SetId=inputPath; SetName=; thinkphp_show_page_trace=0|0; ChangePath=11',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\console\controller\Login->index[ /www/wwwroot/yangming/application/console/controller/Login.php ]
+[ info ] [ VIEW ] /www/wwwroot/yangming/public/../application/console/view/login/index.html [ array (
+  0 => 'meta_title',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-13T11:16:28+08:00 ] 192.168.100.1 GET /longxincaipiao/public/static/console/images/backgrounds/2.jpg
+[ info ] 192.168.100.200:8083/longxincaipiao/public/static/console/images/backgrounds/2.jpg [运行时间：0.259252s][吞吐率：3.86req/s] [内存消耗：1,786.48kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '404',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://192.168.100.200:8083/console/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=5qh5dbjs963etjvlo607fmqbc2; serverType=nginx; order=id%20desc; memSize=458; backup_path=/www/backup; adminer_version=4.6.3; vcodesum=16; BT_PANEL=3f0c584b81097f01334da5d9882d4d07d4ce9bd6; memRealUsed=379; mem-before=379/458%20%28MB%29; fifteen=0.12; conterError=; upNet=0.69; downNet=1.98; one=1.07; five=0.33; SetId=inputPath; SetName=; thinkphp_show_page_trace=0|0; ChangePath=11',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-13T11:16:28+08:00 ] 192.168.100.1 GET /longxincaipiao/public/static/console/images/backgrounds/1.jpg
+[ info ] 192.168.100.200:8083/longxincaipiao/public/static/console/images/backgrounds/1.jpg [运行时间：0.280860s][吞吐率：3.56req/s] [内存消耗：1,786.48kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '404',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://192.168.100.200:8083/console/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=5qh5dbjs963etjvlo607fmqbc2; serverType=nginx; order=id%20desc; memSize=458; backup_path=/www/backup; adminer_version=4.6.3; vcodesum=16; BT_PANEL=3f0c584b81097f01334da5d9882d4d07d4ce9bd6; memRealUsed=379; mem-before=379/458%20%28MB%29; fifteen=0.12; conterError=; upNet=0.69; downNet=1.98; one=1.07; five=0.33; SetId=inputPath; SetName=; thinkphp_show_page_trace=0|0; ChangePath=11',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-13T11:16:28+08:00 ] 192.168.100.1 GET /longxincaipiao/public/static/console/images/backgrounds/5.jpg
+[ info ] 192.168.100.200:8083/longxincaipiao/public/static/console/images/backgrounds/5.jpg [运行时间：0.284654s][吞吐率：3.51req/s] [内存消耗：1,786.48kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '404',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://192.168.100.200:8083/console/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=5qh5dbjs963etjvlo607fmqbc2; serverType=nginx; order=id%20desc; memSize=458; backup_path=/www/backup; adminer_version=4.6.3; vcodesum=16; BT_PANEL=3f0c584b81097f01334da5d9882d4d07d4ce9bd6; memRealUsed=379; mem-before=379/458%20%28MB%29; fifteen=0.12; conterError=; upNet=0.69; downNet=1.98; one=1.07; five=0.33; SetId=inputPath; SetName=; thinkphp_show_page_trace=0|0; ChangePath=11',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-13T11:16:28+08:00 ] 192.168.100.1 GET /static/console/images/progress.gif
+[ info ] 192.168.100.200:8083/static/console/images/progress.gif [运行时间：0.260348s][吞吐率：3.84req/s] [内存消耗：1,786.56kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '404',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://192.168.100.200:8083/static/console/css/supersized.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=5qh5dbjs963etjvlo607fmqbc2; serverType=nginx; order=id%20desc; memSize=458; backup_path=/www/backup; adminer_version=4.6.3; vcodesum=16; BT_PANEL=3f0c584b81097f01334da5d9882d4d07d4ce9bd6; memRealUsed=379; mem-before=379/458%20%28MB%29; fifteen=0.12; conterError=; upNet=0.69; downNet=1.98; one=1.07; five=0.33; SetId=inputPath; SetName=; thinkphp_show_page_trace=0|0; ChangePath=11',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-13T11:16:35+08:00 ] 192.168.100.1 POST /console/login/index.html
+[ info ] 192.168.100.200:8083/console/login/index.html [运行时间：0.223511s][吞吐率：4.47req/s] [内存消耗：3,702.31kb] [文件加载：51]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'console',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '26',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://192.168.100.200:8083',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://192.168.100.200:8083/console/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=5qh5dbjs963etjvlo607fmqbc2; serverType=nginx; order=id%20desc; memSize=458; backup_path=/www/backup; adminer_version=4.6.3; vcodesum=16; BT_PANEL=3f0c584b81097f01334da5d9882d4d07d4ce9bd6; memRealUsed=379; mem-before=379/458%20%28MB%29; fifteen=0.12; conterError=; upNet=0.69; downNet=1.98; one=1.07; five=0.33; SetId=inputPath; SetName=; thinkphp_show_page_trace=0|0; ChangePath=11',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'pass' => '123456',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\console\controller\Login->index[ /www/wwwroot/yangming/application/console/controller/Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000359s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_adminer` [ RunTime:0.001728s ]
+[ sql ] [ SQL ] SELECT * FROM `lc_adminer` WHERE  `login` = 'admin' LIMIT 1 [ RunTime:0.000212s ]
+---------------------------------------------------------------
+[ 2018-07-13T11:16:36+08:00 ] 192.168.100.1 GET /console/dashboard/index.html
+[ info ] 192.168.100.200:8083/console/dashboard/index.html [运行时间：0.145857s][吞吐率：6.86req/s] [内存消耗：2,201.13kb] [文件加载：44]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'console',
+    1 => 'dashboard',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://192.168.100.200:8083/console/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'history=%7Btitle%3A%22%E4%B8%BB%E9%9D%A2%E6%9D%BF%22%2Curl%3A%22http%3A%2F%2F192.168.100.200%3A8082%2Fconsole%2Fdashboard%2Findex.html%22%7D; PHPSESSID=5qh5dbjs963etjvlo607fmqbc2; serverType=nginx; order=id%20desc; memSize=458; backup_path=/www/backup; adminer_version=4.6.3; vcodesum=16; BT_PANEL=3f0c584b81097f01334da5d9882d4d07d4ce9bd6; memRealUsed=379; mem-before=379/458%20%28MB%29; fifteen=0.12; conterError=; upNet=0.69; downNet=1.98; one=1.07; five=0.33; SetId=inputPath; SetName=; thinkphp_show_page_trace=0|0; ChangePath=11',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\console\controller\Dashboard->index[ /www/wwwroot/yangming/application/console/controller/Dashboard.php ]
+[ info ] [ VIEW ] /www/wwwroot/yangming/public/../application/console/view/dashboard/index.html [ array (
+  0 => 'title',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-13T11:25:46+08:00 ] 192.168.100.1 GET /Console/login/logout.html
+[ info ] 192.168.100.200:8083/Console/login/logout.html [运行时间：0.116219s][吞吐率：8.60req/s] [内存消耗：2,208.25kb] [文件加载：43]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Console',
+    1 => 'login',
+    2 => 'logout',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://192.168.100.200:8083/console/dashboard/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=5qh5dbjs963etjvlo607fmqbc2; serverType=nginx; order=id%20desc; memSize=458; backup_path=/www/backup; adminer_version=4.6.3; vcodesum=16; BT_PANEL=3f0c584b81097f01334da5d9882d4d07d4ce9bd6; memRealUsed=379; mem-before=379/458%20%28MB%29; fifteen=0.12; conterError=; upNet=0.69; downNet=1.98; one=1.07; five=0.33; SetId=inputPath; SetName=; thinkphp_show_page_trace=0|0; ChangePath=11',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\console\controller\Login->logout[ /www/wwwroot/yangming/application/console/controller/Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-13T11:25:47+08:00 ] 192.168.100.1 GET /console/login/index.html
+[ info ] 192.168.100.200:8083/console/login/index.html [运行时间：0.111283s][吞吐率：8.99req/s] [内存消耗：2,103.11kb] [文件加载：41]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'console',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://192.168.100.200:8083/console/dashboard/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=5qh5dbjs963etjvlo607fmqbc2; serverType=nginx; order=id%20desc; memSize=458; backup_path=/www/backup; adminer_version=4.6.3; vcodesum=16; BT_PANEL=3f0c584b81097f01334da5d9882d4d07d4ce9bd6; memRealUsed=379; mem-before=379/458%20%28MB%29; fifteen=0.12; conterError=; upNet=0.69; downNet=1.98; one=1.07; five=0.33; SetId=inputPath; SetName=; thinkphp_show_page_trace=0|0; ChangePath=11',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\console\controller\Login->index[ /www/wwwroot/yangming/application/console/controller/Login.php ]
+[ info ] [ VIEW ] /www/wwwroot/yangming/public/../application/console/view/login/index.html [ array (
+  0 => 'meta_title',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-13T11:25:47+08:00 ] 192.168.100.1 GET /longxincaipiao/public/static/console/images/backgrounds/5.jpg
+[ info ] 192.168.100.200:8083/longxincaipiao/public/static/console/images/backgrounds/5.jpg [运行时间：0.290262s][吞吐率：3.45req/s] [内存消耗：1,786.48kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '404',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://192.168.100.200:8083/console/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=5qh5dbjs963etjvlo607fmqbc2; serverType=nginx; order=id%20desc; memSize=458; backup_path=/www/backup; adminer_version=4.6.3; vcodesum=16; BT_PANEL=3f0c584b81097f01334da5d9882d4d07d4ce9bd6; memRealUsed=379; mem-before=379/458%20%28MB%29; fifteen=0.12; conterError=; upNet=0.69; downNet=1.98; one=1.07; five=0.33; SetId=inputPath; SetName=; thinkphp_show_page_trace=0|0; ChangePath=11',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-13T11:25:47+08:00 ] 192.168.100.1 GET /longxincaipiao/public/static/console/images/backgrounds/1.jpg
+[ info ] 192.168.100.200:8083/longxincaipiao/public/static/console/images/backgrounds/1.jpg [运行时间：0.254027s][吞吐率：3.94req/s] [内存消耗：1,786.48kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '404',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://192.168.100.200:8083/console/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=5qh5dbjs963etjvlo607fmqbc2; serverType=nginx; order=id%20desc; memSize=458; backup_path=/www/backup; adminer_version=4.6.3; vcodesum=16; BT_PANEL=3f0c584b81097f01334da5d9882d4d07d4ce9bd6; memRealUsed=379; mem-before=379/458%20%28MB%29; fifteen=0.12; conterError=; upNet=0.69; downNet=1.98; one=1.07; five=0.33; SetId=inputPath; SetName=; thinkphp_show_page_trace=0|0; ChangePath=11',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-13T11:25:47+08:00 ] 192.168.100.1 GET /static/console/images/progress.gif
+[ info ] 192.168.100.200:8083/static/console/images/progress.gif [运行时间：0.272747s][吞吐率：3.67req/s] [内存消耗：1,786.56kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '404',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://192.168.100.200:8083/static/console/css/supersized.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=5qh5dbjs963etjvlo607fmqbc2; serverType=nginx; order=id%20desc; memSize=458; backup_path=/www/backup; adminer_version=4.6.3; vcodesum=16; BT_PANEL=3f0c584b81097f01334da5d9882d4d07d4ce9bd6; memRealUsed=379; mem-before=379/458%20%28MB%29; fifteen=0.12; conterError=; upNet=0.69; downNet=1.98; one=1.07; five=0.33; SetId=inputPath; SetName=; thinkphp_show_page_trace=0|0; ChangePath=11',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-13T11:25:47+08:00 ] 192.168.100.1 GET /longxincaipiao/public/static/console/images/backgrounds/2.jpg
+[ info ] 192.168.100.200:8083/longxincaipiao/public/static/console/images/backgrounds/2.jpg [运行时间：0.252872s][吞吐率：3.95req/s] [内存消耗：1,786.48kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '404',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://192.168.100.200:8083/console/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=5qh5dbjs963etjvlo607fmqbc2; serverType=nginx; order=id%20desc; memSize=458; backup_path=/www/backup; adminer_version=4.6.3; vcodesum=16; BT_PANEL=3f0c584b81097f01334da5d9882d4d07d4ce9bd6; memRealUsed=379; mem-before=379/458%20%28MB%29; fifteen=0.12; conterError=; upNet=0.69; downNet=1.98; one=1.07; five=0.33; SetId=inputPath; SetName=; thinkphp_show_page_trace=0|0; ChangePath=11',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-13T11:25:57+08:00 ] 192.168.100.1 POST /console/login/index.html
+[ info ] 192.168.100.200:8083/console/login/index.html [运行时间：0.201568s][吞吐率：4.96req/s] [内存消耗：3,658.18kb] [文件加载：51]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'console',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '28',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://192.168.100.200:8083',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://192.168.100.200:8083/console/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=5qh5dbjs963etjvlo607fmqbc2; serverType=nginx; order=id%20desc; memSize=458; backup_path=/www/backup; adminer_version=4.6.3; vcodesum=16; BT_PANEL=3f0c584b81097f01334da5d9882d4d07d4ce9bd6; memRealUsed=379; mem-before=379/458%20%28MB%29; fifteen=0.12; conterError=; upNet=0.69; downNet=1.98; one=1.07; five=0.33; SetId=inputPath; SetName=; thinkphp_show_page_trace=0|0; ChangePath=11',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin11',
+  'pass' => 'qwedqd',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\console\controller\Login->index[ /www/wwwroot/yangming/application/console/controller/Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000618s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_adminer` [ RunTime:0.001301s ]
+[ sql ] [ SQL ] SELECT * FROM `lc_adminer` WHERE  `login` = 'admin11' LIMIT 1 [ RunTime:0.001069s ]
+---------------------------------------------------------------
+[ 2018-07-13T11:25:59+08:00 ] 192.168.100.1 GET /console/login/index.html
+[ info ] 192.168.100.200:8083/console/login/index.html [运行时间：0.136441s][吞吐率：7.33req/s] [内存消耗：2,103.11kb] [文件加载：41]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'console',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://192.168.100.200:8083/console/dashboard/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=5qh5dbjs963etjvlo607fmqbc2; serverType=nginx; order=id%20desc; memSize=458; backup_path=/www/backup; adminer_version=4.6.3; vcodesum=16; BT_PANEL=3f0c584b81097f01334da5d9882d4d07d4ce9bd6; memRealUsed=379; mem-before=379/458%20%28MB%29; fifteen=0.12; conterError=; upNet=0.69; downNet=1.98; one=1.07; five=0.33; SetId=inputPath; SetName=; thinkphp_show_page_trace=0|0; ChangePath=11',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\console\controller\Login->index[ /www/wwwroot/yangming/application/console/controller/Login.php ]
+[ info ] [ VIEW ] /www/wwwroot/yangming/public/../application/console/view/login/index.html [ array (
+  0 => 'meta_title',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-13T11:26:07+08:00 ] 192.168.100.1 POST /console/login/index.html
+[ info ] 192.168.100.200:8083/console/login/index.html [运行时间：0.215473s][吞吐率：4.64req/s] [内存消耗：3,702.30kb] [文件加载：51]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'console',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '26',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://192.168.100.200:8083',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://192.168.100.200:8083/console/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=5qh5dbjs963etjvlo607fmqbc2; serverType=nginx; order=id%20desc; memSize=458; backup_path=/www/backup; adminer_version=4.6.3; vcodesum=16; BT_PANEL=3f0c584b81097f01334da5d9882d4d07d4ce9bd6; memRealUsed=379; mem-before=379/458%20%28MB%29; fifteen=0.12; conterError=; upNet=0.69; downNet=1.98; one=1.07; five=0.33; SetId=inputPath; SetName=; thinkphp_show_page_trace=0|0; ChangePath=11',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'pass' => '123456',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\console\controller\Login->index[ /www/wwwroot/yangming/application/console/controller/Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000599s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_adminer` [ RunTime:0.000819s ]
+[ sql ] [ SQL ] SELECT * FROM `lc_adminer` WHERE  `login` = 'admin' LIMIT 1 [ RunTime:0.000983s ]
+---------------------------------------------------------------
+[ 2018-07-13T11:26:09+08:00 ] 192.168.100.1 GET /console/dashboard/index.html
+[ info ] 192.168.100.200:8083/console/dashboard/index.html [运行时间：0.136121s][吞吐率：7.35req/s] [内存消耗：2,201.13kb] [文件加载：44]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'console',
+    1 => 'dashboard',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://192.168.100.200:8083/console/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'history=%7Btitle%3A%22%E4%B8%BB%E9%9D%A2%E6%9D%BF%22%2Curl%3A%22http%3A%2F%2F192.168.100.200%3A8082%2Fconsole%2Fdashboard%2Findex.html%22%7D; PHPSESSID=5qh5dbjs963etjvlo607fmqbc2; serverType=nginx; order=id%20desc; memSize=458; backup_path=/www/backup; adminer_version=4.6.3; vcodesum=16; BT_PANEL=3f0c584b81097f01334da5d9882d4d07d4ce9bd6; memRealUsed=379; mem-before=379/458%20%28MB%29; fifteen=0.12; conterError=; upNet=0.69; downNet=1.98; one=1.07; five=0.33; SetId=inputPath; SetName=; thinkphp_show_page_trace=0|0; ChangePath=11',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\console\controller\Dashboard->index[ /www/wwwroot/yangming/application/console/controller/Dashboard.php ]
+[ info ] [ VIEW ] /www/wwwroot/yangming/public/../application/console/view/dashboard/index.html [ array (
+  0 => 'title',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-13T11:27:37+08:00 ] 192.168.100.1 GET /console/dashboard/index.html
+[ info ] 192.168.100.200:8083/console/dashboard/index.html [运行时间：0.133308s][吞吐率：7.50req/s] [内存消耗：2,201.78kb] [文件加载：44]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'console',
+    1 => 'dashboard',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://192.168.100.200:8083/console/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'history=%7Btitle%3A%22%E4%B8%BB%E9%9D%A2%E6%9D%BF%22%2Curl%3A%22http%3A%2F%2F192.168.100.200%3A8082%2Fconsole%2Fdashboard%2Findex.html%22%7D; PHPSESSID=5qh5dbjs963etjvlo607fmqbc2; serverType=nginx; order=id%20desc; memSize=458; backup_path=/www/backup; adminer_version=4.6.3; vcodesum=16; BT_PANEL=3f0c584b81097f01334da5d9882d4d07d4ce9bd6; memRealUsed=379; mem-before=379/458%20%28MB%29; fifteen=0.12; conterError=; upNet=0.69; downNet=1.98; one=1.07; five=0.33; SetId=inputPath; SetName=; thinkphp_show_page_trace=0|0; ChangePath=11',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\console\controller\Dashboard->index[ /www/wwwroot/yangming/application/console/controller/Dashboard.php ]
+[ info ] [ VIEW ] /www/wwwroot/yangming/public/../application/console/view/dashboard/index.html [ array (
+  0 => 'title',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-13T11:27:38+08:00 ] 192.168.100.1 GET /console/dashboard/index.html
+[ info ] 192.168.100.200:8083/console/dashboard/index.html [运行时间：0.137710s][吞吐率：7.26req/s] [内存消耗：2,201.78kb] [文件加载：44]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'console',
+    1 => 'dashboard',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://192.168.100.200:8083/console/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'history=%7Btitle%3A%22%E4%B8%BB%E9%9D%A2%E6%9D%BF%22%2Curl%3A%22http%3A%2F%2F192.168.100.200%3A8082%2Fconsole%2Fdashboard%2Findex.html%22%7D; PHPSESSID=5qh5dbjs963etjvlo607fmqbc2; serverType=nginx; order=id%20desc; memSize=458; backup_path=/www/backup; adminer_version=4.6.3; vcodesum=16; BT_PANEL=3f0c584b81097f01334da5d9882d4d07d4ce9bd6; memRealUsed=379; mem-before=379/458%20%28MB%29; fifteen=0.12; conterError=; upNet=0.69; downNet=1.98; one=1.07; five=0.33; SetId=inputPath; SetName=; thinkphp_show_page_trace=0|0; ChangePath=11',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\console\controller\Dashboard->index[ /www/wwwroot/yangming/application/console/controller/Dashboard.php ]
+[ info ] [ VIEW ] /www/wwwroot/yangming/public/../application/console/view/dashboard/index.html [ array (
+  0 => 'title',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-13T11:30:26+08:00 ] 192.168.100.1 GET /console/dashboard/index.html
+[ info ] 192.168.100.200:8083/console/dashboard/index.html [运行时间：0.149994s][吞吐率：6.67req/s] [内存消耗：2,417.77kb] [文件加载：46]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'console',
+    1 => 'dashboard',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://192.168.100.200:8083/console/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'history=%7Btitle%3A%22%E4%B8%BB%E9%9D%A2%E6%9D%BF%22%2Curl%3A%22http%3A%2F%2F192.168.100.200%3A8082%2Fconsole%2Fdashboard%2Findex.html%22%7D; PHPSESSID=5qh5dbjs963etjvlo607fmqbc2; serverType=nginx; order=id%20desc; memSize=458; backup_path=/www/backup; adminer_version=4.6.3; vcodesum=16; BT_PANEL=3f0c584b81097f01334da5d9882d4d07d4ce9bd6; memRealUsed=379; mem-before=379/458%20%28MB%29; fifteen=0.12; conterError=; upNet=0.69; downNet=1.98; one=1.07; five=0.33; SetId=inputPath; SetName=; thinkphp_show_page_trace=0|0; ChangePath=11',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\console\controller\Dashboard->index[ /www/wwwroot/yangming/application/console/controller/Dashboard.php ]
+[ info ] [ VIEW ] /www/wwwroot/yangming/public/../application/console/view/dashboard/index.html [ array (
+  0 => 'title',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-13T11:30:51+08:00 ] 192.168.100.1 GET /console/dashboard/index.html
+[ info ] 192.168.100.200:8083/console/dashboard/index.html [运行时间：0.182883s][吞吐率：5.47req/s] [内存消耗：2,417.82kb] [文件加载：46]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'console',
+    1 => 'dashboard',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://192.168.100.200:8083/console/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'history=%7Btitle%3A%22%E4%B8%BB%E9%9D%A2%E6%9D%BF%22%2Curl%3A%22http%3A%2F%2F192.168.100.200%3A8082%2Fconsole%2Fdashboard%2Findex.html%22%7D; PHPSESSID=5qh5dbjs963etjvlo607fmqbc2; serverType=nginx; order=id%20desc; memSize=458; backup_path=/www/backup; adminer_version=4.6.3; vcodesum=16; BT_PANEL=3f0c584b81097f01334da5d9882d4d07d4ce9bd6; memRealUsed=379; mem-before=379/458%20%28MB%29; fifteen=0.12; conterError=; upNet=0.69; downNet=1.98; one=1.07; five=0.33; SetId=inputPath; SetName=; thinkphp_show_page_trace=0|0; ChangePath=11',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\console\controller\Dashboard->index[ /www/wwwroot/yangming/application/console/controller/Dashboard.php ]
+[ info ] [ VIEW ] /www/wwwroot/yangming/public/../application/console/view/dashboard/index.html [ array (
+  0 => 'title',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-13T11:40:29+08:00 ] 192.168.100.1 GET /console/dashboard/index.html
+[ info ] 192.168.100.200:8083/console/dashboard/index.html [运行时间：0.133671s][吞吐率：7.48req/s] [内存消耗：2,201.78kb] [文件加载：44]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'console',
+    1 => 'dashboard',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://192.168.100.200:8083/console/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'history=%7Btitle%3A%22%E4%B8%BB%E9%9D%A2%E6%9D%BF%22%2Curl%3A%22http%3A%2F%2F192.168.100.200%3A8082%2Fconsole%2Fdashboard%2Findex.html%22%7D; PHPSESSID=5qh5dbjs963etjvlo607fmqbc2; serverType=nginx; order=id%20desc; memSize=458; backup_path=/www/backup; adminer_version=4.6.3; vcodesum=16; BT_PANEL=3f0c584b81097f01334da5d9882d4d07d4ce9bd6; memRealUsed=379; mem-before=379/458%20%28MB%29; fifteen=0.12; conterError=; upNet=0.69; downNet=1.98; one=1.07; five=0.33; SetId=inputPath; SetName=; thinkphp_show_page_trace=0|0; ChangePath=11',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\console\controller\Dashboard->index[ /www/wwwroot/yangming/application/console/controller/Dashboard.php ]
+[ info ] [ VIEW ] /www/wwwroot/yangming/public/../application/console/view/dashboard/index.html [ array (
+  0 => 'title',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-13T11:40:30+08:00 ] 192.168.100.1 GET /console/dashboard/index.html
+[ info ] 192.168.100.200:8083/console/dashboard/index.html [运行时间：0.137168s][吞吐率：7.29req/s] [内存消耗：2,201.78kb] [文件加载：44]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'console',
+    1 => 'dashboard',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://192.168.100.200:8083/console/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'history=%7Btitle%3A%22%E4%B8%BB%E9%9D%A2%E6%9D%BF%22%2Curl%3A%22http%3A%2F%2F192.168.100.200%3A8082%2Fconsole%2Fdashboard%2Findex.html%22%7D; PHPSESSID=5qh5dbjs963etjvlo607fmqbc2; serverType=nginx; order=id%20desc; memSize=458; backup_path=/www/backup; adminer_version=4.6.3; vcodesum=16; BT_PANEL=3f0c584b81097f01334da5d9882d4d07d4ce9bd6; memRealUsed=379; mem-before=379/458%20%28MB%29; fifteen=0.12; conterError=; upNet=0.69; downNet=1.98; one=1.07; five=0.33; SetId=inputPath; SetName=; thinkphp_show_page_trace=0|0; ChangePath=11',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\console\controller\Dashboard->index[ /www/wwwroot/yangming/application/console/controller/Dashboard.php ]
+[ info ] [ VIEW ] /www/wwwroot/yangming/public/../application/console/view/dashboard/index.html [ array (
+  0 => 'title',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-13T11:50:37+08:00 ] 192.168.100.1 GET /console/dashboard/index.html
+[ info ] 192.168.100.200:8083/console/dashboard/index.html [运行时间：0.206167s][吞吐率：4.85req/s] [内存消耗：4,028.16kb] [文件加载：61]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'console',
+    1 => 'dashboard',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://192.168.100.200:8083/console/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'history=%7Btitle%3A%22%E4%B8%BB%E9%9D%A2%E6%9D%BF%22%2Curl%3A%22http%3A%2F%2F192.168.100.200%3A8082%2Fconsole%2Fdashboard%2Findex.html%22%7D; PHPSESSID=5qh5dbjs963etjvlo607fmqbc2; serverType=nginx; order=id%20desc; memSize=458; backup_path=/www/backup; adminer_version=4.6.3; vcodesum=16; BT_PANEL=3f0c584b81097f01334da5d9882d4d07d4ce9bd6; memRealUsed=379; mem-before=379/458%20%28MB%29; fifteen=0.12; conterError=; upNet=0.69; downNet=1.98; one=1.07; five=0.33; SetId=inputPath; SetName=; thinkphp_show_page_trace=0|0; ChangePath=11',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\console\controller\Dashboard->index[ /www/wwwroot/yangming/application/console/controller/Dashboard.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/yangming/public/../application/console/view/dashboard/index.html [ array (
+  0 => 'title',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000550s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_adminer` [ RunTime:0.000932s ]
+[ sql ] [ SQL ] SELECT COUNT(id) AS tp_count FROM `lc_adminer` LIMIT 1 [ RunTime:0.000259s ]
+[ error ] [8]未定义变量: info[/www/wwwroot/yangming/runtime/temp/b34d5a00c50c39d814142c5c079b7085.php:153]
+---------------------------------------------------------------
+[ 2018-07-13T11:51:08+08:00 ] 192.168.100.1 GET /console/dashboard/index.html
+[ info ] 192.168.100.200:8083/console/dashboard/index.html [运行时间：0.176204s][吞吐率：5.68req/s] [内存消耗：3,728.16kb] [文件加载：55]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'console',
+    1 => 'dashboard',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://192.168.100.200:8083/console/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'history=%7Btitle%3A%22%E4%B8%BB%E9%9D%A2%E6%9D%BF%22%2Curl%3A%22http%3A%2F%2F192.168.100.200%3A8082%2Fconsole%2Fdashboard%2Findex.html%22%7D; PHPSESSID=5qh5dbjs963etjvlo607fmqbc2; serverType=nginx; order=id%20desc; memSize=458; backup_path=/www/backup; adminer_version=4.6.3; vcodesum=16; BT_PANEL=3f0c584b81097f01334da5d9882d4d07d4ce9bd6; memRealUsed=379; mem-before=379/458%20%28MB%29; fifteen=0.12; conterError=; upNet=0.69; downNet=1.98; one=1.07; five=0.33; SetId=inputPath; SetName=; thinkphp_show_page_trace=0|0; ChangePath=11',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\console\controller\Dashboard->index[ /www/wwwroot/yangming/application/console/controller/Dashboard.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/yangming/public/../application/console/view/dashboard/index.html [ array (
+  0 => 'title',
+  1 => 'info',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000585s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_adminer` [ RunTime:0.001138s ]
+[ sql ] [ SQL ] SELECT COUNT(id) AS tp_count FROM `lc_adminer` LIMIT 1 [ RunTime:0.000264s ]
+---------------------------------------------------------------
+[ 2018-07-13T11:53:15+08:00 ] 192.168.100.1 GET /console/dashboard/index.html
+[ info ] 192.168.100.200:8083/console/dashboard/index.html [运行时间：0.198849s][吞吐率：5.03req/s] [内存消耗：3,827.27kb] [文件加载：58]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'console',
+    1 => 'dashboard',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://192.168.100.200:8083/console/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'history=%7Btitle%3A%22%E4%B8%BB%E9%9D%A2%E6%9D%BF%22%2Curl%3A%22http%3A%2F%2F192.168.100.200%3A8082%2Fconsole%2Fdashboard%2Findex.html%22%7D; PHPSESSID=5qh5dbjs963etjvlo607fmqbc2; serverType=nginx; order=id%20desc; memSize=458; backup_path=/www/backup; adminer_version=4.6.3; vcodesum=16; BT_PANEL=3f0c584b81097f01334da5d9882d4d07d4ce9bd6; memRealUsed=379; mem-before=379/458%20%28MB%29; fifteen=0.12; conterError=; upNet=0.69; downNet=1.98; one=1.07; five=0.33; SetId=inputPath; SetName=; thinkphp_show_page_trace=0|0; ChangePath=11',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\console\behavior\ConsoleAuth @action_begin [ RunTime:0.054008s ]
+[ info ] [ RUN ] app\console\controller\Dashboard->index[ /www/wwwroot/yangming/application/console/controller/Dashboard.php ]
+[ info ] [ VIEW ] /www/wwwroot/yangming/public/../application/console/view/dashboard/index.html [ array (
+  0 => 'title',
+  1 => 'info',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000294s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_console` [ RunTime:0.001190s ]
+[ sql ] [ SQL ] SELECT * FROM `lc_console` [ RunTime:0.000267s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_adminer` [ RunTime:0.001071s ]
+[ sql ] [ SQL ] SELECT COUNT(id) AS tp_count FROM `lc_adminer` LIMIT 1 [ RunTime:0.000284s ]
+---------------------------------------------------------------
+[ 2018-07-13T13:27:58+08:00 ] 192.168.100.1 GET /console/adminer/index
+[ info ] 192.168.100.200:8083/console/adminer/index [运行时间：0.205929s][吞吐率：4.86req/s] [内存消耗：4,218.84kb] [文件加载：64]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'console',
+    1 => 'adminer',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://192.168.100.200:8083/console/dashboard/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'history=%7Btitle%3A%22%E7%AE%A1%E7%90%86%E5%91%98%E7%AE%A1%E7%90%86%22%2Curl%3A%22http%3A%2F%2F192.168.100.200%3A8082%2Fconsole%2Fadminer%2Findex%22%7D; PHPSESSID=5qh5dbjs963etjvlo607fmqbc2; serverType=nginx; order=id%20desc; memSize=458; backup_path=/www/backup; adminer_version=4.6.3; vcodesum=16; BT_PANEL=3f0c584b81097f01334da5d9882d4d07d4ce9bd6; memRealUsed=379; mem-before=379/458%20%28MB%29; fifteen=0.12; conterError=; upNet=0.69; downNet=1.98; one=1.07; five=0.33; SetId=inputPath; SetName=; thinkphp_show_page_trace=0|0; ChangePath=11',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\console\behavior\ConsoleAuth @action_begin [ RunTime:0.049442s ]
+[ info ] [ RUN ] app\console\controller\Adminer->index[ /www/wwwroot/yangming/application/console/controller/Adminer.php ]
+[ info ] [ VIEW ] /www/wwwroot/yangming/public/../application/console/view/adminer/index.html [ array (
+  0 => 'title',
+  1 => 'list',
+  2 => 'keyword',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000727s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_console` [ RunTime:0.001843s ]
+[ sql ] [ SQL ] SELECT * FROM `lc_console` [ RunTime:0.000235s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_adminer` [ RunTime:0.001464s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lc_adminer` LIMIT 1 [ RunTime:0.000242s ]
+[ sql ] [ SQL ] SELECT `id`,`login`,`name` FROM `lc_adminer` LIMIT 0,20 [ RunTime:0.000189s ]
+---------------------------------------------------------------
+[ 2018-07-13T13:28:01+08:00 ] 192.168.100.1 GET /Console/adminer/edit/id/1.html
+[ info ] 192.168.100.200:8083/Console/adminer/edit/id/1.html [运行时间：0.209246s][吞吐率：4.78req/s] [内存消耗：4,127.69kb] [文件加载：61]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Console',
+    1 => 'adminer',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://192.168.100.200:8083/console/adminer/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'history=%7Btitle%3A%22%E7%BC%96%E8%BE%91%E7%AE%A1%E7%90%86%E5%91%98%22%2Curl%3A%22http%3A%2F%2F192.168.100.200%3A8082%2FConsole%2Fadminer%2Fedit%2Fid%2F8.html%22%7D; PHPSESSID=5qh5dbjs963etjvlo607fmqbc2; serverType=nginx; order=id%20desc; memSize=458; backup_path=/www/backup; adminer_version=4.6.3; vcodesum=16; BT_PANEL=3f0c584b81097f01334da5d9882d4d07d4ce9bd6; memRealUsed=379; mem-before=379/458%20%28MB%29; fifteen=0.12; conterError=; upNet=0.69; downNet=1.98; one=1.07; five=0.33; SetId=inputPath; SetName=; thinkphp_show_page_trace=0|0; ChangePath=11',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\console\behavior\ConsoleAuth @action_begin [ RunTime:0.054527s ]
+[ info ] [ RUN ] app\console\controller\Adminer->edit[ /www/wwwroot/yangming/application/console/controller/Adminer.php ]
+[ info ] [ VIEW ] /www/wwwroot/yangming/public/../application/console/view/adminer/modify.html [ array (
+  0 => 'title',
+  1 => 'data',
+  2 => 'auth_groups',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000368s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_console` [ RunTime:0.000818s ]
+[ sql ] [ SQL ] SELECT * FROM `lc_console` [ RunTime:0.000263s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_adminer` [ RunTime:0.000705s ]
+[ sql ] [ SQL ] SELECT * FROM `lc_adminer` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001023s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_console_auth_group` [ RunTime:0.000885s ]
+[ sql ] [ SQL ] SELECT * FROM `lc_console_auth_group` [ RunTime:0.001069s ]
+---------------------------------------------------------------
+[ 2018-07-13T13:28:20+08:00 ] 192.168.100.1 GET /console/auth_group/index
+[ info ] 192.168.100.200:8083/console/auth_group/index [运行时间：0.239148s][吞吐率：4.18req/s] [内存消耗：4,270.16kb] [文件加载：65]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'console',
+    1 => 'auth_group',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://192.168.100.200:8083/Console/adminer/edit/id/1.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'history=%7Btitle%3A%22%E6%9D%83%E9%99%90%E7%BB%84%E7%AE%A1%E7%90%86%22%2Curl%3A%22http%3A%2F%2F192.168.100.200%3A8082%2Fconsole%2Fauth_group%2Findex%22%7D; PHPSESSID=5qh5dbjs963etjvlo607fmqbc2; serverType=nginx; order=id%20desc; memSize=458; backup_path=/www/backup; adminer_version=4.6.3; vcodesum=16; BT_PANEL=3f0c584b81097f01334da5d9882d4d07d4ce9bd6; memRealUsed=379; mem-before=379/458%20%28MB%29; fifteen=0.12; conterError=; upNet=0.69; downNet=1.98; one=1.07; five=0.33; SetId=inputPath; SetName=; thinkphp_show_page_trace=0|0; ChangePath=11',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\console\behavior\ConsoleAuth @action_begin [ RunTime:0.050232s ]
+[ info ] [ RUN ] app\console\controller\AuthGroup->index[ /www/wwwroot/yangming/application/console/controller/AuthGroup.php ]
+[ info ] [ VIEW ] /www/wwwroot/yangming/public/../application/console/view/auth_group/index.html [ array (
+  0 => 'title',
+  1 => 'list',
+  2 => 'keyword',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000602s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_console` [ RunTime:0.000811s ]
+[ sql ] [ SQL ] SELECT * FROM `lc_console` [ RunTime:0.000266s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_console_auth_group` [ RunTime:0.000701s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lc_console_auth_group` LIMIT 1 [ RunTime:0.000220s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `lc_console_auth_group` LIMIT 0,20 [ RunTime:0.000781s ]
+---------------------------------------------------------------
+[ 2018-07-13T13:28:26+08:00 ] 192.168.100.1 GET /console/adminer/index
+[ info ] 192.168.100.200:8083/console/adminer/index [运行时间：0.198754s][吞吐率：5.03req/s] [内存消耗：4,015.89kb] [文件加载：62]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'console',
+    1 => 'adminer',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://192.168.100.200:8083/console/auth_group/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'history=%7Btitle%3A%22%E7%AE%A1%E7%90%86%E5%91%98%E7%AE%A1%E7%90%86%22%2Curl%3A%22http%3A%2F%2F192.168.100.200%3A8082%2Fconsole%2Fadminer%2Findex%22%7D; PHPSESSID=5qh5dbjs963etjvlo607fmqbc2; serverType=nginx; order=id%20desc; memSize=458; backup_path=/www/backup; adminer_version=4.6.3; vcodesum=16; BT_PANEL=3f0c584b81097f01334da5d9882d4d07d4ce9bd6; memRealUsed=379; mem-before=379/458%20%28MB%29; fifteen=0.12; conterError=; upNet=0.69; downNet=1.98; one=1.07; five=0.33; SetId=inputPath; SetName=; thinkphp_show_page_trace=0|0; ChangePath=11',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\console\behavior\ConsoleAuth @action_begin [ RunTime:0.049919s ]
+[ info ] [ RUN ] app\console\controller\Adminer->index[ /www/wwwroot/yangming/application/console/controller/Adminer.php ]
+[ info ] [ VIEW ] /www/wwwroot/yangming/public/../application/console/view/adminer/index.html [ array (
+  0 => 'title',
+  1 => 'list',
+  2 => 'keyword',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001189s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_console` [ RunTime:0.000835s ]
+[ sql ] [ SQL ] SELECT * FROM `lc_console` [ RunTime:0.000191s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_adminer` [ RunTime:0.001424s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lc_adminer` LIMIT 1 [ RunTime:0.000032s ]
+[ sql ] [ SQL ] SELECT `id`,`login`,`name` FROM `lc_adminer` LIMIT 0,20 [ RunTime:0.000219s ]
+---------------------------------------------------------------
+[ 2018-07-13T13:28:28+08:00 ] 192.168.100.1 GET /Console/adminer/add.html
+[ info ] 192.168.100.200:8083/Console/adminer/add.html [运行时间：0.192050s][吞吐率：5.21req/s] [内存消耗：3,906.25kb] [文件加载：59]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Console',
+    1 => 'adminer',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://192.168.100.200:8083/console/adminer/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=5qh5dbjs963etjvlo607fmqbc2; serverType=nginx; order=id%20desc; memSize=458; backup_path=/www/backup; adminer_version=4.6.3; vcodesum=16; BT_PANEL=3f0c584b81097f01334da5d9882d4d07d4ce9bd6; memRealUsed=379; mem-before=379/458%20%28MB%29; fifteen=0.12; conterError=; upNet=0.69; downNet=1.98; one=1.07; five=0.33; SetId=inputPath; SetName=; thinkphp_show_page_trace=0|0; ChangePath=11',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\console\behavior\ConsoleAuth @action_begin [ RunTime:0.053207s ]
+[ info ] [ RUN ] app\console\controller\Adminer->add[ /www/wwwroot/yangming/application/console/controller/Adminer.php ]
+[ info ] [ VIEW ] /www/wwwroot/yangming/public/../application/console/view/adminer/modify.html [ array (
+  0 => 'title',
+  1 => 'auth_groups',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000350s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_console` [ RunTime:0.000765s ]
+[ sql ] [ SQL ] SELECT * FROM `lc_console` [ RunTime:0.000247s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_console_auth_group` [ RunTime:0.001058s ]
+[ sql ] [ SQL ] SELECT * FROM `lc_console_auth_group` [ RunTime:0.000914s ]
+---------------------------------------------------------------
+[ 2018-07-13T13:32:31+08:00 ] 192.168.100.1 GET /console/adminer/index
+[ info ] 192.168.100.200:8083/console/adminer/index [运行时间：0.205096s][吞吐率：4.88req/s] [内存消耗：4,015.89kb] [文件加载：62]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'console',
+    1 => 'adminer',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://192.168.100.200:8083/Console/adminer/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'history=%7Btitle%3A%22%E7%AE%A1%E7%90%86%E5%91%98%E7%AE%A1%E7%90%86%22%2Curl%3A%22http%3A%2F%2F192.168.100.200%3A8082%2Fconsole%2Fadminer%2Findex%22%7D; PHPSESSID=5qh5dbjs963etjvlo607fmqbc2; serverType=nginx; order=id%20desc; memSize=458; backup_path=/www/backup; adminer_version=4.6.3; vcodesum=16; BT_PANEL=3f0c584b81097f01334da5d9882d4d07d4ce9bd6; memRealUsed=379; mem-before=379/458%20%28MB%29; fifteen=0.12; conterError=; upNet=0.69; downNet=1.98; one=1.07; five=0.33; SetId=inputPath; SetName=; thinkphp_show_page_trace=0|0; ChangePath=11',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\console\behavior\ConsoleAuth @action_begin [ RunTime:0.050572s ]
+[ info ] [ RUN ] app\console\controller\Adminer->index[ /www/wwwroot/yangming/application/console/controller/Adminer.php ]
+[ info ] [ VIEW ] /www/wwwroot/yangming/public/../application/console/view/adminer/index.html [ array (
+  0 => 'title',
+  1 => 'list',
+  2 => 'keyword',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000542s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_console` [ RunTime:0.001479s ]
+[ sql ] [ SQL ] SELECT * FROM `lc_console` [ RunTime:0.000140s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_adminer` [ RunTime:0.001852s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lc_adminer` LIMIT 1 [ RunTime:0.000158s ]
+[ sql ] [ SQL ] SELECT `id`,`login`,`name` FROM `lc_adminer` LIMIT 0,20 [ RunTime:0.000166s ]
+---------------------------------------------------------------
+[ 2018-07-13T13:32:49+08:00 ] 192.168.100.1 POST /console/adminer/index
+[ info ] 192.168.100.200:8083/console/adminer/index [运行时间：0.194421s][吞吐率：5.14req/s] [内存消耗：4,020.16kb] [文件加载：62]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'console',
+    1 => 'adminer',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '13',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://192.168.100.200:8083',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://192.168.100.200:8083/console/adminer/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'history=%7Btitle%3A%22%E7%AE%A1%E7%90%86%E5%91%98%E7%AE%A1%E7%90%86%22%2Curl%3A%22http%3A%2F%2F192.168.100.200%3A8082%2Fconsole%2Fadminer%2Findex%22%7D; PHPSESSID=5qh5dbjs963etjvlo607fmqbc2; serverType=nginx; order=id%20desc; memSize=458; backup_path=/www/backup; adminer_version=4.6.3; vcodesum=16; BT_PANEL=3f0c584b81097f01334da5d9882d4d07d4ce9bd6; memRealUsed=379; mem-before=379/458%20%28MB%29; fifteen=0.12; conterError=; upNet=0.69; downNet=1.98; one=1.07; five=0.33; SetId=inputPath; SetName=; thinkphp_show_page_trace=0|0; ChangePath=11',
+)
+[ info ] [ PARAM ] array (
+  'keyword' => 'admin',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\console\behavior\ConsoleAuth @action_begin [ RunTime:0.049329s ]
+[ info ] [ RUN ] app\console\controller\Adminer->index[ /www/wwwroot/yangming/application/console/controller/Adminer.php ]
+[ info ] [ VIEW ] /www/wwwroot/yangming/public/../application/console/view/adminer/index.html [ array (
+  0 => 'title',
+  1 => 'list',
+  2 => 'keyword',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000367s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_console` [ RunTime:0.000676s ]
+[ sql ] [ SQL ] SELECT * FROM `lc_console` [ RunTime:0.000907s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_adminer` [ RunTime:0.000891s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lc_adminer` WHERE  ( `login` LIKE '%admin%' OR `name` LIKE '%admin%' ) LIMIT 1 [ RunTime:0.001599s ]
+[ sql ] [ SQL ] SELECT `id`,`login`,`name` FROM `lc_adminer` WHERE  ( `login` LIKE '%admin%' OR `name` LIKE '%admin%' ) LIMIT 0,20 [ RunTime:0.000251s ]
+---------------------------------------------------------------
+[ 2018-07-13T13:33:05+08:00 ] 192.168.100.1 GET /console//
+[ info ] 192.168.100.200:8083/console// [运行时间：0.116718s][吞吐率：8.57req/s] [内存消耗：1,798.25kb] [文件加载：38]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'console',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://192.168.100.200:8083/console/adminer/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=5qh5dbjs963etjvlo607fmqbc2; serverType=nginx; order=id%20desc; memSize=458; backup_path=/www/backup; adminer_version=4.6.3; vcodesum=16; BT_PANEL=3f0c584b81097f01334da5d9882d4d07d4ce9bd6; memRealUsed=379; mem-before=379/458%20%28MB%29; fifteen=0.12; conterError=; upNet=0.69; downNet=1.98; one=1.07; five=0.33; SetId=inputPath; SetName=; thinkphp_show_page_trace=0|0; ChangePath=11',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-13T13:33:05+08:00 ] 192.168.100.1 GET /console//
+[ info ] 192.168.100.200:8083/console// [运行时间：0.100296s][吞吐率：9.97req/s] [内存消耗：1,787.04kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '404',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://192.168.100.200:8083/console/adminer/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=5qh5dbjs963etjvlo607fmqbc2; serverType=nginx; order=id%20desc; memSize=458; backup_path=/www/backup; adminer_version=4.6.3; vcodesum=16; BT_PANEL=3f0c584b81097f01334da5d9882d4d07d4ce9bd6; memRealUsed=379; mem-before=379/458%20%28MB%29; fifteen=0.12; conterError=; upNet=0.69; downNet=1.98; one=1.07; five=0.33; SetId=inputPath; SetName=; thinkphp_show_page_trace=0|0; ChangePath=11',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-13T13:33:11+08:00 ] 192.168.100.1 GET /console/adminer/index
+[ info ] 192.168.100.200:8083/console/adminer/index [运行时间：0.215750s][吞吐率：4.63req/s] [内存消耗：4,015.89kb] [文件加载：62]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'console',
+    1 => 'adminer',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://192.168.100.200:8083/Console/adminer/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'history=%7Btitle%3A%22%E7%AE%A1%E7%90%86%E5%91%98%E7%AE%A1%E7%90%86%22%2Curl%3A%22http%3A%2F%2F192.168.100.200%3A8082%2Fconsole%2Fadminer%2Findex%22%7D; PHPSESSID=5qh5dbjs963etjvlo607fmqbc2; serverType=nginx; order=id%20desc; memSize=458; backup_path=/www/backup; adminer_version=4.6.3; vcodesum=16; BT_PANEL=3f0c584b81097f01334da5d9882d4d07d4ce9bd6; memRealUsed=379; mem-before=379/458%20%28MB%29; fifteen=0.12; conterError=; upNet=0.69; downNet=1.98; one=1.07; five=0.33; SetId=inputPath; SetName=; thinkphp_show_page_trace=0|0; ChangePath=11',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\console\behavior\ConsoleAuth @action_begin [ RunTime:0.053350s ]
+[ info ] [ RUN ] app\console\controller\Adminer->index[ /www/wwwroot/yangming/application/console/controller/Adminer.php ]
+[ info ] [ VIEW ] /www/wwwroot/yangming/public/../application/console/view/adminer/index.html [ array (
+  0 => 'title',
+  1 => 'list',
+  2 => 'keyword',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000596s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_console` [ RunTime:0.000747s ]
+[ sql ] [ SQL ] SELECT * FROM `lc_console` [ RunTime:0.000219s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_adminer` [ RunTime:0.000816s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lc_adminer` LIMIT 1 [ RunTime:0.001041s ]
+[ sql ] [ SQL ] SELECT `id`,`login`,`name` FROM `lc_adminer` LIMIT 0,20 [ RunTime:0.000207s ]
+---------------------------------------------------------------
+[ 2018-07-13T13:36:42+08:00 ] 192.168.100.1 GET /Console/adminer/add.html
+[ info ] 192.168.100.200:8083/Console/adminer/add.html [运行时间：0.179185s][吞吐率：5.58req/s] [内存消耗：3,906.29kb] [文件加载：59]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Console',
+    1 => 'adminer',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://192.168.100.200:8083/console/adminer/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'history=%7Btitle%3A%22%E7%BC%96%E8%BE%91%E7%AE%A1%E7%90%86%E5%91%98%22%2Curl%3A%22http%3A%2F%2F192.168.100.200%3A8083%2FConsole%2Fadminer%2Fadd.html%22%7D; PHPSESSID=5qh5dbjs963etjvlo607fmqbc2; serverType=nginx; order=id%20desc; memSize=458; backup_path=/www/backup; adminer_version=4.6.3; vcodesum=16; BT_PANEL=3f0c584b81097f01334da5d9882d4d07d4ce9bd6; memRealUsed=379; mem-before=379/458%20%28MB%29; fifteen=0.12; conterError=; upNet=0.69; downNet=1.98; one=1.07; five=0.33; SetId=inputPath; SetName=; thinkphp_show_page_trace=0|0; ChangePath=11',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\console\behavior\ConsoleAuth @action_begin [ RunTime:0.049793s ]
+[ info ] [ RUN ] app\console\controller\Adminer->add[ /www/wwwroot/yangming/application/console/controller/Adminer.php ]
+[ info ] [ VIEW ] /www/wwwroot/yangming/public/../application/console/view/adminer/modify.html [ array (
+  0 => 'title',
+  1 => 'auth_groups',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000620s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_console` [ RunTime:0.000810s ]
+[ sql ] [ SQL ] SELECT * FROM `lc_console` [ RunTime:0.000260s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_console_auth_group` [ RunTime:0.001950s ]
+[ sql ] [ SQL ] SELECT * FROM `lc_console_auth_group` [ RunTime:0.000290s ]
+---------------------------------------------------------------
+[ 2018-07-13T13:36:47+08:00 ] 192.168.100.1 GET /console/adminer/index
+[ info ] 192.168.100.200:8083/console/adminer/index [运行时间：0.202435s][吞吐率：4.94req/s] [内存消耗：4,015.89kb] [文件加载：62]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'console',
+    1 => 'adminer',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://192.168.100.200:8083/Console/adminer/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'history=%7Btitle%3A%22%E7%AE%A1%E7%90%86%E5%91%98%E7%AE%A1%E7%90%86%22%2Curl%3A%22http%3A%2F%2F192.168.100.200%3A8082%2Fconsole%2Fadminer%2Findex%22%7D; PHPSESSID=5qh5dbjs963etjvlo607fmqbc2; serverType=nginx; order=id%20desc; memSize=458; backup_path=/www/backup; adminer_version=4.6.3; vcodesum=16; BT_PANEL=3f0c584b81097f01334da5d9882d4d07d4ce9bd6; memRealUsed=379; mem-before=379/458%20%28MB%29; fifteen=0.12; conterError=; upNet=0.69; downNet=1.98; one=1.07; five=0.33; SetId=inputPath; SetName=; thinkphp_show_page_trace=0|0; ChangePath=11',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\console\behavior\ConsoleAuth @action_begin [ RunTime:0.053068s ]
+[ info ] [ RUN ] app\console\controller\Adminer->index[ /www/wwwroot/yangming/application/console/controller/Adminer.php ]
+[ info ] [ VIEW ] /www/wwwroot/yangming/public/../application/console/view/adminer/index.html [ array (
+  0 => 'title',
+  1 => 'list',
+  2 => 'keyword',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000371s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_console` [ RunTime:0.000788s ]
+[ sql ] [ SQL ] SELECT * FROM `lc_console` [ RunTime:0.000097s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_adminer` [ RunTime:0.000776s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lc_adminer` LIMIT 1 [ RunTime:0.000214s ]
+[ sql ] [ SQL ] SELECT `id`,`login`,`name` FROM `lc_adminer` LIMIT 0,20 [ RunTime:0.000298s ]
+---------------------------------------------------------------
+[ 2018-07-13T13:37:01+08:00 ] 192.168.100.1 GET /console/auth_group/index
+[ info ] 192.168.100.200:8083/console/auth_group/index [运行时间：0.202974s][吞吐率：4.93req/s] [内存消耗：4,068.02kb] [文件加载：63]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'console',
+    1 => 'auth_group',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://192.168.100.200:8083/console/adminer/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'history=%7Btitle%3A%22%E6%9D%83%E9%99%90%E7%BB%84%E7%AE%A1%E7%90%86%22%2Curl%3A%22http%3A%2F%2F192.168.100.200%3A8082%2Fconsole%2Fauth_group%2Findex%22%7D; PHPSESSID=5qh5dbjs963etjvlo607fmqbc2; serverType=nginx; order=id%20desc; memSize=458; backup_path=/www/backup; adminer_version=4.6.3; vcodesum=16; BT_PANEL=3f0c584b81097f01334da5d9882d4d07d4ce9bd6; memRealUsed=379; mem-before=379/458%20%28MB%29; fifteen=0.12; conterError=; upNet=0.69; downNet=1.98; one=1.07; five=0.33; SetId=inputPath; SetName=; thinkphp_show_page_trace=0|0; ChangePath=11',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\console\behavior\ConsoleAuth @action_begin [ RunTime:0.051338s ]
+[ info ] [ RUN ] app\console\controller\AuthGroup->index[ /www/wwwroot/yangming/application/console/controller/AuthGroup.php ]
+[ info ] [ VIEW ] /www/wwwroot/yangming/public/../application/console/view/auth_group/index.html [ array (
+  0 => 'title',
+  1 => 'list',
+  2 => 'keyword',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001604s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_console` [ RunTime:0.000756s ]
+[ sql ] [ SQL ] SELECT * FROM `lc_console` [ RunTime:0.000279s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_console_auth_group` [ RunTime:0.000710s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lc_console_auth_group` LIMIT 1 [ RunTime:0.000207s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `lc_console_auth_group` LIMIT 0,20 [ RunTime:0.000222s ]
+---------------------------------------------------------------
+[ 2018-07-13T13:37:04+08:00 ] 192.168.100.1 GET /console/auth_group/add.html
+[ info ] 192.168.100.200:8083/console/auth_group/add.html [运行时间：0.200270s][吞吐率：4.99req/s] [内存消耗：4,060.33kb] [文件加载：60]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'console',
+    1 => 'auth_group',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://192.168.100.200:8083/console/auth_group/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'history=%7Btitle%3A%22%E6%9D%83%E9%99%90%E7%BB%84%E7%AE%A1%E7%90%86%22%2Curl%3A%22http%3A%2F%2F192.168.100.200%3A8082%2Fconsole%2Fauth_group%2Findex%22%7D; PHPSESSID=5qh5dbjs963etjvlo607fmqbc2; serverType=nginx; order=id%20desc; memSize=458; backup_path=/www/backup; adminer_version=4.6.3; vcodesum=16; BT_PANEL=3f0c584b81097f01334da5d9882d4d07d4ce9bd6; memRealUsed=379; mem-before=379/458%20%28MB%29; fifteen=0.12; conterError=; upNet=0.69; downNet=1.98; one=1.07; five=0.33; SetId=inputPath; SetName=; thinkphp_show_page_trace=0|0; ChangePath=11',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\console\behavior\ConsoleAuth @action_begin [ RunTime:0.051158s ]
+[ info ] [ RUN ] app\console\controller\AuthGroup->add[ /www/wwwroot/yangming/application/console/controller/AuthGroup.php ]
+[ info ] [ VIEW ] /www/wwwroot/yangming/public/../application/console/view/auth_group/add.html [ array (
+  0 => 'title',
+  1 => 'data',
+  2 => 'console_ids',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000371s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_console` [ RunTime:0.001060s ]
+[ sql ] [ SQL ] SELECT * FROM `lc_console` [ RunTime:0.000271s ]
+[ sql ] [ SQL ] SELECT * FROM `lc_console` ORDER BY `type` ASC [ RunTime:0.000264s ]
+---------------------------------------------------------------
+[ 2018-07-13T13:37:14+08:00 ] 192.168.100.1 GET /console/adminer/index
+[ info ] 192.168.100.200:8083/console/adminer/index [运行时间：0.199738s][吞吐率：5.01req/s] [内存消耗：4,016.11kb] [文件加载：62]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'console',
+    1 => 'adminer',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://192.168.100.200:8083/console/auth_group/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'history=%7Btitle%3A%22%E7%AE%A1%E7%90%86%E5%91%98%E7%AE%A1%E7%90%86%22%2Curl%3A%22http%3A%2F%2F192.168.100.200%3A8082%2Fconsole%2Fadminer%2Findex%22%7D; PHPSESSID=5qh5dbjs963etjvlo607fmqbc2; serverType=nginx; order=id%20desc; memSize=458; backup_path=/www/backup; adminer_version=4.6.3; vcodesum=16; BT_PANEL=3f0c584b81097f01334da5d9882d4d07d4ce9bd6; memRealUsed=379; mem-before=379/458%20%28MB%29; fifteen=0.12; conterError=; upNet=0.69; downNet=1.98; one=1.07; five=0.33; SetId=inputPath; SetName=; thinkphp_show_page_trace=0|0; ChangePath=11',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\console\behavior\ConsoleAuth @action_begin [ RunTime:0.049767s ]
+[ info ] [ RUN ] app\console\controller\Adminer->index[ /www/wwwroot/yangming/application/console/controller/Adminer.php ]
+[ info ] [ VIEW ] /www/wwwroot/yangming/public/../application/console/view/adminer/index.html [ array (
+  0 => 'title',
+  1 => 'list',
+  2 => 'keyword',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000357s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_console` [ RunTime:0.000909s ]
+[ sql ] [ SQL ] SELECT * FROM `lc_console` [ RunTime:0.000287s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_adminer` [ RunTime:0.001012s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lc_adminer` LIMIT 1 [ RunTime:0.000237s ]
+[ sql ] [ SQL ] SELECT `id`,`login`,`name` FROM `lc_adminer` LIMIT 0,20 [ RunTime:0.000186s ]
+---------------------------------------------------------------
+[ 2018-07-13T17:38:44+08:00 ] 192.168.100.1 GET /console/adminer/index
+[ info ] 192.168.100.200:8083/console/adminer/index [运行时间：0.191075s][吞吐率：5.23req/s] [内存消耗：4,025.75kb] [文件加载：62]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'console',
+    1 => 'adminer',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://192.168.100.200:8083/console/auth_group/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'history=%7Btitle%3A%22%E7%AE%A1%E7%90%86%E5%91%98%E7%AE%A1%E7%90%86%22%2Curl%3A%22http%3A%2F%2F192.168.100.200%3A8082%2Fconsole%2Fadminer%2Findex%22%7D; PHPSESSID=5qh5dbjs963etjvlo607fmqbc2; serverType=nginx; order=id%20desc; memSize=458; backup_path=/www/backup; adminer_version=4.6.3; conterError=; SetId=inputPath; SetName=; thinkphp_show_page_trace=0|0; ChangePath=11; five=0.05; fifteen=0.05; one=0.05; upNet=0.22; downNet=0.31; uploadSize=1073741824; rank=a; apacheVersion=; phpVersion=0; BT_PANEL=7d0b8198e0d364def9d462098b4e1b0995a58f0d; memRealUsed=373; mem-before=373/458%20%28MB%29; cutFileName=null; vcodesum=6; copyFileName=null; Path=/www/wwwroot/yangming',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\console\behavior\ConsoleAuth @action_begin [ RunTime:0.046832s ]
+[ info ] [ RUN ] app\console\controller\Adminer->index[ /www/wwwroot/yangming/application/console/controller/Adminer.php ]
+[ info ] [ VIEW ] /www/wwwroot/yangming/public/../application/console/view/adminer/index.html [ array (
+  0 => 'title',
+  1 => 'list',
+  2 => 'keyword',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002145s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_console` [ RunTime:0.001085s ]
+[ sql ] [ SQL ] SELECT * FROM `lc_console` [ RunTime:0.000583s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_adminer` [ RunTime:0.002755s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lc_adminer` LIMIT 1 [ RunTime:0.000655s ]
+[ sql ] [ SQL ] SELECT `id`,`login`,`name` FROM `lc_adminer` LIMIT 0,20 [ RunTime:0.000338s ]
+---------------------------------------------------------------
+[ 2018-07-13T17:39:53+08:00 ] 192.168.100.1 GET /console/department/index_%20%20%20%20public%20function%20index()_%20%20%20%20%7B__%20%20%20%20%20%20%20$model%20=%20new%20departmodel;__%20%20%20%20%20%20%20$list%20=%20$model
+[ info ] 192.168.100.200:8083/console/department/index_%20%20%20%20public%20function%20index()_%20%20%20%20%7B__%20%20%20%20%20%20%20$model%20=%20new%20departmodel;__%20%20%20%20%20%20%20$list%20=%20$model [运行时间：0.117455s][吞吐率：8.51req/s] [内存消耗：2,177.45kb] [文件加载：46]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'console',
+    1 => 'department',
+    2 => 'index_    public function index()_    {__       $model = new departmodel;__       $list = $model',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://192.168.100.200:8083/console/adminer/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=5qh5dbjs963etjvlo607fmqbc2; serverType=nginx; order=id%20desc; memSize=458; backup_path=/www/backup; adminer_version=4.6.3; conterError=; SetId=inputPath; SetName=; thinkphp_show_page_trace=0|0; ChangePath=11; five=0.05; fifteen=0.05; one=0.05; upNet=0.22; downNet=0.31; uploadSize=1073741824; rank=a; apacheVersion=; phpVersion=0; BT_PANEL=7d0b8198e0d364def9d462098b4e1b0995a58f0d; memRealUsed=373; mem-before=373/458%20%28MB%29; cutFileName=null; vcodesum=6; copyFileName=null; Path=/www/wwwroot/yangming',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-13T17:39:53+08:00 ] 192.168.100.1 GET /console/department/index_%20%20%20%20public%20function%20index()_%20%20%20%20%7B__%20%20%20%20%20%20%20$model%20=%20new%20departmodel;__%20%20%20%20%20%20%20$list%20=%20$model
+[ info ] 192.168.100.200:8083/console/department/index_%20%20%20%20public%20function%20index()_%20%20%20%20%7B__%20%20%20%20%20%20%20$model%20=%20new%20departmodel;__%20%20%20%20%20%20%20$list%20=%20$model [运行时间：0.082607s][吞吐率：12.11req/s] [内存消耗：1,787.44kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '404',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://192.168.100.200:8083/console/adminer/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=5qh5dbjs963etjvlo607fmqbc2; serverType=nginx; order=id%20desc; memSize=458; backup_path=/www/backup; adminer_version=4.6.3; conterError=; SetId=inputPath; SetName=; thinkphp_show_page_trace=0|0; ChangePath=11; five=0.05; fifteen=0.05; one=0.05; upNet=0.22; downNet=0.31; uploadSize=1073741824; rank=a; apacheVersion=; phpVersion=0; BT_PANEL=7d0b8198e0d364def9d462098b4e1b0995a58f0d; memRealUsed=373; mem-before=373/458%20%28MB%29; cutFileName=null; vcodesum=6; copyFileName=null; Path=/www/wwwroot/yangming',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-13T17:39:55+08:00 ] 192.168.100.1 GET /console/adminer/index
+[ info ] 192.168.100.200:8083/console/adminer/index [运行时间：0.165752s][吞吐率：6.03req/s] [内存消耗：4,025.01kb] [文件加载：62]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'console',
+    1 => 'adminer',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://192.168.100.200:8083/console/auth_group/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'history=%7Btitle%3A%22%E7%AE%A1%E7%90%86%E5%91%98%E7%AE%A1%E7%90%86%22%2Curl%3A%22http%3A%2F%2F192.168.100.200%3A8082%2Fconsole%2Fadminer%2Findex%22%7D; PHPSESSID=5qh5dbjs963etjvlo607fmqbc2; serverType=nginx; order=id%20desc; memSize=458; backup_path=/www/backup; adminer_version=4.6.3; conterError=; SetId=inputPath; SetName=; thinkphp_show_page_trace=0|0; ChangePath=11; five=0.05; fifteen=0.05; one=0.05; upNet=0.22; downNet=0.31; uploadSize=1073741824; rank=a; apacheVersion=; phpVersion=0; BT_PANEL=7d0b8198e0d364def9d462098b4e1b0995a58f0d; memRealUsed=373; mem-before=373/458%20%28MB%29; cutFileName=null; vcodesum=6; copyFileName=null; Path=/www/wwwroot/yangming',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\console\behavior\ConsoleAuth @action_begin [ RunTime:0.043219s ]
+[ info ] [ RUN ] app\console\controller\Adminer->index[ /www/wwwroot/yangming/application/console/controller/Adminer.php ]
+[ info ] [ VIEW ] /www/wwwroot/yangming/public/../application/console/view/adminer/index.html [ array (
+  0 => 'title',
+  1 => 'list',
+  2 => 'keyword',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001442s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_console` [ RunTime:0.001355s ]
+[ sql ] [ SQL ] SELECT * FROM `lc_console` [ RunTime:0.000261s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_adminer` [ RunTime:0.000930s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lc_adminer` LIMIT 1 [ RunTime:0.000226s ]
+[ sql ] [ SQL ] SELECT `id`,`login`,`name` FROM `lc_adminer` LIMIT 0,20 [ RunTime:0.000218s ]
+---------------------------------------------------------------
+[ 2018-07-13T17:41:46+08:00 ] 192.168.100.1 GET /console/adminer/index
+[ info ] 192.168.100.200:8083/console/adminer/index [运行时间：0.197825s][吞吐率：5.05req/s] [内存消耗：4,025.69kb] [文件加载：62]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'console',
+    1 => 'adminer',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://192.168.100.200:8083/console/auth_group/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'history=%7Btitle%3A%22%E7%AE%A1%E7%90%86%E5%91%98%E7%AE%A1%E7%90%86%22%2Curl%3A%22http%3A%2F%2F192.168.100.200%3A8082%2Fconsole%2Fadminer%2Findex%22%7D; PHPSESSID=5qh5dbjs963etjvlo607fmqbc2; serverType=nginx; order=id%20desc; memSize=458; backup_path=/www/backup; adminer_version=4.6.3; conterError=; SetId=inputPath; SetName=; thinkphp_show_page_trace=0|0; ChangePath=11; five=0.05; fifteen=0.05; one=0.05; upNet=0.22; downNet=0.31; uploadSize=1073741824; rank=a; apacheVersion=; phpVersion=0; BT_PANEL=7d0b8198e0d364def9d462098b4e1b0995a58f0d; memRealUsed=373; mem-before=373/458%20%28MB%29; cutFileName=null; vcodesum=6; copyFileName=null; Path=/www/wwwroot/yangming',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\console\behavior\ConsoleAuth @action_begin [ RunTime:0.055563s ]
+[ info ] [ RUN ] app\console\controller\Adminer->index[ /www/wwwroot/yangming/application/console/controller/Adminer.php ]
+[ info ] [ VIEW ] /www/wwwroot/yangming/public/../application/console/view/adminer/index.html [ array (
+  0 => 'title',
+  1 => 'list',
+  2 => 'keyword',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000441s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_console` [ RunTime:0.001484s ]
+[ sql ] [ SQL ] SELECT * FROM `lc_console` [ RunTime:0.000280s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_adminer` [ RunTime:0.000893s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lc_adminer` LIMIT 1 [ RunTime:0.000330s ]
+[ sql ] [ SQL ] SELECT `id`,`login`,`name` FROM `lc_adminer` LIMIT 0,20 [ RunTime:0.000206s ]
+---------------------------------------------------------------
+[ 2018-07-13T17:41:56+08:00 ] 192.168.100.1 GET /console/department/index_%20%20%20%20public%20function%20index()_%20%20%20%20%7B__%20%20%20%20%20%20%20$model%20=%20new%20departmodel;__%20%20%20%20%20%20%20$list%20=%20$model
+[ info ] 192.168.100.200:8083/console/department/index_%20%20%20%20public%20function%20index()_%20%20%20%20%7B__%20%20%20%20%20%20%20$model%20=%20new%20departmodel;__%20%20%20%20%20%20%20$list%20=%20$model [运行时间：0.128231s][吞吐率：7.80req/s] [内存消耗：2,177.49kb] [文件加载：46]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'console',
+    1 => 'department',
+    2 => 'index_    public function index()_    {__       $model = new departmodel;__       $list = $model',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://192.168.100.200:8083/console/adminer/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=5qh5dbjs963etjvlo607fmqbc2; serverType=nginx; order=id%20desc; memSize=458; backup_path=/www/backup; adminer_version=4.6.3; conterError=; SetId=inputPath; SetName=; thinkphp_show_page_trace=0|0; ChangePath=11; five=0.05; fifteen=0.05; one=0.05; upNet=0.22; downNet=0.31; uploadSize=1073741824; rank=a; apacheVersion=; phpVersion=0; BT_PANEL=7d0b8198e0d364def9d462098b4e1b0995a58f0d; memRealUsed=373; mem-before=373/458%20%28MB%29; cutFileName=null; vcodesum=6; copyFileName=null; Path=/www/wwwroot/yangming',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-13T17:41:56+08:00 ] 192.168.100.1 GET /console/department/index_%20%20%20%20public%20function%20index()_%20%20%20%20%7B__%20%20%20%20%20%20%20$model%20=%20new%20departmodel;__%20%20%20%20%20%20%20$list%20=%20$model
+[ info ] 192.168.100.200:8083/console/department/index_%20%20%20%20public%20function%20index()_%20%20%20%20%7B__%20%20%20%20%20%20%20$model%20=%20new%20departmodel;__%20%20%20%20%20%20%20$list%20=%20$model [运行时间：0.095943s][吞吐率：10.42req/s] [内存消耗：1,787.50kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '404',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://192.168.100.200:8083/console/adminer/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=5qh5dbjs963etjvlo607fmqbc2; serverType=nginx; order=id%20desc; memSize=458; backup_path=/www/backup; adminer_version=4.6.3; conterError=; SetId=inputPath; SetName=; thinkphp_show_page_trace=0|0; ChangePath=11; five=0.05; fifteen=0.05; one=0.05; upNet=0.22; downNet=0.31; uploadSize=1073741824; rank=a; apacheVersion=; phpVersion=0; BT_PANEL=7d0b8198e0d364def9d462098b4e1b0995a58f0d; memRealUsed=373; mem-before=373/458%20%28MB%29; cutFileName=null; vcodesum=6; copyFileName=null; Path=/www/wwwroot/yangming',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-13T17:41:58+08:00 ] 192.168.100.1 GET /console/adminer/index
+[ info ] 192.168.100.200:8083/console/adminer/index [运行时间：0.200466s][吞吐率：4.99req/s] [内存消耗：4,025.05kb] [文件加载：62]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'console',
+    1 => 'adminer',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://192.168.100.200:8083/console/auth_group/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'history=%7Btitle%3A%22%E7%AE%A1%E7%90%86%E5%91%98%E7%AE%A1%E7%90%86%22%2Curl%3A%22http%3A%2F%2F192.168.100.200%3A8082%2Fconsole%2Fadminer%2Findex%22%7D; PHPSESSID=5qh5dbjs963etjvlo607fmqbc2; serverType=nginx; order=id%20desc; memSize=458; backup_path=/www/backup; adminer_version=4.6.3; conterError=; SetId=inputPath; SetName=; thinkphp_show_page_trace=0|0; ChangePath=11; five=0.05; fifteen=0.05; one=0.05; upNet=0.22; downNet=0.31; uploadSize=1073741824; rank=a; apacheVersion=; phpVersion=0; BT_PANEL=7d0b8198e0d364def9d462098b4e1b0995a58f0d; memRealUsed=373; mem-before=373/458%20%28MB%29; cutFileName=null; vcodesum=6; copyFileName=null; Path=/www/wwwroot/yangming',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\console\behavior\ConsoleAuth @action_begin [ RunTime:0.055451s ]
+[ info ] [ RUN ] app\console\controller\Adminer->index[ /www/wwwroot/yangming/application/console/controller/Adminer.php ]
+[ info ] [ VIEW ] /www/wwwroot/yangming/public/../application/console/view/adminer/index.html [ array (
+  0 => 'title',
+  1 => 'list',
+  2 => 'keyword',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000462s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_console` [ RunTime:0.001333s ]
+[ sql ] [ SQL ] SELECT * FROM `lc_console` [ RunTime:0.002799s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_adminer` [ RunTime:0.001523s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lc_adminer` LIMIT 1 [ RunTime:0.000178s ]
+[ sql ] [ SQL ] SELECT `id`,`login`,`name` FROM `lc_adminer` LIMIT 0,20 [ RunTime:0.000196s ]

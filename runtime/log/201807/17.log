@@ -1,0 +1,1470 @@
+---------------------------------------------------------------
+[ 2018-07-17T11:00:01+08:00 ] 192.168.100.1 POST /api/SendCode/sendResetPasswordSMS
+[ info ] 192.168.100.200:8083/api/SendCode/sendResetPasswordSMS [运行时间：0.166569s][吞吐率：6.00req/s] [内存消耗：2,208.33kb] [文件加载：47]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'SendCode',
+    2 => 'sendResetPasswordSMS',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '16',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'adminer_version=4.6.3',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '',
+)
+[ info ] [ RUN ] app\api\controller\SendCode->sendResetPasswordSMS[ /www/wwwroot/yangming/application/api/controller/Sendcode.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-17T11:00:21+08:00 ] 192.168.100.1 POST /api/SendCode/sendResetPasswordSMS
+[ info ] 192.168.100.200:8083/api/SendCode/sendResetPasswordSMS [运行时间：0.107271s][吞吐率：9.32req/s] [内存消耗：2,207.94kb] [文件加载：47]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'SendCode',
+    2 => 'sendResetPasswordSMS',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '19',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'adminer_version=4.6.3',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '123',
+)
+[ info ] [ RUN ] app\api\controller\SendCode->sendResetPasswordSMS[ /www/wwwroot/yangming/application/api/controller/Sendcode.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-17T11:00:34+08:00 ] 192.168.100.1 POST /api/SendCode/sendResetPasswordSMS
+[ info ] 192.168.100.200:8083/api/SendCode/sendResetPasswordSMS [运行时间：0.292504s][吞吐率：3.42req/s] [内存消耗：3,733.84kb] [文件加载：57]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'SendCode',
+    2 => 'sendResetPasswordSMS',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '27',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'adminer_version=4.6.3',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18610977934',
+)
+[ info ] [ RUN ] app\api\controller\SendCode->sendResetPasswordSMS[ /www/wwwroot/yangming/application/api/controller/Sendcode.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.059031s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.056791s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `phone` = '18610977934' LIMIT 1 [ RunTime:0.011986s ]
+---------------------------------------------------------------
+[ 2018-07-17T11:00:44+08:00 ] 192.168.100.1 POST /api/SendCode/sendResetPasswordSMS
+[ info ] 192.168.100.200:8083/api/SendCode/sendResetPasswordSMS [运行时间：0.146899s][吞吐率：6.81req/s] [内存消耗：3,733.84kb] [文件加载：57]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'SendCode',
+    2 => 'sendResetPasswordSMS',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '27',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'adminer_version=4.6.3',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18503671176',
+)
+[ info ] [ RUN ] app\api\controller\SendCode->sendResetPasswordSMS[ /www/wwwroot/yangming/application/api/controller/Sendcode.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000987s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.000721s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `phone` = '18503671176' LIMIT 1 [ RunTime:0.000861s ]
+---------------------------------------------------------------
+[ 2018-07-17T11:00:45+08:00 ] 192.168.100.1 POST /api/SendCode/sendResetPasswordSMS
+[ info ] 192.168.100.200:8083/api/SendCode/sendResetPasswordSMS [运行时间：0.147310s][吞吐率：6.79req/s] [内存消耗：3,733.84kb] [文件加载：57]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'SendCode',
+    2 => 'sendResetPasswordSMS',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '27',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'adminer_version=4.6.3',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18503671176',
+)
+[ info ] [ RUN ] app\api\controller\SendCode->sendResetPasswordSMS[ /www/wwwroot/yangming/application/api/controller/Sendcode.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001200s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.000935s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `phone` = '18503671176' LIMIT 1 [ RunTime:0.000266s ]
+---------------------------------------------------------------
+[ 2018-07-17T11:00:46+08:00 ] 192.168.100.1 POST /api/SendCode/sendResetPasswordSMS
+[ info ] 192.168.100.200:8083/api/SendCode/sendResetPasswordSMS [运行时间：0.120925s][吞吐率：8.27req/s] [内存消耗：3,733.41kb] [文件加载：57]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'SendCode',
+    2 => 'sendResetPasswordSMS',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '27',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'adminer_version=4.6.3',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18503671176',
+)
+[ info ] [ RUN ] app\api\controller\SendCode->sendResetPasswordSMS[ /www/wwwroot/yangming/application/api/controller/Sendcode.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000430s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.000934s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `phone` = '18503671176' LIMIT 1 [ RunTime:0.000288s ]
+---------------------------------------------------------------
+[ 2018-07-17T11:01:36+08:00 ] 192.168.100.1 POST /api/SendCode/sendResetPasswordSMS
+[ info ] 192.168.100.200:8083/api/SendCode/sendResetPasswordSMS [运行时间：0.128269s][吞吐率：7.80req/s] [内存消耗：3,733.41kb] [文件加载：57]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'SendCode',
+    2 => 'sendResetPasswordSMS',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '27',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'adminer_version=4.6.3',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18503671176',
+)
+[ info ] [ RUN ] app\api\controller\SendCode->sendResetPasswordSMS[ /www/wwwroot/yangming/application/api/controller/Sendcode.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000087s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.001040s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `phone` = '18503671176' LIMIT 1 [ RunTime:0.000353s ]
+---------------------------------------------------------------
+[ 2018-07-17T11:01:36+08:00 ] 192.168.100.1 POST /api/SendCode/sendResetPasswordSMS
+[ info ] 192.168.100.200:8083/api/SendCode/sendResetPasswordSMS [运行时间：0.118796s][吞吐率：8.42req/s] [内存消耗：3,733.41kb] [文件加载：57]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'SendCode',
+    2 => 'sendResetPasswordSMS',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '27',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'adminer_version=4.6.3',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18503671176',
+)
+[ info ] [ RUN ] app\api\controller\SendCode->sendResetPasswordSMS[ /www/wwwroot/yangming/application/api/controller/Sendcode.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001063s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.001189s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `phone` = '18503671176' LIMIT 1 [ RunTime:0.000340s ]
+---------------------------------------------------------------
+[ 2018-07-17T11:01:53+08:00 ] 192.168.100.1 POST /api/SendCode/sendResetPasswordSMS
+[ info ] 192.168.100.200:8083/api/SendCode/sendResetPasswordSMS [运行时间：0.116851s][吞吐率：8.56req/s] [内存消耗：3,733.41kb] [文件加载：57]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'SendCode',
+    2 => 'sendResetPasswordSMS',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '27',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'adminer_version=4.6.3',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '13244553517',
+)
+[ info ] [ RUN ] app\api\controller\SendCode->sendResetPasswordSMS[ /www/wwwroot/yangming/application/api/controller/Sendcode.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000370s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.000968s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `phone` = '13244553517' LIMIT 1 [ RunTime:0.000275s ]
+---------------------------------------------------------------
+[ 2018-07-17T11:01:54+08:00 ] 192.168.100.1 POST /api/SendCode/sendResetPasswordSMS
+[ info ] 192.168.100.200:8083/api/SendCode/sendResetPasswordSMS [运行时间：0.127601s][吞吐率：7.84req/s] [内存消耗：3,733.41kb] [文件加载：57]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'SendCode',
+    2 => 'sendResetPasswordSMS',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '27',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'adminer_version=4.6.3',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '13244553517',
+)
+[ info ] [ RUN ] app\api\controller\SendCode->sendResetPasswordSMS[ /www/wwwroot/yangming/application/api/controller/Sendcode.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000396s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.001695s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `phone` = '13244553517' LIMIT 1 [ RunTime:0.000252s ]
+---------------------------------------------------------------
+[ 2018-07-17T11:01:55+08:00 ] 192.168.100.1 POST /api/SendCode/sendResetPasswordSMS
+[ info ] 192.168.100.200:8083/api/SendCode/sendResetPasswordSMS [运行时间：0.115227s][吞吐率：8.68req/s] [内存消耗：3,733.41kb] [文件加载：57]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'SendCode',
+    2 => 'sendResetPasswordSMS',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '27',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'adminer_version=4.6.3',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '13244553517',
+)
+[ info ] [ RUN ] app\api\controller\SendCode->sendResetPasswordSMS[ /www/wwwroot/yangming/application/api/controller/Sendcode.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000397s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.001663s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `phone` = '13244553517' LIMIT 1 [ RunTime:0.000194s ]
+---------------------------------------------------------------
+[ 2018-07-17T11:03:08+08:00 ] 192.168.100.1 POST /api/SendCode/sendResetPasswordSMS
+[ info ] 192.168.100.200:8083/api/SendCode/sendResetPasswordSMS [运行时间：0.134606s][吞吐率：7.43req/s] [内存消耗：3,733.58kb] [文件加载：57]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'SendCode',
+    2 => 'sendResetPasswordSMS',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '27',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'adminer_version=4.6.3',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '13244553517',
+)
+[ info ] [ RUN ] app\api\controller\SendCode->sendResetPasswordSMS[ /www/wwwroot/yangming/application/api/controller/Sendcode.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001107s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.000792s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `phone` = '13244553517' LIMIT 1 [ RunTime:0.000819s ]
+---------------------------------------------------------------
+[ 2018-07-17T11:21:33+08:00 ] 192.168.100.1 POST /api/SendCode/sendResetPasswordSMS
+[ info ] 192.168.100.200:8083/api/SendCode/sendResetPasswordSMS [运行时间：0.111596s][吞吐率：8.96req/s] [内存消耗：2,207.88kb] [文件加载：47]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'SendCode',
+    2 => 'sendResetPasswordSMS',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '27',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'adminer_version=4.6.3',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '13244553517',
+)
+[ info ] [ RUN ] app\api\controller\SendCode->sendResetPasswordSMS[ /www/wwwroot/yangming/application/api/controller/Sendcode.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-17T11:22:42+08:00 ] 192.168.100.1 POST /api/SendCode/sendResetPasswordSMS
+[ info ] 192.168.100.200:8083/api/SendCode/sendResetPasswordSMS [运行时间：0.145196s][吞吐率：6.89req/s] [内存消耗：3,738.03kb] [文件加载：57]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'SendCode',
+    2 => 'sendResetPasswordSMS',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '27',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'adminer_version=4.6.3',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '13244553517',
+)
+[ info ] [ RUN ] app\api\controller\SendCode->sendResetPasswordSMS[ /www/wwwroot/yangming/application/api/controller/Sendcode.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000380s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.000887s ]
+[ sql ] [ SQL ] SELECT * FROM `lc_user` WHERE  `phone` = '13244553517' LIMIT 1 [ RunTime:0.001053s ]
+---------------------------------------------------------------
+[ 2018-07-17T11:22:43+08:00 ] 192.168.100.1 POST /api/SendCode/sendResetPasswordSMS
+[ info ] 192.168.100.200:8083/api/SendCode/sendResetPasswordSMS [运行时间：0.146864s][吞吐率：6.81req/s] [内存消耗：3,738.03kb] [文件加载：57]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'SendCode',
+    2 => 'sendResetPasswordSMS',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '27',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'adminer_version=4.6.3',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '13244553517',
+)
+[ info ] [ RUN ] app\api\controller\SendCode->sendResetPasswordSMS[ /www/wwwroot/yangming/application/api/controller/Sendcode.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001107s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.000572s ]
+[ sql ] [ SQL ] SELECT * FROM `lc_user` WHERE  `phone` = '13244553517' LIMIT 1 [ RunTime:0.000710s ]
+---------------------------------------------------------------
+[ 2018-07-17T11:23:19+08:00 ] 192.168.100.1 POST /api/SendCode/sendResetPasswordSMS
+[ info ] 192.168.100.200:8083/api/SendCode/sendResetPasswordSMS [运行时间：0.142520s][吞吐率：7.02req/s] [内存消耗：3,738.23kb] [文件加载：57]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'SendCode',
+    2 => 'sendResetPasswordSMS',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '27',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'adminer_version=4.6.3',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '13244553517',
+)
+[ info ] [ RUN ] app\api\controller\SendCode->sendResetPasswordSMS[ /www/wwwroot/yangming/application/api/controller/Sendcode.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000352s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.001167s ]
+[ sql ] [ SQL ] SELECT * FROM `lc_user` WHERE  `phone` = '13244553517' LIMIT 1 [ RunTime:0.000306s ]
+---------------------------------------------------------------
+[ 2018-07-17T11:24:00+08:00 ] 192.168.100.1 POST /api/SendCode/sendResetPasswordSMS
+[ info ] 192.168.100.200:8083/api/SendCode/sendResetPasswordSMS [运行时间：0.142053s][吞吐率：7.04req/s] [内存消耗：3,737.88kb] [文件加载：57]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'SendCode',
+    2 => 'sendResetPasswordSMS',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '27',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'adminer_version=4.6.3',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '13244553517',
+)
+[ info ] [ RUN ] app\api\controller\SendCode->sendResetPasswordSMS[ /www/wwwroot/yangming/application/api/controller/Sendcode.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000361s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.001728s ]
+[ sql ] [ SQL ] SELECT * FROM `lc_user` WHERE  `phone` = '13244553517' LIMIT 1 [ RunTime:0.000301s ]
+---------------------------------------------------------------
+[ 2018-07-17T11:24:00+08:00 ] 192.168.100.1 POST /api/SendCode/sendResetPasswordSMS
+[ info ] 192.168.100.200:8083/api/SendCode/sendResetPasswordSMS [运行时间：0.137930s][吞吐率：7.25req/s] [内存消耗：3,737.88kb] [文件加载：57]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'SendCode',
+    2 => 'sendResetPasswordSMS',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '27',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'adminer_version=4.6.3',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '13244553517',
+)
+[ info ] [ RUN ] app\api\controller\SendCode->sendResetPasswordSMS[ /www/wwwroot/yangming/application/api/controller/Sendcode.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000394s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.000924s ]
+[ sql ] [ SQL ] SELECT * FROM `lc_user` WHERE  `phone` = '13244553517' LIMIT 1 [ RunTime:0.000647s ]
+---------------------------------------------------------------
+[ 2018-07-17T11:24:14+08:00 ] 192.168.100.1 POST /api/SendCode/sendResetPasswordSMS
+[ info ] 192.168.100.200:8083/api/SendCode/sendResetPasswordSMS [运行时间：0.116851s][吞吐率：8.56req/s] [内存消耗：3,737.88kb] [文件加载：57]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'SendCode',
+    2 => 'sendResetPasswordSMS',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '27',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'adminer_version=4.6.3',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '13244553517',
+)
+[ info ] [ RUN ] app\api\controller\SendCode->sendResetPasswordSMS[ /www/wwwroot/yangming/application/api/controller/Sendcode.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000336s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.001064s ]
+[ sql ] [ SQL ] SELECT * FROM `lc_user` WHERE  `phone` = '13244553517' LIMIT 1 [ RunTime:0.000368s ]
+---------------------------------------------------------------
+[ 2018-07-17T11:24:48+08:00 ] 192.168.100.1 POST /api/SendCode/sendResetPasswordSMS
+[ info ] 192.168.100.200:8083/api/SendCode/sendResetPasswordSMS [运行时间：0.137759s][吞吐率：7.26req/s] [内存消耗：3,737.91kb] [文件加载：57]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'SendCode',
+    2 => 'sendResetPasswordSMS',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '27',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'adminer_version=4.6.3',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '13244553517',
+)
+[ info ] [ RUN ] app\api\controller\SendCode->sendResetPasswordSMS[ /www/wwwroot/yangming/application/api/controller/Sendcode.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000285s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.000970s ]
+[ sql ] [ SQL ] SELECT * FROM `lc_user` WHERE  `phone` = '13244553517' LIMIT 1 [ RunTime:0.000358s ]
+---------------------------------------------------------------
+[ 2018-07-17T11:24:49+08:00 ] 192.168.100.1 POST /api/SendCode/sendResetPasswordSMS
+[ info ] 192.168.100.200:8083/api/SendCode/sendResetPasswordSMS [运行时间：0.124828s][吞吐率：8.01req/s] [内存消耗：3,737.91kb] [文件加载：57]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'SendCode',
+    2 => 'sendResetPasswordSMS',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '27',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'adminer_version=4.6.3',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '13244553517',
+)
+[ info ] [ RUN ] app\api\controller\SendCode->sendResetPasswordSMS[ /www/wwwroot/yangming/application/api/controller/Sendcode.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000405s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.001703s ]
+[ sql ] [ SQL ] SELECT * FROM `lc_user` WHERE  `phone` = '13244553517' LIMIT 1 [ RunTime:0.000298s ]
+---------------------------------------------------------------
+[ 2018-07-17T12:18:38+08:00 ] 192.168.100.1 POST /api/Task/sendTask
+[ info ] 192.168.100.200:8083/api/Task/sendTask [运行时间：0.104947s][吞吐率：9.53req/s] [内存消耗：2,215.58kb] [文件加载：47]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Task',
+    2 => 'sendTask',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '179',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'adminer_version=4.6.3',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '',
+  'span' => '',
+  'line' => '',
+  'sound_barrier' => '',
+  'sequence_number' => '',
+  'catenary' => '',
+  'anchor' => '',
+  'cable' => '',
+  'centralized_drainage' => '',
+  'mould' => '',
+)
+[ info ] [ RUN ] app\api\controller\Task->sendTask[ /www/wwwroot/yangming/application/api/controller/Task.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-17T13:16:44+08:00 ] 192.168.100.1 POST /api/Task/sendTask
+[ info ] 192.168.100.200:8083/api/Task/sendTask [运行时间：0.110803s][吞吐率：9.03req/s] [内存消耗：2,200.48kb] [文件加载：47]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Task',
+    2 => 'sendTask',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '179',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'adminer_version=4.6.3',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '',
+  'span' => '',
+  'line' => '',
+  'sound_barrier' => '',
+  'sequence_number' => '',
+  'catenary' => '',
+  'anchor' => '',
+  'cable' => '',
+  'centralized_drainage' => '',
+  'mould' => '',
+)
+[ info ] [ RUN ] app\api\controller\Task->sendTask[ /www/wwwroot/yangming/application/api/controller/Task.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-17T13:40:17+08:00 ] 192.168.100.1 POST /api/Task/affirmTask
+[ info ] 192.168.100.200:8083/api/Task/affirmTask [运行时间：0.145520s][吞吐率：6.87req/s] [内存消耗：3,654.34kb] [文件加载：57]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Task',
+    2 => 'affirmTask',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '27',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'adminer_version=4.6.3',
+)
+[ info ] [ PARAM ] array (
+  'technologist_id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Task->affirmTask[ /www/wwwroot/yangming/application/api/controller/Task.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-17T13:41:01+08:00 ] 192.168.100.1 POST /api/Task/affirmTask
+[ info ] 192.168.100.200:8083/api/Task/affirmTask [运行时间：0.142514s][吞吐率：7.02req/s] [内存消耗：3,730.12kb] [文件加载：57]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Task',
+    2 => 'affirmTask',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '29',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'adminer_version=4.6.3',
+)
+[ info ] [ PARAM ] array (
+  'technologist_id' => '111',
+)
+[ info ] [ RUN ] app\api\controller\Task->affirmTask[ /www/wwwroot/yangming/application/api/controller/Task.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000379s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.000846s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `id` = 111 LIMIT 1 [ RunTime:0.004538s ]
+---------------------------------------------------------------
+[ 2018-07-17T13:46:38+08:00 ] 192.168.100.1 POST /api/Task/affirmTask
+[ info ] 192.168.100.200:8083/api/Task/affirmTask [运行时间：0.118646s][吞吐率：8.43req/s] [内存消耗：2,204.81kb] [文件加载：47]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Task',
+    2 => 'affirmTask',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '18',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'adminer_version=4.6.3',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '',
+)
+[ info ] [ RUN ] app\api\controller\Task->affirmTask[ /www/wwwroot/yangming/application/api/controller/Task.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-17T13:46:53+08:00 ] 192.168.100.1 POST /api/Task/affirmTask
+[ info ] 192.168.100.200:8083/api/Task/affirmTask [运行时间：0.142011s][吞吐率：7.04req/s] [内存消耗：3,730.38kb] [文件加载：57]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Task',
+    2 => 'affirmTask',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '20',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'adminer_version=4.6.3',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '33',
+)
+[ info ] [ RUN ] app\api\controller\Task->affirmTask[ /www/wwwroot/yangming/application/api/controller/Task.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000362s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.000908s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `id` = 33 LIMIT 1 [ RunTime:0.001066s ]
+---------------------------------------------------------------
+[ 2018-07-17T14:02:25+08:00 ] 192.168.100.1 POST /api/Task/affirmTask
+[ info ] 192.168.100.200:8083/api/Task/affirmTask [运行时间：0.108372s][吞吐率：9.23req/s] [内存消耗：2,205.48kb] [文件加载：47]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Task',
+    2 => 'affirmTask',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '34',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'adminer_version=4.6.3',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '',
+  'task_id' => '',
+)
+[ info ] [ RUN ] app\api\controller\Task->affirmTask[ /www/wwwroot/yangming/application/api/controller/Task.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-17T14:02:29+08:00 ] 192.168.100.1 POST /api/Task/affirmTask
+[ info ] 192.168.100.200:8083/api/Task/affirmTask [运行时间：0.136148s][吞吐率：7.34req/s] [内存消耗：3,731.14kb] [文件加载：57]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Task',
+    2 => 'affirmTask',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '35',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'adminer_version=4.6.3',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '1',
+  'task_id' => '',
+)
+[ info ] [ RUN ] app\api\controller\Task->affirmTask[ /www/wwwroot/yangming/application/api/controller/Task.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000374s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.000936s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000839s ]
+---------------------------------------------------------------
+[ 2018-07-17T14:02:34+08:00 ] 192.168.100.1 POST /api/Task/affirmTask
+[ info ] 192.168.100.200:8083/api/Task/affirmTask [运行时间：0.278377s][吞吐率：3.59req/s] [内存消耗：3,808.42kb] [文件加载：59]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Task',
+    2 => 'affirmTask',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '36',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'adminer_version=4.6.3',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '1',
+  'task_id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Task->affirmTask[ /www/wwwroot/yangming/application/api/controller/Task.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000340s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.000813s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000282s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_task` [ RunTime:0.113621s ]
+---------------------------------------------------------------
+[ 2018-07-17T14:03:50+08:00 ] 192.168.100.1 POST /api/Task/affirmTask
+[ info ] 192.168.100.200:8083/api/Task/affirmTask [运行时间：0.144383s][吞吐率：6.93req/s] [内存消耗：3,730.80kb] [文件加载：57]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Task',
+    2 => 'affirmTask',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '36',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'adminer_version=4.6.3',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '1',
+  'task_id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Task->affirmTask[ /www/wwwroot/yangming/application/api/controller/Task.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000416s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.001835s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000335s ]
+---------------------------------------------------------------
+[ 2018-07-17T14:04:32+08:00 ] 192.168.100.1 POST /api/Task/affirmTask
+[ info ] 192.168.100.200:8083/api/Task/affirmTask [运行时间：0.144890s][吞吐率：6.90req/s] [内存消耗：3,808.42kb] [文件加载：59]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Task',
+    2 => 'affirmTask',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '36',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'adminer_version=4.6.3',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '1',
+  'task_id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Task->affirmTask[ /www/wwwroot/yangming/application/api/controller/Task.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000399s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.001547s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_task` [ RunTime:0.000922s ]
+---------------------------------------------------------------
+[ 2018-07-17T14:07:45+08:00 ] 192.168.100.1 POST /api/Task/affirmTask
+[ info ] 192.168.100.200:8083/api/Task/affirmTask [运行时间：0.202381s][吞吐率：4.94req/s] [内存消耗：3,905.38kb] [文件加载：61]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Task',
+    2 => 'affirmTask',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '36',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'adminer_version=4.6.3',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '1',
+  'task_id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Task->affirmTask[ /www/wwwroot/yangming/application/api/controller/Task.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000396s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.001079s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000332s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_task` [ RunTime:0.000898s ]
+[ sql ] [ SQL ] UPDATE `lc_task`  SET `technologist_affirm`=1  WHERE  `id` = 1 [ RunTime:0.029679s ]
+---------------------------------------------------------------
+[ 2018-07-17T14:08:29+08:00 ] 192.168.100.1 POST /api/Task/affirmTask
+[ info ] 192.168.100.200:8083/api/Task/affirmTask [运行时间：0.145463s][吞吐率：6.87req/s] [内存消耗：3,905.38kb] [文件加载：61]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Task',
+    2 => 'affirmTask',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '36',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'adminer_version=4.6.3',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '1',
+  'task_id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Task->affirmTask[ /www/wwwroot/yangming/application/api/controller/Task.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000410s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.000857s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000217s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_task` [ RunTime:0.001639s ]
+[ sql ] [ SQL ] UPDATE `lc_task`  SET `technologist_affirm`=1  WHERE  `id` = 1 [ RunTime:0.000421s ]
+---------------------------------------------------------------
+[ 2018-07-17T14:08:30+08:00 ] 192.168.100.1 POST /api/Task/affirmTask
+[ info ] 192.168.100.200:8083/api/Task/affirmTask [运行时间：0.154116s][吞吐率：6.49req/s] [内存消耗：3,905.38kb] [文件加载：61]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Task',
+    2 => 'affirmTask',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '36',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'adminer_version=4.6.3',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '1',
+  'task_id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Task->affirmTask[ /www/wwwroot/yangming/application/api/controller/Task.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000388s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.001556s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000179s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_task` [ RunTime:0.000922s ]
+[ sql ] [ SQL ] UPDATE `lc_task`  SET `technologist_affirm`=1  WHERE  `id` = 1 [ RunTime:0.000475s ]
+---------------------------------------------------------------
+[ 2018-07-17T14:08:34+08:00 ] 192.168.100.1 POST /api/Task/affirmTask
+[ info ] 192.168.100.200:8083/api/Task/affirmTask [运行时间：0.156839s][吞吐率：6.38req/s] [内存消耗：3,905.38kb] [文件加载：61]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Task',
+    2 => 'affirmTask',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '36',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'adminer_version=4.6.3',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '1',
+  'task_id' => '2',
+)
+[ info ] [ RUN ] app\api\controller\Task->affirmTask[ /www/wwwroot/yangming/application/api/controller/Task.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000404s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.001033s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000296s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_task` [ RunTime:0.001554s ]
+[ sql ] [ SQL ] UPDATE `lc_task`  SET `technologist_affirm`=1  WHERE  `id` = 2 [ RunTime:0.000394s ]
+---------------------------------------------------------------
+[ 2018-07-17T14:16:25+08:00 ] 192.168.100.1 POST /api/Task/affirmTask
+[ info ] 192.168.100.200:8083/api/Task/affirmTask [运行时间：0.102170s][吞吐率：9.79req/s] [内存消耗：2,170.74kb] [文件加载：46]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Task',
+    2 => 'affirmTask',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '36',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'adminer_version=4.6.3',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '1',
+  'task_id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Task->affirmTask[ /www/wwwroot/yangming/application/api/controller/Task.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-17T14:18:35+08:00 ] 192.168.100.1 POST /api/Task/affirmTask
+[ info ] 192.168.100.200:8083/api/Task/affirmTask [运行时间：0.166397s][吞吐率：6.01req/s] [内存消耗：3,905.48kb] [文件加载：61]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Task',
+    2 => 'affirmTask',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '36',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'adminer_version=4.6.3',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '1',
+  'task_id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Task->affirmTask[ /www/wwwroot/yangming/application/api/controller/Task.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000359s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.001016s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000305s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_task` [ RunTime:0.001183s ]
+[ sql ] [ SQL ] UPDATE `lc_task`  SET `technologist_affirm`=1  WHERE  `id` = 1 [ RunTime:0.001050s ]
+---------------------------------------------------------------
+[ 2018-07-17T14:19:43+08:00 ] 192.168.100.1 POST /api/Task/affirmTask
+[ info ] 192.168.100.200:8083/api/Task/affirmTask [运行时间：0.152069s][吞吐率：6.58req/s] [内存消耗：3,785.46kb] [文件加载：57]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Task',
+    2 => 'affirmTask',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '36',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'adminer_version=4.6.3',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '1',
+  'task_id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\Task->affirmTask[ /www/wwwroot/yangming/application/api/controller/Task.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001187s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.000993s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000277s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_task` [ RunTime:0.000822s ]
+[ sql ] [ SQL ] SELECT * FROM `lc_task` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000266s ]
+---------------------------------------------------------------
+[ 2018-07-17T17:43:40+08:00 ] 192.168.100.1 POST /api/make_beam/addMakeBeam
+[ info ] 192.168.100.200:8083/api/make_beam/addMakeBeam [运行时间：0.154284s][吞吐率：6.48req/s] [内存消耗：3,811.77kb] [文件加载：59]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'make_beam',
+    2 => 'addMakeBeam',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '1908',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryZJaV6VlBByAZJRAk',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'adminer_version=4.6.3',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '1',
+  'task_id' => '1',
+  'title' => '哈西大桥',
+  'cross_hole' => '7#-8#',
+  'bridge_number' => 'YM52-498',
+  'bridge_model' => '跨度很大的无声屏障桥',
+  'design_number' => '通桥589',
+  'contact_pillar' => '无',
+  'anchor_prop' => '无',
+  'sound_barrier' => '无',
+  'settlement_marker' => '无',
+  'bearing_type' => 'PZ-5000',
+  'centralized_drainage' => '无',
+  'cable_bridge' => '无',
+  'strap_pattern' => '1*',
+  'bearing_fixed' => '无',
+)
+[ info ] [ RUN ] app\api\controller\MakeBeam->addMakeBeam[ /www/wwwroot/yangming/application/api/controller/MakeBeam.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000274s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.001487s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000253s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_task` [ RunTime:0.000633s ]

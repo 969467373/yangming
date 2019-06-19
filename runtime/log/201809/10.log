@@ -1,0 +1,33 @@
+---------------------------------------------------------------
+[ 2018-09-10T14:23:47+08:00 ] 192.168.100.1 POST /api/Pedestal/getPedestalList
+[ info ] 192.168.100.200:8083/api/Pedestal/getPedestalList [运行时间：0.461665s][吞吐率：2.17req/s] [内存消耗：3,756.59kb] [文件加载：60]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Pedestal',
+    2 => 'getPedestalList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '228',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarymy5bXQbFa9YIeNRb',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=1dctskas5nbe9e605fm807hqu0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Pedestal->getPedestalList[ /www/wwwroot/yangming/application/api/controller/Pedestal.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.056202s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8

@@ -1,0 +1,40 @@
+---------------------------------------------------------------
+[ 2018-08-01T09:07:39+08:00 ] 192.168.100.1 POST /api/Technologist/checkStrap
+[ info ] 192.168.100.200:8083/api/Technologist/checkStrap [运行时间：0.610064s][吞吐率：1.64req/s] [内存消耗：3,968.73kb] [文件加载：60]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Technologist',
+    2 => 'checkStrap',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '732',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary3TKnMMEVxe6p1TWn',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '1',
+  'task_id' => '1',
+  'process_id' => '4',
+  'type' => '2',
+  'reason' => '预埋件安装不合格,重来',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Technologist->checkStrap[ /www/wwwroot/yangming/application/api/controller/Technologist.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.072957s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.056773s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.017704s ]
+[ sql ] [ SQL ] SELECT `department_id` FROM `lc_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000671s ]

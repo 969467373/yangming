@@ -1,0 +1,2900 @@
+---------------------------------------------------------------
+[ 2018-08-02T09:45:45+08:00 ] 192.168.100.1 POST /api/task_process/getTaskProgress
+[ info ] 192.168.100.200:8083/api/task_process/getTaskProgress [运行时间：0.652954s][吞吐率：1.53req/s] [内存消耗：3,895.80kb] [文件加载：62]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'task_process',
+    2 => 'getTaskProgress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '418',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryezYlLEHJSadF8Rie',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '1',
+  'task_id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\TaskProcess->getTaskProgress[ /www/wwwroot/yangming/application/api/controller/TaskProcess.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.076048s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.172102s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.047657s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_task_flow` [ RunTime:0.017615s ]
+---------------------------------------------------------------
+[ 2018-08-02T09:46:35+08:00 ] 192.168.100.1 POST /api/task_process/getTaskProgress
+[ info ] 192.168.100.200:8083/api/task_process/getTaskProgress [运行时间：0.150761s][吞吐率：6.63req/s] [内存消耗：3,889.41kb] [文件加载：62]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'task_process',
+    2 => 'getTaskProgress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '418',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarylXSeqCJkG3zBpdjf',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '1',
+  'task_id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\TaskProcess->getTaskProgress[ /www/wwwroot/yangming/application/api/controller/TaskProcess.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000477s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.000929s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000265s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_task_flow` [ RunTime:0.001438s ]
+---------------------------------------------------------------
+[ 2018-08-02T09:46:35+08:00 ] 192.168.100.1 POST /api/task_process/getTaskProgress
+[ info ] 192.168.100.200:8083/api/task_process/getTaskProgress [运行时间：0.155986s][吞吐率：6.41req/s] [内存消耗：3,889.41kb] [文件加载：62]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'task_process',
+    2 => 'getTaskProgress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '418',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary8r8gFphsgD0A2BGi',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '1',
+  'task_id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\TaskProcess->getTaskProgress[ /www/wwwroot/yangming/application/api/controller/TaskProcess.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000494s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.000969s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000289s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_task_flow` [ RunTime:0.001469s ]
+---------------------------------------------------------------
+[ 2018-08-02T09:46:36+08:00 ] 192.168.100.1 POST /api/task_process/getTaskProgress
+[ info ] 192.168.100.200:8083/api/task_process/getTaskProgress [运行时间：0.148318s][吞吐率：6.74req/s] [内存消耗：3,889.41kb] [文件加载：62]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'task_process',
+    2 => 'getTaskProgress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '418',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary3by03BBdp7ugaUKu',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '1',
+  'task_id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\TaskProcess->getTaskProgress[ /www/wwwroot/yangming/application/api/controller/TaskProcess.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000471s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.001064s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000284s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_task_flow` [ RunTime:0.001272s ]
+---------------------------------------------------------------
+[ 2018-08-02T09:46:36+08:00 ] 192.168.100.1 POST /api/task_process/getTaskProgress
+[ info ] 192.168.100.200:8083/api/task_process/getTaskProgress [运行时间：0.142134s][吞吐率：7.04req/s] [内存消耗：3,889.41kb] [文件加载：62]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'task_process',
+    2 => 'getTaskProgress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '418',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryf4t5dhaBUAEFGsjx',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '1',
+  'task_id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\TaskProcess->getTaskProgress[ /www/wwwroot/yangming/application/api/controller/TaskProcess.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000447s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.000721s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000261s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_task_flow` [ RunTime:0.001310s ]
+---------------------------------------------------------------
+[ 2018-08-02T09:46:36+08:00 ] 192.168.100.1 POST /api/task_process/getTaskProgress
+[ info ] 192.168.100.200:8083/api/task_process/getTaskProgress [运行时间：0.142545s][吞吐率：7.02req/s] [内存消耗：3,889.41kb] [文件加载：62]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'task_process',
+    2 => 'getTaskProgress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '418',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryay97mAEVnkRAkIV5',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '1',
+  'task_id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\TaskProcess->getTaskProgress[ /www/wwwroot/yangming/application/api/controller/TaskProcess.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000335s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.000882s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000650s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_task_flow` [ RunTime:0.000774s ]
+---------------------------------------------------------------
+[ 2018-08-02T09:46:36+08:00 ] 192.168.100.1 POST /api/task_process/getTaskProgress
+[ info ] 192.168.100.200:8083/api/task_process/getTaskProgress [运行时间：0.112938s][吞吐率：8.85req/s] [内存消耗：3,889.36kb] [文件加载：62]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'task_process',
+    2 => 'getTaskProgress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '418',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryuXYRXeAZJUfsk0Ps',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '1',
+  'task_id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\TaskProcess->getTaskProgress[ /www/wwwroot/yangming/application/api/controller/TaskProcess.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000337s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.000889s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000303s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_task_flow` [ RunTime:0.001118s ]
+---------------------------------------------------------------
+[ 2018-08-02T09:46:36+08:00 ] 192.168.100.1 POST /api/task_process/getTaskProgress
+[ info ] 192.168.100.200:8083/api/task_process/getTaskProgress [运行时间：0.138208s][吞吐率：7.24req/s] [内存消耗：3,889.36kb] [文件加载：62]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'task_process',
+    2 => 'getTaskProgress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '418',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryZqPZ4FrH57Od8HPY',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '1',
+  'task_id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\TaskProcess->getTaskProgress[ /www/wwwroot/yangming/application/api/controller/TaskProcess.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001085s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.000940s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001053s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_task_flow` [ RunTime:0.000923s ]
+---------------------------------------------------------------
+[ 2018-08-02T09:47:24+08:00 ] 192.168.100.1 POST /api/task_process/getTaskProgress
+[ info ] 192.168.100.200:8083/api/task_process/getTaskProgress [运行时间：0.271032s][吞吐率：3.69req/s] [内存消耗：3,894.34kb] [文件加载：61]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'task_process',
+    2 => 'getTaskProgress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '418',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary1VAb4uKHu5ZmWnoc',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '1',
+  'task_id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\TaskProcess->getTaskProgress[ /www/wwwroot/yangming/application/api/controller/TaskProcess.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000358s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.000975s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000321s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_task_flow` [ RunTime:0.001375s ]
+[ sql ] [ SQL ] SELECT `f`.`task_id`,`f`.`technologist_id`,`f`.`rebar_id`,`f`.`beam_id`,`f`.`quality_id`,`f`.`lab_id`,`f`.`machine_id`,`f`.`process_id`,`f`.`status`,`f`.`create_time`,u.name as technologist_name FROM `lc_task_flow` `f` INNER JOIN `lc_user` `u` ON `u`.`id`=`f`.`technologist_id` WHERE  `task_id` = 1 LIMIT 1 [ RunTime:0.104287s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lc_user` WHERE  `id` IS NULL LIMIT 1 [ RunTime:0.003927s ]
+---------------------------------------------------------------
+[ 2018-08-02T09:47:51+08:00 ] 192.168.100.1 POST /api/task_process/getTaskProgress
+[ info ] 192.168.100.200:8083/api/task_process/getTaskProgress [运行时间：0.236784s][吞吐率：4.22req/s] [内存消耗：4,007.35kb] [文件加载：65]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'task_process',
+    2 => 'getTaskProgress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '418',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryZBAhJAxtVJDhB9mG',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '1',
+  'task_id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\TaskProcess->getTaskProgress[ /www/wwwroot/yangming/application/api/controller/TaskProcess.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000342s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.000927s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000293s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_task_flow` [ RunTime:0.001348s ]
+[ sql ] [ SQL ] SELECT `f`.`task_id`,`f`.`technologist_id`,`f`.`rebar_id`,`f`.`quality_id`,`f`.`lab_id`,`f`.`machine_id`,`f`.`process_id`,`f`.`status`,`f`.`create_time`,u.name as technologist_name FROM `lc_task_flow` `f` INNER JOIN `lc_user` `u` ON `u`.`id`=`f`.`technologist_id` WHERE  `task_id` = 1 LIMIT 1 [ RunTime:0.000346s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_task_process` [ RunTime:0.030506s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lc_task_process` `tp` INNER JOIN `lc_process` `p` ON `p`.`id`=`tp`.`process_id` WHERE  `task_id` = 1 LIMIT 1 [ RunTime:0.035589s ]
+---------------------------------------------------------------
+[ 2018-08-02T09:47:52+08:00 ] 192.168.100.1 POST /api/task_process/getTaskProgress
+[ info ] 192.168.100.200:8083/api/task_process/getTaskProgress [运行时间：0.133993s][吞吐率：7.46req/s] [内存消耗：4,007.35kb] [文件加载：65]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'task_process',
+    2 => 'getTaskProgress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '418',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryzv3yA3sSX9VqVqem',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '1',
+  'task_id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\TaskProcess->getTaskProgress[ /www/wwwroot/yangming/application/api/controller/TaskProcess.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000391s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.000965s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000257s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_task_flow` [ RunTime:0.000672s ]
+[ sql ] [ SQL ] SELECT `f`.`task_id`,`f`.`technologist_id`,`f`.`rebar_id`,`f`.`quality_id`,`f`.`lab_id`,`f`.`machine_id`,`f`.`process_id`,`f`.`status`,`f`.`create_time`,u.name as technologist_name FROM `lc_task_flow` `f` INNER JOIN `lc_user` `u` ON `u`.`id`=`f`.`technologist_id` WHERE  `task_id` = 1 LIMIT 1 [ RunTime:0.000701s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_task_process` [ RunTime:0.001023s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lc_task_process` `tp` INNER JOIN `lc_process` `p` ON `p`.`id`=`tp`.`process_id` WHERE  `task_id` = 1 LIMIT 1 [ RunTime:0.000306s ]
+---------------------------------------------------------------
+[ 2018-08-02T09:48:40+08:00 ] 192.168.100.1 POST /api/task_process/getTaskProgress
+[ info ] 192.168.100.200:8083/api/task_process/getTaskProgress [运行时间：0.156624s][吞吐率：6.38req/s] [内存消耗：3,895.11kb] [文件加载：62]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'task_process',
+    2 => 'getTaskProgress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '418',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryWwxO9ADz86tPE72J',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '1',
+  'task_id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\TaskProcess->getTaskProgress[ /www/wwwroot/yangming/application/api/controller/TaskProcess.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000362s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.001338s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000105s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_task_flow` [ RunTime:0.001498s ]
+---------------------------------------------------------------
+[ 2018-08-02T09:48:42+08:00 ] 192.168.100.1 POST /api/task_process/getTaskProgress
+[ info ] 192.168.100.200:8083/api/task_process/getTaskProgress [运行时间：0.152902s][吞吐率：6.54req/s] [内存消耗：3,895.11kb] [文件加载：62]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'task_process',
+    2 => 'getTaskProgress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '418',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryRidCUvxjkCWmDoeO',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '1',
+  'task_id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\TaskProcess->getTaskProgress[ /www/wwwroot/yangming/application/api/controller/TaskProcess.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000340s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.000962s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000318s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_task_flow` [ RunTime:0.000629s ]
+---------------------------------------------------------------
+[ 2018-08-02T09:49:36+08:00 ] 192.168.100.1 POST /api/task_process/getTaskProgress
+[ info ] 192.168.100.200:8083/api/task_process/getTaskProgress [运行时间：0.148964s][吞吐率：6.71req/s] [内存消耗：3,893.87kb] [文件加载：61]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'task_process',
+    2 => 'getTaskProgress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '418',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary0fiSUTOnsGtAMYWm',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '1',
+  'task_id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\TaskProcess->getTaskProgress[ /www/wwwroot/yangming/application/api/controller/TaskProcess.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000345s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.000994s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000300s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_task_flow` [ RunTime:0.000743s ]
+[ sql ] [ SQL ] SELECT * FROM `lc_task_flow` `f` INNER JOIN `lc_user` `u` ON `u`.`id`=`f`.`technologist_id` WHERE  `task_id` = 1 LIMIT 1 [ RunTime:0.000561s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lc_user` WHERE  `id` IS NULL LIMIT 1 [ RunTime:0.000183s ]
+---------------------------------------------------------------
+[ 2018-08-02T09:50:03+08:00 ] 192.168.100.1 POST /api/task_process/getTaskProgress
+[ info ] 192.168.100.200:8083/api/task_process/getTaskProgress [运行时间：0.137625s][吞吐率：7.27req/s] [内存消耗：3,879.49kb] [文件加载：59]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'task_process',
+    2 => 'getTaskProgress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '418',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryvmyCduoYcFRHN68Y',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '1',
+  'task_id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\TaskProcess->getTaskProgress[ /www/wwwroot/yangming/application/api/controller/TaskProcess.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000380s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.001041s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000287s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_task_flow` [ RunTime:0.001544s ]
+[ sql ] [ SQL ] SELECT * FROM `lc_task_flow` `f` INNER JOIN `lc_user` `u` ON `u`.`id`=`f`.`technologist_id` WHERE  `task_id` = 1 LIMIT 1 [ RunTime:0.000231s ]
+---------------------------------------------------------------
+[ 2018-08-02T09:53:41+08:00 ] 192.168.100.1 POST /api/task_process/getTaskProgress
+[ info ] 192.168.100.200:8083/api/task_process/getTaskProgress [运行时间：0.155826s][吞吐率：6.42req/s] [内存消耗：3,879.44kb] [文件加载：59]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'task_process',
+    2 => 'getTaskProgress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '418',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryXFssjfb9zw8DtpKh',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '1',
+  'task_id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\TaskProcess->getTaskProgress[ /www/wwwroot/yangming/application/api/controller/TaskProcess.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000401s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.001479s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000216s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_task_flow` [ RunTime:0.001388s ]
+[ sql ] [ SQL ] SELECT * FROM `lc_task_flow` `f` LEFT JOIN `lc_user` `u` ON `u`.`id`=`f`.`technologist_id` WHERE  `task_id` = 1 LIMIT 1 [ RunTime:0.015254s ]
+---------------------------------------------------------------
+[ 2018-08-02T09:53:42+08:00 ] 192.168.100.1 POST /api/task_process/getTaskProgress
+[ info ] 192.168.100.200:8083/api/task_process/getTaskProgress [运行时间：0.148240s][吞吐率：6.75req/s] [内存消耗：3,879.44kb] [文件加载：59]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'task_process',
+    2 => 'getTaskProgress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '418',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarybKgdbSu5LEkMBeKn',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '1',
+  'task_id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\TaskProcess->getTaskProgress[ /www/wwwroot/yangming/application/api/controller/TaskProcess.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000389s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.000960s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001163s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_task_flow` [ RunTime:0.000851s ]
+[ sql ] [ SQL ] SELECT * FROM `lc_task_flow` `f` LEFT JOIN `lc_user` `u` ON `u`.`id`=`f`.`technologist_id` WHERE  `task_id` = 1 LIMIT 1 [ RunTime:0.000358s ]
+---------------------------------------------------------------
+[ 2018-08-02T09:53:54+08:00 ] 192.168.100.1 POST /api/task_process/getTaskProgress
+[ info ] 192.168.100.200:8083/api/task_process/getTaskProgress [运行时间：0.164794s][吞吐率：6.07req/s] [内存消耗：3,879.44kb] [文件加载：59]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'task_process',
+    2 => 'getTaskProgress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '418',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary3RnhvUi1Sp0UjNfG',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '1',
+  'task_id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\TaskProcess->getTaskProgress[ /www/wwwroot/yangming/application/api/controller/TaskProcess.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000964s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.001150s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000294s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_task_flow` [ RunTime:0.000624s ]
+[ sql ] [ SQL ] SELECT * FROM `lc_task_flow` `f` LEFT JOIN `lc_user` `u` ON `u`.`id`=`f`.`technologist_id` WHERE  `task_id` = 1 LIMIT 1 [ RunTime:0.001076s ]
+---------------------------------------------------------------
+[ 2018-08-02T09:53:54+08:00 ] 192.168.100.1 POST /api/task_process/getTaskProgress
+[ info ] 192.168.100.200:8083/api/task_process/getTaskProgress [运行时间：0.145392s][吞吐率：6.88req/s] [内存消耗：3,879.44kb] [文件加载：59]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'task_process',
+    2 => 'getTaskProgress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '418',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryNIjxdxB4zk5blEgU',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '1',
+  'task_id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\TaskProcess->getTaskProgress[ /www/wwwroot/yangming/application/api/controller/TaskProcess.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000343s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.000946s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000276s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_task_flow` [ RunTime:0.000710s ]
+[ sql ] [ SQL ] SELECT * FROM `lc_task_flow` `f` LEFT JOIN `lc_user` `u` ON `u`.`id`=`f`.`technologist_id` WHERE  `task_id` = 1 LIMIT 1 [ RunTime:0.000277s ]
+---------------------------------------------------------------
+[ 2018-08-02T09:56:00+08:00 ] 192.168.100.1 POST /api/task_process/getTaskProgress
+[ info ] 192.168.100.200:8083/api/task_process/getTaskProgress [运行时间：0.190330s][吞吐率：5.25req/s] [内存消耗：3,895.04kb] [文件加载：62]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'task_process',
+    2 => 'getTaskProgress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '418',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryHSAfRjMOQcnZXKyh',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '1',
+  'task_id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\TaskProcess->getTaskProgress[ /www/wwwroot/yangming/application/api/controller/TaskProcess.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000381s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.001010s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000642s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_task_flow` [ RunTime:0.000578s ]
+---------------------------------------------------------------
+[ 2018-08-02T09:59:46+08:00 ] 192.168.100.1 POST /api/task_process/getTaskProgress
+[ info ] 192.168.100.200:8083/api/task_process/getTaskProgress [运行时间：0.149598s][吞吐率：6.68req/s] [内存消耗：3,889.07kb] [文件加载：62]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'task_process',
+    2 => 'getTaskProgress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '418',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarynA5NkYcePk5JznL3',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '1',
+  'task_id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\TaskProcess->getTaskProgress[ /www/wwwroot/yangming/application/api/controller/TaskProcess.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000330s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.000912s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000257s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_task_flow` [ RunTime:0.000742s ]
+---------------------------------------------------------------
+[ 2018-08-02T09:59:47+08:00 ] 192.168.100.1 POST /api/task_process/getTaskProgress
+[ info ] 192.168.100.200:8083/api/task_process/getTaskProgress [运行时间：0.162539s][吞吐率：6.15req/s] [内存消耗：3,889.07kb] [文件加载：62]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'task_process',
+    2 => 'getTaskProgress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '418',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryg63rtSlzTAh9c2hn',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '1',
+  'task_id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\TaskProcess->getTaskProgress[ /www/wwwroot/yangming/application/api/controller/TaskProcess.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000376s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.000999s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000291s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_task_flow` [ RunTime:0.000439s ]
+---------------------------------------------------------------
+[ 2018-08-02T09:59:47+08:00 ] 192.168.100.1 POST /api/task_process/getTaskProgress
+[ info ] 192.168.100.200:8083/api/task_process/getTaskProgress [运行时间：0.150761s][吞吐率：6.63req/s] [内存消耗：3,889.07kb] [文件加载：62]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'task_process',
+    2 => 'getTaskProgress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '421',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryHYfm04dh4Jpl8V8C',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '1',
+  'task_id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\TaskProcess->getTaskProgress[ /www/wwwroot/yangming/application/api/controller/TaskProcess.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000295s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.000871s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000655s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_task_flow` [ RunTime:0.000857s ]
+---------------------------------------------------------------
+[ 2018-08-02T09:59:48+08:00 ] 192.168.100.1 POST /api/task_process/getTaskProgress
+[ info ] 192.168.100.200:8083/api/task_process/getTaskProgress [运行时间：0.142557s][吞吐率：7.01req/s] [内存消耗：3,889.07kb] [文件加载：62]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'task_process',
+    2 => 'getTaskProgress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '418',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryeHBeXv6o7r8AAj4C',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '1',
+  'task_id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\TaskProcess->getTaskProgress[ /www/wwwroot/yangming/application/api/controller/TaskProcess.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000338s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.000924s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000277s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_task_flow` [ RunTime:0.001075s ]
+---------------------------------------------------------------
+[ 2018-08-02T09:59:48+08:00 ] 192.168.100.1 POST /api/task_process/getTaskProgress
+[ info ] 192.168.100.200:8083/api/task_process/getTaskProgress [运行时间：0.143337s][吞吐率：6.98req/s] [内存消耗：3,889.07kb] [文件加载：62]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'task_process',
+    2 => 'getTaskProgress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '418',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary0B8E816RzmlFwLlw',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '1',
+  'task_id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\TaskProcess->getTaskProgress[ /www/wwwroot/yangming/application/api/controller/TaskProcess.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000517s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.001002s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000342s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_task_flow` [ RunTime:0.000699s ]
+---------------------------------------------------------------
+[ 2018-08-02T09:59:48+08:00 ] 192.168.100.1 POST /api/task_process/getTaskProgress
+[ info ] 192.168.100.200:8083/api/task_process/getTaskProgress [运行时间：0.139875s][吞吐率：7.15req/s] [内存消耗：3,889.07kb] [文件加载：62]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'task_process',
+    2 => 'getTaskProgress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '418',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryINm2HAzvZabNMBQP',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '1',
+  'task_id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\TaskProcess->getTaskProgress[ /www/wwwroot/yangming/application/api/controller/TaskProcess.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000290s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.000993s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000674s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_task_flow` [ RunTime:0.000560s ]
+---------------------------------------------------------------
+[ 2018-08-02T10:00:34+08:00 ] 192.168.100.1 POST /api/task_process/getTaskProgress
+[ info ] 192.168.100.200:8083/api/task_process/getTaskProgress [运行时间：0.115292s][吞吐率：8.67req/s] [内存消耗：3,889.07kb] [文件加载：62]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'task_process',
+    2 => 'getTaskProgress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '418',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarycPtoAoD6pd5tt5Fm',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '1',
+  'task_id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\TaskProcess->getTaskProgress[ /www/wwwroot/yangming/application/api/controller/TaskProcess.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000341s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.000961s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000052s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_task_flow` [ RunTime:0.001437s ]
+---------------------------------------------------------------
+[ 2018-08-02T10:00:34+08:00 ] 192.168.100.1 POST /api/task_process/getTaskProgress
+[ info ] 192.168.100.200:8083/api/task_process/getTaskProgress [运行时间：0.116877s][吞吐率：8.56req/s] [内存消耗：3,889.07kb] [文件加载：62]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'task_process',
+    2 => 'getTaskProgress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '418',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary6yqKjWKvWJ0OJWu5',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '1',
+  'task_id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\TaskProcess->getTaskProgress[ /www/wwwroot/yangming/application/api/controller/TaskProcess.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000372s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.000986s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000091s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_task_flow` [ RunTime:0.001508s ]
+---------------------------------------------------------------
+[ 2018-08-02T10:00:35+08:00 ] 192.168.100.1 POST /api/task_process/getTaskProgress
+[ info ] 192.168.100.200:8083/api/task_process/getTaskProgress [运行时间：0.128750s][吞吐率：7.77req/s] [内存消耗：3,889.07kb] [文件加载：62]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'task_process',
+    2 => 'getTaskProgress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '418',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryaZrRksp91JTCWEDO',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '1',
+  'task_id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\TaskProcess->getTaskProgress[ /www/wwwroot/yangming/application/api/controller/TaskProcess.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000341s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.000923s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000262s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_task_flow` [ RunTime:0.001451s ]
+---------------------------------------------------------------
+[ 2018-08-02T10:00:35+08:00 ] 192.168.100.1 POST /api/task_process/getTaskProgress
+[ info ] 192.168.100.200:8083/api/task_process/getTaskProgress [运行时间：0.113676s][吞吐率：8.80req/s] [内存消耗：3,889.07kb] [文件加载：62]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'task_process',
+    2 => 'getTaskProgress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '418',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarysS3BySnccAA5oUoD',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '1',
+  'task_id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\TaskProcess->getTaskProgress[ /www/wwwroot/yangming/application/api/controller/TaskProcess.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000310s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.000867s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000118s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_task_flow` [ RunTime:0.001514s ]
+---------------------------------------------------------------
+[ 2018-08-02T10:00:35+08:00 ] 192.168.100.1 POST /api/task_process/getTaskProgress
+[ info ] 192.168.100.200:8083/api/task_process/getTaskProgress [运行时间：0.114707s][吞吐率：8.72req/s] [内存消耗：3,889.07kb] [文件加载：62]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'task_process',
+    2 => 'getTaskProgress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '418',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryuSG1AhWt4KGV9U81',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '1',
+  'task_id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\TaskProcess->getTaskProgress[ /www/wwwroot/yangming/application/api/controller/TaskProcess.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000388s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.000900s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000147s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_task_flow` [ RunTime:0.001529s ]
+---------------------------------------------------------------
+[ 2018-08-02T10:00:35+08:00 ] 192.168.100.1 POST /api/task_process/getTaskProgress
+[ info ] 192.168.100.200:8083/api/task_process/getTaskProgress [运行时间：0.132534s][吞吐率：7.55req/s] [内存消耗：3,889.07kb] [文件加载：62]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'task_process',
+    2 => 'getTaskProgress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '418',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryi8LyLLjylvlxbKuA',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '1',
+  'task_id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\TaskProcess->getTaskProgress[ /www/wwwroot/yangming/application/api/controller/TaskProcess.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000345s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.001714s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000318s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_task_flow` [ RunTime:0.000665s ]
+---------------------------------------------------------------
+[ 2018-08-02T10:00:35+08:00 ] 192.168.100.1 POST /api/task_process/getTaskProgress
+[ info ] 192.168.100.200:8083/api/task_process/getTaskProgress [运行时间：0.112681s][吞吐率：8.87req/s] [内存消耗：3,889.07kb] [文件加载：62]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'task_process',
+    2 => 'getTaskProgress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '418',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryXiBmnihn7S7bTbAP',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '1',
+  'task_id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\TaskProcess->getTaskProgress[ /www/wwwroot/yangming/application/api/controller/TaskProcess.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000270s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.000652s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001102s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_task_flow` [ RunTime:0.000787s ]
+---------------------------------------------------------------
+[ 2018-08-02T10:00:58+08:00 ] 192.168.100.1 POST /api/task_process/getTaskProgress
+[ info ] 192.168.100.200:8083/api/task_process/getTaskProgress [运行时间：0.120486s][吞吐率：8.30req/s] [内存消耗：3,889.32kb] [文件加载：62]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'task_process',
+    2 => 'getTaskProgress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '418',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryF6su7dZuLjT9rbDN',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '1',
+  'task_id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\TaskProcess->getTaskProgress[ /www/wwwroot/yangming/application/api/controller/TaskProcess.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000413s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.001036s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000311s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_task_flow` [ RunTime:0.000797s ]
+---------------------------------------------------------------
+[ 2018-08-02T10:00:59+08:00 ] 192.168.100.1 POST /api/task_process/getTaskProgress
+[ info ] 192.168.100.200:8083/api/task_process/getTaskProgress [运行时间：0.124708s][吞吐率：8.02req/s] [内存消耗：3,889.32kb] [文件加载：62]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'task_process',
+    2 => 'getTaskProgress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '418',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryQmBnzbeNtOXltuSu',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '1',
+  'task_id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\TaskProcess->getTaskProgress[ /www/wwwroot/yangming/application/api/controller/TaskProcess.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000358s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.000881s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000257s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_task_flow` [ RunTime:0.000574s ]
+---------------------------------------------------------------
+[ 2018-08-02T10:00:59+08:00 ] 192.168.100.1 POST /api/task_process/getTaskProgress
+[ info ] 192.168.100.200:8083/api/task_process/getTaskProgress [运行时间：0.165835s][吞吐率：6.03req/s] [内存消耗：3,889.32kb] [文件加载：62]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'task_process',
+    2 => 'getTaskProgress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '418',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryhX0R5O3dqfnDbCq3',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '1',
+  'task_id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\TaskProcess->getTaskProgress[ /www/wwwroot/yangming/application/api/controller/TaskProcess.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000296s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.000873s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000324s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_task_flow` [ RunTime:0.001395s ]
+---------------------------------------------------------------
+[ 2018-08-02T10:00:59+08:00 ] 192.168.100.1 POST /api/task_process/getTaskProgress
+[ info ] 192.168.100.200:8083/api/task_process/getTaskProgress [运行时间：0.143541s][吞吐率：6.97req/s] [内存消耗：3,889.32kb] [文件加载：62]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'task_process',
+    2 => 'getTaskProgress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '418',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryFQ8g88Bek8UU78Al',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '1',
+  'task_id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\TaskProcess->getTaskProgress[ /www/wwwroot/yangming/application/api/controller/TaskProcess.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000246s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.001133s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000419s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_task_flow` [ RunTime:0.000873s ]
+---------------------------------------------------------------
+[ 2018-08-02T10:00:59+08:00 ] 192.168.100.1 POST /api/task_process/getTaskProgress
+[ info ] 192.168.100.200:8083/api/task_process/getTaskProgress [运行时间：0.134836s][吞吐率：7.42req/s] [内存消耗：3,889.32kb] [文件加载：62]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'task_process',
+    2 => 'getTaskProgress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '418',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryttAAdtKkZL6bmI6n',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '1',
+  'task_id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\TaskProcess->getTaskProgress[ /www/wwwroot/yangming/application/api/controller/TaskProcess.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000315s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.000840s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000226s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_task_flow` [ RunTime:0.001548s ]
+---------------------------------------------------------------
+[ 2018-08-02T10:00:59+08:00 ] 192.168.100.1 POST /api/task_process/getTaskProgress
+[ info ] 192.168.100.200:8083/api/task_process/getTaskProgress [运行时间：0.112143s][吞吐率：8.92req/s] [内存消耗：3,889.32kb] [文件加载：62]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'task_process',
+    2 => 'getTaskProgress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '418',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarydAmVvWEoezYePq5t',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '1',
+  'task_id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\TaskProcess->getTaskProgress[ /www/wwwroot/yangming/application/api/controller/TaskProcess.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000313s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.000858s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000360s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_task_flow` [ RunTime:0.001221s ]
+---------------------------------------------------------------
+[ 2018-08-02T10:01:10+08:00 ] 192.168.100.1 POST /api/task_process/getTaskProgress
+[ info ] 192.168.100.200:8083/api/task_process/getTaskProgress [运行时间：0.122059s][吞吐率：8.19req/s] [内存消耗：3,889.13kb] [文件加载：62]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'task_process',
+    2 => 'getTaskProgress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '418',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryoHu6dN6d8w2xsAPx',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '1',
+  'task_id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\TaskProcess->getTaskProgress[ /www/wwwroot/yangming/application/api/controller/TaskProcess.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000478s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.001007s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000279s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_task_flow` [ RunTime:0.000762s ]
+---------------------------------------------------------------
+[ 2018-08-02T10:01:21+08:00 ] 192.168.100.1 POST /api/task_process/getTaskProgress
+[ info ] 192.168.100.200:8083/api/task_process/getTaskProgress [运行时间：0.124474s][吞吐率：8.03req/s] [内存消耗：3,875.56kb] [文件加载：59]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'task_process',
+    2 => 'getTaskProgress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '418',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryrcPN2S0rOyKL1mmp',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '1',
+  'task_id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\TaskProcess->getTaskProgress[ /www/wwwroot/yangming/application/api/controller/TaskProcess.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000368s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.000969s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000297s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_task_flow` [ RunTime:0.000797s ]
+[ sql ] [ SQL ] SELECT `f`.`task_id`,`f`.`technologist_id`,`f`.`rebar_id`,`f`.`beam_id`,`f`.`quality_id`,`f`.`lab_id`,`f`.`machine_id`,`f`.`process_id`,`f`.`status`,`f`.`create_time`,u.name as technologist_name FROM `lc_task_flow` `f` LEFT JOIN `lc_user` `u` ON `u`.`id`=`f`.`technologist_id` WHERE  `f`.`task_id` = '1' LIMIT 1 [ RunTime:0.000215s ]
+---------------------------------------------------------------
+[ 2018-08-02T10:02:31+08:00 ] 192.168.100.1 POST /api/task_process/getTaskProgress
+[ info ] 192.168.100.200:8083/api/task_process/getTaskProgress [运行时间：0.142448s][吞吐率：7.02req/s] [内存消耗：3,872.78kb] [文件加载：59]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'task_process',
+    2 => 'getTaskProgress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '418',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryBMBtxy7qJMIuoA3Q',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '1',
+  'task_id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\TaskProcess->getTaskProgress[ /www/wwwroot/yangming/application/api/controller/TaskProcess.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000332s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.000782s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000265s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_task_flow` [ RunTime:0.000740s ]
+[ sql ] [ SQL ] SELECT * FROM `lc_task_flow` `f` WHERE  `f`.`task_id` = '1' LIMIT 1 [ RunTime:0.000964s ]
+---------------------------------------------------------------
+[ 2018-08-02T10:02:32+08:00 ] 192.168.100.1 POST /api/task_process/getTaskProgress
+[ info ] 192.168.100.200:8083/api/task_process/getTaskProgress [运行时间：0.145796s][吞吐率：6.86req/s] [内存消耗：3,872.78kb] [文件加载：59]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'task_process',
+    2 => 'getTaskProgress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '418',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryR76z3k8meijCcToK',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '1',
+  'task_id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\TaskProcess->getTaskProgress[ /www/wwwroot/yangming/application/api/controller/TaskProcess.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000316s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.001312s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000104s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_task_flow` [ RunTime:0.000738s ]
+[ sql ] [ SQL ] SELECT * FROM `lc_task_flow` `f` WHERE  `f`.`task_id` = '1' LIMIT 1 [ RunTime:0.000603s ]
+---------------------------------------------------------------
+[ 2018-08-02T10:02:32+08:00 ] 192.168.100.1 POST /api/task_process/getTaskProgress
+[ info ] 192.168.100.200:8083/api/task_process/getTaskProgress [运行时间：0.137435s][吞吐率：7.28req/s] [内存消耗：3,872.78kb] [文件加载：59]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'task_process',
+    2 => 'getTaskProgress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '418',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryonASRY5aDumIOWQi',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '1',
+  'task_id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\TaskProcess->getTaskProgress[ /www/wwwroot/yangming/application/api/controller/TaskProcess.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000340s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.000923s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000279s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_task_flow` [ RunTime:0.000966s ]
+[ sql ] [ SQL ] SELECT * FROM `lc_task_flow` `f` WHERE  `f`.`task_id` = '1' LIMIT 1 [ RunTime:0.000246s ]
+---------------------------------------------------------------
+[ 2018-08-02T10:02:32+08:00 ] 192.168.100.1 POST /api/task_process/getTaskProgress
+[ info ] 192.168.100.200:8083/api/task_process/getTaskProgress [运行时间：0.138068s][吞吐率：7.24req/s] [内存消耗：3,872.78kb] [文件加载：59]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'task_process',
+    2 => 'getTaskProgress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '418',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarynBfLFtPvMcxOA4KF',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '1',
+  'task_id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\TaskProcess->getTaskProgress[ /www/wwwroot/yangming/application/api/controller/TaskProcess.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000295s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.001570s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000291s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_task_flow` [ RunTime:0.001313s ]
+[ sql ] [ SQL ] SELECT * FROM `lc_task_flow` `f` WHERE  `f`.`task_id` = '1' LIMIT 1 [ RunTime:0.000104s ]
+---------------------------------------------------------------
+[ 2018-08-02T10:02:32+08:00 ] 192.168.100.1 POST /api/task_process/getTaskProgress
+[ info ] 192.168.100.200:8083/api/task_process/getTaskProgress [运行时间：0.139117s][吞吐率：7.19req/s] [内存消耗：3,872.78kb] [文件加载：59]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'task_process',
+    2 => 'getTaskProgress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '418',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryX1829AwMn3RMAkh1',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '1',
+  'task_id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\TaskProcess->getTaskProgress[ /www/wwwroot/yangming/application/api/controller/TaskProcess.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000354s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.000883s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000259s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_task_flow` [ RunTime:0.000801s ]
+[ sql ] [ SQL ] SELECT * FROM `lc_task_flow` `f` WHERE  `f`.`task_id` = '1' LIMIT 1 [ RunTime:0.000262s ]
+---------------------------------------------------------------
+[ 2018-08-02T10:02:33+08:00 ] 192.168.100.1 POST /api/task_process/getTaskProgress
+[ info ] 192.168.100.200:8083/api/task_process/getTaskProgress [运行时间：0.137759s][吞吐率：7.26req/s] [内存消耗：3,872.78kb] [文件加载：59]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'task_process',
+    2 => 'getTaskProgress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '418',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary7gszDsh3FyzlzkZY',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '1',
+  'task_id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\TaskProcess->getTaskProgress[ /www/wwwroot/yangming/application/api/controller/TaskProcess.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001061s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.000847s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000279s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_task_flow` [ RunTime:0.000737s ]
+[ sql ] [ SQL ] SELECT * FROM `lc_task_flow` `f` WHERE  `f`.`task_id` = '1' LIMIT 1 [ RunTime:0.000558s ]
+---------------------------------------------------------------
+[ 2018-08-02T10:02:33+08:00 ] 192.168.100.1 POST /api/task_process/getTaskProgress
+[ info ] 192.168.100.200:8083/api/task_process/getTaskProgress [运行时间：0.107356s][吞吐率：9.31req/s] [内存消耗：3,872.78kb] [文件加载：59]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'task_process',
+    2 => 'getTaskProgress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '418',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryjPqLgXoCKVAuuBok',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '1',
+  'task_id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\TaskProcess->getTaskProgress[ /www/wwwroot/yangming/application/api/controller/TaskProcess.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000318s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.000967s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000263s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_task_flow` [ RunTime:0.000525s ]
+[ sql ] [ SQL ] SELECT * FROM `lc_task_flow` `f` WHERE  `f`.`task_id` = '1' LIMIT 1 [ RunTime:0.000300s ]
+---------------------------------------------------------------
+[ 2018-08-02T10:02:33+08:00 ] 192.168.100.1 POST /api/task_process/getTaskProgress
+[ info ] 192.168.100.200:8083/api/task_process/getTaskProgress [运行时间：0.119546s][吞吐率：8.36req/s] [内存消耗：3,872.78kb] [文件加载：59]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'task_process',
+    2 => 'getTaskProgress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '418',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryg2xL90DxbuogKVtG',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '1',
+  'task_id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\TaskProcess->getTaskProgress[ /www/wwwroot/yangming/application/api/controller/TaskProcess.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000337s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.000934s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000186s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_task_flow` [ RunTime:0.001281s ]
+[ sql ] [ SQL ] SELECT * FROM `lc_task_flow` `f` WHERE  `f`.`task_id` = '1' LIMIT 1 [ RunTime:0.000313s ]
+---------------------------------------------------------------
+[ 2018-08-02T10:02:41+08:00 ] 192.168.100.1 POST /api/task_process/getTaskProgress
+[ info ] 192.168.100.200:8083/api/task_process/getTaskProgress [运行时间：0.131299s][吞吐率：7.62req/s] [内存消耗：3,872.78kb] [文件加载：59]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'task_process',
+    2 => 'getTaskProgress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '419',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary2Khg22QvlFcBezF7',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '1',
+  'task_id' => '12',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\TaskProcess->getTaskProgress[ /www/wwwroot/yangming/application/api/controller/TaskProcess.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000381s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.001614s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000169s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_task_flow` [ RunTime:0.000815s ]
+[ sql ] [ SQL ] SELECT * FROM `lc_task_flow` `f` WHERE  `f`.`task_id` = '12' LIMIT 1 [ RunTime:0.000268s ]
+---------------------------------------------------------------
+[ 2018-08-02T10:02:43+08:00 ] 192.168.100.1 POST /api/task_process/getTaskProgress
+[ info ] 192.168.100.200:8083/api/task_process/getTaskProgress [运行时间：0.127412s][吞吐率：7.85req/s] [内存消耗：3,872.78kb] [文件加载：59]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'task_process',
+    2 => 'getTaskProgress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '418',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryrL0fniUdthbbv1Ar',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '1',
+  'task_id' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\TaskProcess->getTaskProgress[ /www/wwwroot/yangming/application/api/controller/TaskProcess.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000371s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.001681s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000272s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_task_flow` [ RunTime:0.000649s ]
+[ sql ] [ SQL ] SELECT * FROM `lc_task_flow` `f` WHERE  `f`.`task_id` = '2' LIMIT 1 [ RunTime:0.000268s ]
+---------------------------------------------------------------
+[ 2018-08-02T10:02:43+08:00 ] 192.168.100.1 POST /api/task_process/getTaskProgress
+[ info ] 192.168.100.200:8083/api/task_process/getTaskProgress [运行时间：0.119244s][吞吐率：8.39req/s] [内存消耗：3,872.78kb] [文件加载：59]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'task_process',
+    2 => 'getTaskProgress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '418',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryiAk76ALYFMOsJ5nx',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '1',
+  'task_id' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\TaskProcess->getTaskProgress[ /www/wwwroot/yangming/application/api/controller/TaskProcess.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000342s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.000880s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000292s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_task_flow` [ RunTime:0.001412s ]
+[ sql ] [ SQL ] SELECT * FROM `lc_task_flow` `f` WHERE  `f`.`task_id` = '2' LIMIT 1 [ RunTime:0.000253s ]
+---------------------------------------------------------------
+[ 2018-08-02T10:02:43+08:00 ] 192.168.100.1 POST /api/task_process/getTaskProgress
+[ info ] 192.168.100.200:8083/api/task_process/getTaskProgress [运行时间：0.111617s][吞吐率：8.96req/s] [内存消耗：3,872.78kb] [文件加载：59]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'task_process',
+    2 => 'getTaskProgress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '418',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryUdI0S0kHlW9thG0K',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '1',
+  'task_id' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\TaskProcess->getTaskProgress[ /www/wwwroot/yangming/application/api/controller/TaskProcess.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000320s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.000950s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000267s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_task_flow` [ RunTime:0.000525s ]
+[ sql ] [ SQL ] SELECT * FROM `lc_task_flow` `f` WHERE  `f`.`task_id` = '2' LIMIT 1 [ RunTime:0.000658s ]
+---------------------------------------------------------------
+[ 2018-08-02T10:02:43+08:00 ] 192.168.100.1 POST /api/task_process/getTaskProgress
+[ info ] 192.168.100.200:8083/api/task_process/getTaskProgress [运行时间：0.112553s][吞吐率：8.88req/s] [内存消耗：3,872.78kb] [文件加载：59]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'task_process',
+    2 => 'getTaskProgress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '418',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary5tUiNJHPgMXkDAb3',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '1',
+  'task_id' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\TaskProcess->getTaskProgress[ /www/wwwroot/yangming/application/api/controller/TaskProcess.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000342s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.001338s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000179s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_task_flow` [ RunTime:0.000643s ]
+[ sql ] [ SQL ] SELECT * FROM `lc_task_flow` `f` WHERE  `f`.`task_id` = '2' LIMIT 1 [ RunTime:0.000247s ]
+---------------------------------------------------------------
+[ 2018-08-02T10:02:45+08:00 ] 192.168.100.1 POST /api/task_process/getTaskProgress
+[ info ] 192.168.100.200:8083/api/task_process/getTaskProgress [运行时间：0.127467s][吞吐率：7.85req/s] [内存消耗：3,872.78kb] [文件加载：59]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'task_process',
+    2 => 'getTaskProgress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '418',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryPBAy7vggFWFzBjEE',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '1',
+  'task_id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\TaskProcess->getTaskProgress[ /www/wwwroot/yangming/application/api/controller/TaskProcess.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000304s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.001293s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000303s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_task_flow` [ RunTime:0.000696s ]
+[ sql ] [ SQL ] SELECT * FROM `lc_task_flow` `f` WHERE  `f`.`task_id` = '1' LIMIT 1 [ RunTime:0.000298s ]
+---------------------------------------------------------------
+[ 2018-08-02T10:02:45+08:00 ] 192.168.100.1 POST /api/task_process/getTaskProgress
+[ info ] 192.168.100.200:8083/api/task_process/getTaskProgress [运行时间：0.109412s][吞吐率：9.14req/s] [内存消耗：3,872.78kb] [文件加载：59]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'task_process',
+    2 => 'getTaskProgress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '418',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryAlL6qeWavacboRwE',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '1',
+  'task_id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\TaskProcess->getTaskProgress[ /www/wwwroot/yangming/application/api/controller/TaskProcess.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000372s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.001448s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000263s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_task_flow` [ RunTime:0.000503s ]
+[ sql ] [ SQL ] SELECT * FROM `lc_task_flow` `f` WHERE  `f`.`task_id` = '1' LIMIT 1 [ RunTime:0.000793s ]
+---------------------------------------------------------------
+[ 2018-08-02T10:02:45+08:00 ] 192.168.100.1 POST /api/task_process/getTaskProgress
+[ info ] 192.168.100.200:8083/api/task_process/getTaskProgress [运行时间：0.110635s][吞吐率：9.04req/s] [内存消耗：3,872.78kb] [文件加载：59]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'task_process',
+    2 => 'getTaskProgress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '418',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryLtjXaSzP16mBCkBE',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '1',
+  'task_id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\TaskProcess->getTaskProgress[ /www/wwwroot/yangming/application/api/controller/TaskProcess.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001106s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.000790s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000258s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_task_flow` [ RunTime:0.001467s ]
+[ sql ] [ SQL ] SELECT * FROM `lc_task_flow` `f` WHERE  `f`.`task_id` = '1' LIMIT 1 [ RunTime:0.000268s ]
+---------------------------------------------------------------
+[ 2018-08-02T10:02:45+08:00 ] 192.168.100.1 POST /api/task_process/getTaskProgress
+[ info ] 192.168.100.200:8083/api/task_process/getTaskProgress [运行时间：0.109523s][吞吐率：9.13req/s] [内存消耗：3,872.78kb] [文件加载：59]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'task_process',
+    2 => 'getTaskProgress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '418',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryBc9Fqv0duEyIghEj',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '1',
+  'task_id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\TaskProcess->getTaskProgress[ /www/wwwroot/yangming/application/api/controller/TaskProcess.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000337s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.000970s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000280s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_task_flow` [ RunTime:0.000782s ]
+[ sql ] [ SQL ] SELECT * FROM `lc_task_flow` `f` WHERE  `f`.`task_id` = '1' LIMIT 1 [ RunTime:0.000273s ]
+---------------------------------------------------------------
+[ 2018-08-02T10:03:30+08:00 ] 192.168.100.1 POST /api/task_process/getTaskProgress
+[ info ] 192.168.100.200:8083/api/task_process/getTaskProgress [运行时间：0.119749s][吞吐率：8.35req/s] [内存消耗：3,872.78kb] [文件加载：59]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'task_process',
+    2 => 'getTaskProgress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '418',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryGi1AnnaR9JNf56zZ',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '1',
+  'task_id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\TaskProcess->getTaskProgress[ /www/wwwroot/yangming/application/api/controller/TaskProcess.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000346s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.000890s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000260s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_task_flow` [ RunTime:0.000525s ]
+[ sql ] [ SQL ] SELECT * FROM `lc_task_flow` `f` WHERE  `f`.`task_id` = '1' LIMIT 1 [ RunTime:0.000454s ]
+---------------------------------------------------------------
+[ 2018-08-02T10:03:30+08:00 ] 192.168.100.1 POST /api/task_process/getTaskProgress
+[ info ] 192.168.100.200:8083/api/task_process/getTaskProgress [运行时间：0.131570s][吞吐率：7.60req/s] [内存消耗：3,872.78kb] [文件加载：59]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'task_process',
+    2 => 'getTaskProgress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '418',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary4hCOj1l2VXJ9aJSG',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '1',
+  'task_id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\TaskProcess->getTaskProgress[ /www/wwwroot/yangming/application/api/controller/TaskProcess.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000317s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.000853s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000241s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_task_flow` [ RunTime:0.000537s ]
+[ sql ] [ SQL ] SELECT * FROM `lc_task_flow` `f` WHERE  `f`.`task_id` = '1' LIMIT 1 [ RunTime:0.001012s ]
+---------------------------------------------------------------
+[ 2018-08-02T10:03:30+08:00 ] 192.168.100.1 POST /api/task_process/getTaskProgress
+[ info ] 192.168.100.200:8083/api/task_process/getTaskProgress [运行时间：0.109950s][吞吐率：9.10req/s] [内存消耗：3,872.78kb] [文件加载：59]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'task_process',
+    2 => 'getTaskProgress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '418',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarynw1i8NeJysAB7wrS',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '1',
+  'task_id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\TaskProcess->getTaskProgress[ /www/wwwroot/yangming/application/api/controller/TaskProcess.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000320s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.000830s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000231s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_task_flow` [ RunTime:0.001041s ]
+[ sql ] [ SQL ] SELECT * FROM `lc_task_flow` `f` WHERE  `f`.`task_id` = '1' LIMIT 1 [ RunTime:0.000608s ]
+---------------------------------------------------------------
+[ 2018-08-02T10:03:30+08:00 ] 192.168.100.1 POST /api/task_process/getTaskProgress
+[ info ] 192.168.100.200:8083/api/task_process/getTaskProgress [运行时间：0.109943s][吞吐率：9.10req/s] [内存消耗：3,872.78kb] [文件加载：59]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'task_process',
+    2 => 'getTaskProgress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '418',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary6l0XCQn5ZZ8hHoSc',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '1',
+  'task_id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\TaskProcess->getTaskProgress[ /www/wwwroot/yangming/application/api/controller/TaskProcess.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000360s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.000891s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000985s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_task_flow` [ RunTime:0.000700s ]
+[ sql ] [ SQL ] SELECT * FROM `lc_task_flow` `f` WHERE  `f`.`task_id` = '1' LIMIT 1 [ RunTime:0.000300s ]
+---------------------------------------------------------------
+[ 2018-08-02T10:03:31+08:00 ] 192.168.100.1 POST /api/task_process/getTaskProgress
+[ info ] 192.168.100.200:8083/api/task_process/getTaskProgress [运行时间：0.109230s][吞吐率：9.16req/s] [内存消耗：3,872.78kb] [文件加载：59]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'task_process',
+    2 => 'getTaskProgress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '418',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary7vfqzNLlbSuADaNX',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '1',
+  'task_id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\TaskProcess->getTaskProgress[ /www/wwwroot/yangming/application/api/controller/TaskProcess.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000357s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.000891s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000094s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_task_flow` [ RunTime:0.001573s ]
+[ sql ] [ SQL ] SELECT * FROM `lc_task_flow` `f` WHERE  `f`.`task_id` = '1' LIMIT 1 [ RunTime:0.000247s ]
+---------------------------------------------------------------
+[ 2018-08-02T10:03:31+08:00 ] 192.168.100.1 POST /api/task_process/getTaskProgress
+[ info ] 192.168.100.200:8083/api/task_process/getTaskProgress [运行时间：0.113628s][吞吐率：8.80req/s] [内存消耗：3,872.78kb] [文件加载：59]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'task_process',
+    2 => 'getTaskProgress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '418',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryA2QmsYyt4HoBGaXP',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '1',
+  'task_id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\TaskProcess->getTaskProgress[ /www/wwwroot/yangming/application/api/controller/TaskProcess.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000360s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.001016s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000415s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_task_flow` [ RunTime:0.001030s ]
+[ sql ] [ SQL ] SELECT * FROM `lc_task_flow` `f` WHERE  `f`.`task_id` = '1' LIMIT 1 [ RunTime:0.001298s ]
+---------------------------------------------------------------
+[ 2018-08-02T10:03:53+08:00 ] 192.168.100.1 POST /api/task_process/getTaskProgress
+[ info ] 192.168.100.200:8083/api/task_process/getTaskProgress [运行时间：0.120608s][吞吐率：8.29req/s] [内存消耗：3,872.73kb] [文件加载：59]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'task_process',
+    2 => 'getTaskProgress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '418',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryahMCaJuSu4nd2rhP',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '1',
+  'task_id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\TaskProcess->getTaskProgress[ /www/wwwroot/yangming/application/api/controller/TaskProcess.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000320s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.001414s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000318s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_task_flow` [ RunTime:0.000727s ]
+[ sql ] [ SQL ] SELECT * FROM `lc_task_flow` `f` WHERE  `f`.`id` = '1' LIMIT 1 [ RunTime:0.000317s ]
+---------------------------------------------------------------
+[ 2018-08-02T10:03:54+08:00 ] 192.168.100.1 POST /api/task_process/getTaskProgress
+[ info ] 192.168.100.200:8083/api/task_process/getTaskProgress [运行时间：0.120979s][吞吐率：8.27req/s] [内存消耗：3,872.73kb] [文件加载：59]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'task_process',
+    2 => 'getTaskProgress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '418',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryym3i5IJG2jCGWZ6j',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '1',
+  'task_id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\TaskProcess->getTaskProgress[ /www/wwwroot/yangming/application/api/controller/TaskProcess.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000316s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.000846s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000259s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_task_flow` [ RunTime:0.000759s ]
+[ sql ] [ SQL ] SELECT * FROM `lc_task_flow` `f` WHERE  `f`.`id` = '1' LIMIT 1 [ RunTime:0.000244s ]
+---------------------------------------------------------------
+[ 2018-08-02T10:03:54+08:00 ] 192.168.100.1 POST /api/task_process/getTaskProgress
+[ info ] 192.168.100.200:8083/api/task_process/getTaskProgress [运行时间：0.112730s][吞吐率：8.87req/s] [内存消耗：3,872.73kb] [文件加载：59]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'task_process',
+    2 => 'getTaskProgress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '418',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarydIoALxPWYjoFo9tM',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '1',
+  'task_id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\TaskProcess->getTaskProgress[ /www/wwwroot/yangming/application/api/controller/TaskProcess.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000337s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.000895s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000014s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_task_flow` [ RunTime:0.001442s ]
+[ sql ] [ SQL ] SELECT * FROM `lc_task_flow` `f` WHERE  `f`.`id` = '1' LIMIT 1 [ RunTime:0.000252s ]
+---------------------------------------------------------------
+[ 2018-08-02T10:05:03+08:00 ] 192.168.100.1 POST /api/task_process/getTaskProgress
+[ info ] 192.168.100.200:8083/api/task_process/getTaskProgress [运行时间：0.138831s][吞吐率：7.20req/s] [内存消耗：3,871.95kb] [文件加载：59]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'task_process',
+    2 => 'getTaskProgress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '418',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarytfYTmjCeiswsJYYW',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '1',
+  'task_id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\TaskProcess->getTaskProgress[ /www/wwwroot/yangming/application/api/controller/TaskProcess.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000343s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.001020s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000969s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_task_flow` [ RunTime:0.000757s ]
+[ sql ] [ SQL ] SELECT * FROM `lc_task_flow` `f` [ RunTime:0.000255s ]
+---------------------------------------------------------------
+[ 2018-08-02T10:05:34+08:00 ] 192.168.100.1 POST /api/task_process/getTaskProgress
+[ info ] 192.168.100.200:8083/api/task_process/getTaskProgress [运行时间：0.143331s][吞吐率：6.98req/s] [内存消耗：3,871.59kb] [文件加载：59]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'task_process',
+    2 => 'getTaskProgress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '418',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryNR3T51m3ZAq3yGlA',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '1',
+  'task_id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\TaskProcess->getTaskProgress[ /www/wwwroot/yangming/application/api/controller/TaskProcess.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000351s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.000878s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000290s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_task_flow` [ RunTime:0.000741s ]
+[ sql ] [ SQL ] SELECT * FROM `lc_task_flow` `f` [ RunTime:0.000223s ]
+---------------------------------------------------------------
+[ 2018-08-02T10:06:07+08:00 ] 192.168.100.1 POST /api/task_process/getTaskProgress
+[ info ] 192.168.100.200:8083/api/task_process/getTaskProgress [运行时间：0.151030s][吞吐率：6.62req/s] [内存消耗：3,872.86kb] [文件加载：59]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'task_process',
+    2 => 'getTaskProgress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '418',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary4OSWQDtRLPFm4gAB',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '1',
+  'task_id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\TaskProcess->getTaskProgress[ /www/wwwroot/yangming/application/api/controller/TaskProcess.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000393s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.001555s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000300s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_task_flow` [ RunTime:0.000775s ]
+[ sql ] [ SQL ] SELECT * FROM `lc_task_flow` WHERE  `task_id` = 1 [ RunTime:0.000253s ]
+---------------------------------------------------------------
+[ 2018-08-02T10:06:08+08:00 ] 192.168.100.1 POST /api/task_process/getTaskProgress
+[ info ] 192.168.100.200:8083/api/task_process/getTaskProgress [运行时间：0.160671s][吞吐率：6.22req/s] [内存消耗：3,872.86kb] [文件加载：59]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'task_process',
+    2 => 'getTaskProgress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '418',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarytdjX3BRTh92DCFA7',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '1',
+  'task_id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\TaskProcess->getTaskProgress[ /www/wwwroot/yangming/application/api/controller/TaskProcess.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000391s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.000956s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000288s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_task_flow` [ RunTime:0.000661s ]
+[ sql ] [ SQL ] SELECT * FROM `lc_task_flow` WHERE  `task_id` = 1 [ RunTime:0.000738s ]
+---------------------------------------------------------------
+[ 2018-08-02T10:06:08+08:00 ] 192.168.100.1 POST /api/task_process/getTaskProgress
+[ info ] 192.168.100.200:8083/api/task_process/getTaskProgress [运行时间：0.155180s][吞吐率：6.44req/s] [内存消耗：3,872.86kb] [文件加载：59]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'task_process',
+    2 => 'getTaskProgress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '421',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryjTjugYoXaU3LH6x2',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '1',
+  'task_id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\TaskProcess->getTaskProgress[ /www/wwwroot/yangming/application/api/controller/TaskProcess.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000368s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.000957s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000866s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_task_flow` [ RunTime:0.000559s ]
+[ sql ] [ SQL ] SELECT * FROM `lc_task_flow` WHERE  `task_id` = 1 [ RunTime:0.000926s ]
+---------------------------------------------------------------
+[ 2018-08-02T10:06:08+08:00 ] 192.168.100.1 POST /api/task_process/getTaskProgress
+[ info ] 192.168.100.200:8083/api/task_process/getTaskProgress [运行时间：0.143382s][吞吐率：6.97req/s] [内存消耗：3,872.86kb] [文件加载：59]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'task_process',
+    2 => 'getTaskProgress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '418',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarymX6xGvpfgH49EHgz',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '1',
+  'task_id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\TaskProcess->getTaskProgress[ /www/wwwroot/yangming/application/api/controller/TaskProcess.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000349s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.000944s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000322s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_task_flow` [ RunTime:0.000762s ]
+[ sql ] [ SQL ] SELECT * FROM `lc_task_flow` WHERE  `task_id` = 1 [ RunTime:0.000750s ]
+---------------------------------------------------------------
+[ 2018-08-02T10:06:08+08:00 ] 192.168.100.1 POST /api/task_process/getTaskProgress
+[ info ] 192.168.100.200:8083/api/task_process/getTaskProgress [运行时间：0.108612s][吞吐率：9.21req/s] [内存消耗：3,872.86kb] [文件加载：59]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'task_process',
+    2 => 'getTaskProgress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '418',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryHTs4eTewlJ3nkt8D',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '1',
+  'task_id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\TaskProcess->getTaskProgress[ /www/wwwroot/yangming/application/api/controller/TaskProcess.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001028s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.000822s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000286s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_task_flow` [ RunTime:0.001311s ]
+[ sql ] [ SQL ] SELECT * FROM `lc_task_flow` WHERE  `task_id` = 1 [ RunTime:0.000108s ]
+---------------------------------------------------------------
+[ 2018-08-02T10:06:09+08:00 ] 192.168.100.1 POST /api/task_process/getTaskProgress
+[ info ] 192.168.100.200:8083/api/task_process/getTaskProgress [运行时间：0.115310s][吞吐率：8.67req/s] [内存消耗：3,872.86kb] [文件加载：59]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'task_process',
+    2 => 'getTaskProgress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '418',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarymDucNI4HFUG8LkVB',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '1',
+  'task_id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\TaskProcess->getTaskProgress[ /www/wwwroot/yangming/application/api/controller/TaskProcess.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000937s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.000812s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000292s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_task_flow` [ RunTime:0.001338s ]
+[ sql ] [ SQL ] SELECT * FROM `lc_task_flow` WHERE  `task_id` = 1 [ RunTime:0.000022s ]
+---------------------------------------------------------------
+[ 2018-08-02T10:06:24+08:00 ] 192.168.100.1 POST /api/task_process/getTaskProgress
+[ info ] 192.168.100.200:8083/api/task_process/getTaskProgress [运行时间：0.118944s][吞吐率：8.41req/s] [内存消耗：3,872.86kb] [文件加载：59]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'task_process',
+    2 => 'getTaskProgress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '418',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryMib5D2zTIPez1ri9',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '1',
+  'task_id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\TaskProcess->getTaskProgress[ /www/wwwroot/yangming/application/api/controller/TaskProcess.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000306s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.001418s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000282s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_task_flow` [ RunTime:0.000669s ]
+[ sql ] [ SQL ] SELECT * FROM `lc_task_flow` WHERE  `task_id` = 1 [ RunTime:0.000263s ]
+---------------------------------------------------------------
+[ 2018-08-02T17:43:50+08:00 ] 192.168.100.1 POST /api/task_process/getTaskProgress
+[ info ] 192.168.100.200:8083/api/task_process/getTaskProgress [运行时间：0.162461s][吞吐率：6.16req/s] [内存消耗：3,894.91kb] [文件加载：62]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'task_process',
+    2 => 'getTaskProgress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '418',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryoZo8Hse2SSYkpB9L',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '1',
+  'task_id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\TaskProcess->getTaskProgress[ /www/wwwroot/yangming/application/api/controller/TaskProcess.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000329s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.000922s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000285s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_task_flow` [ RunTime:0.000646s ]

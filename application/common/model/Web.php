@@ -1,0 +1,1 @@
+<?phpnamespace app\common\model;use think\Exception;use think\Session;//web页class Web extends BaseModel{    //获取web页内容    function getWeb($id)    {        return $this->where('id',$id)->find();    }    //编辑web页内容    function edit($data)    {         $this->isUpdate(true)->allowField(true)->save($data);    }}

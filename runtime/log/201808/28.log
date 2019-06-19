@@ -1,0 +1,39 @@
+---------------------------------------------------------------
+[ 2018-08-28T16:05:40+08:00 ] 192.168.100.1 POST /api/task_process/getTaskProgress
+[ info ] 192.168.100.200:8083/api/task_process/getTaskProgress [运行时间：0.548683s][吞吐率：1.82req/s] [内存消耗：3,928.64kb] [文件加载：61]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'task_process',
+    2 => 'getTaskProgress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '419',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarypxPcX5GanBBgv3nZ',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '1',
+  'task_id' => '82',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\TaskProcess->getTaskProgress[ /www/wwwroot/yangming/application/api/controller/TaskProcess.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.049869s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.059459s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.010742s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_task_flow` [ RunTime:0.003882s ]
+[ sql ] [ SQL ] SELECT `f`.`task_id`,`f`.`technologist_id`,`f`.`rebar_id`,`f`.`beam_id`,`f`.`quality_id`,`f`.`lab_id`,`f`.`machine_id`,`f`.`prestress_id`,`f`.`blend_id`,`f`.`process_id`,`f`.`status`,`f`.`create_time`,u.name as technologist_name FROM `lc_task_flow` `f` LEFT JOIN `lc_user` `u` ON `u`.`id`=`f`.`technologist_id` WHERE  `f`.`task_id` = '82' LIMIT 1 [ RunTime:0.000775s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lc_user` WHERE  `id` IS NULL LIMIT 1 [ RunTime:0.000785s ]

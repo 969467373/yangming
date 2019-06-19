@@ -1,0 +1,62 @@
+<div class="auction_foot">
+    <div class="auction_foot_num">
+        <div class="auction_foot_num1">-</div>
+        <div class="auction_foot_num2">1</div>
+        <div class="auction_foot_num3">+</div>
+    </div>
+    <p class="auction_foot_font1">次</p>
+    <div class="auction_foot_right">
+        <p style="margin-top: 0.1rem">出价</p>
+        <p>1拍币/次</p>
+        <input id="auction_item_id" type="hidden" value="{$ok.auction_item_id}">
+    </div>
+</div>
+<script src="/static/mobile/js/layer/layer.js"></script>
+<script>
+    //点击数量+1
+    $(function(){
+        $(".auction_foot_num3").click(function(){
+            var times = $(this).siblings('div.auction_foot_num2').text();
+
+            $(this).siblings('div.auction_foot_num2').text(parseInt(times)+1);
+        })
+    })
+
+
+    //点击数量-1
+    $(function(){
+        $(".auction_foot_num1").click(function(){
+            var times = $(this).siblings('div.auction_foot_num2').text();
+            if(times < 2){
+
+                layer.msg('数量不能小于1');
+            }else{
+                $(this).siblings('div.auction_foot_num2').text(parseInt(times)-1);
+            }
+        })
+    })
+
+    //出价
+    $(function(){
+        $(".auction_foot_right").click(function(){
+            var times = $(this).siblings().children('div.auction_foot_num2').text();
+            var auction_item_id =  $("#auction_item_id").val();
+            //console.log(auction_item_id);
+//            windows.location.href =
+//                    "{:url('UserAuction/bid')}?auction_item_id=" + auction_item_id + "&number=" + number;
+            $.post("{:url('UserAuction/autoBid')}",{
+
+                auction_item_id:auction_item_id,
+                times:times,
+
+            },function(data){
+                //console.log(data);
+                layer.msg(data.message);
+            });
+        })
+    })
+
+
+
+
+</script>

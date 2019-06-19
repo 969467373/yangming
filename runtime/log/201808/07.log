@@ -1,0 +1,768 @@
+---------------------------------------------------------------
+[ 2018-08-07T09:58:44+08:00 ] 192.168.100.1 GET /
+[ info ] 192.168.100.200:8083/ [运行时间：0.193677s][吞吐率：5.16req/s] [内存消耗：1,718.32kb] [文件加载：35]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=almpqq6rtvc3jb9pr4ahcokr00; cloud_platform=true; BT_PANEL=27013e4521caabe1632ae9f1260e1eb5b2bcb310; serverType=nginx; order=id%20desc; memRealUsed=378; mem-before=378/458%20%28MB%29; memSize=458',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/yangming/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T09:58:54+08:00 ] 192.168.100.1 GET /console/login
+[ info ] 192.168.100.200:8083/console/login [运行时间：0.181929s][吞吐率：5.50req/s] [内存消耗：2,273.86kb] [文件加载：46]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'console',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=almpqq6rtvc3jb9pr4ahcokr00; cloud_platform=true; BT_PANEL=27013e4521caabe1632ae9f1260e1eb5b2bcb310; serverType=nginx; order=id%20desc; memRealUsed=378; mem-before=378/458%20%28MB%29; memSize=458',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-07T09:58:54+08:00 ] 192.168.100.1 GET /console/dashboard/index.html
+[ info ] 192.168.100.200:8083/console/dashboard/index.html [运行时间：0.328172s][吞吐率：3.05req/s] [内存消耗：3,842.59kb] [文件加载：60]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'console',
+    1 => 'dashboard',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'history=%7Btitle%3A%22%E4%B8%BB%E9%9D%A2%E6%9D%BF%22%2Curl%3A%22http%3A%2F%2F192.168.100.200%3A8082%2Fconsole%2Fdashboard%2Findex.html%22%7D; PHPSESSID=almpqq6rtvc3jb9pr4ahcokr00; cloud_platform=true; BT_PANEL=27013e4521caabe1632ae9f1260e1eb5b2bcb310; serverType=nginx; order=id%20desc; memRealUsed=378; mem-before=378/458%20%28MB%29; memSize=458',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\console\behavior\ConsoleAuth @action_begin [ RunTime:0.145189s ]
+[ info ] [ RUN ] app\console\controller\Dashboard->index[ /www/wwwroot/yangming/application/console/controller/Dashboard.php ]
+[ info ] [ VIEW ] /www/wwwroot/yangming/public/../application/console/view/dashboard/index.html [ array (
+  0 => 'title',
+  1 => 'info',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.041774s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_console` [ RunTime:0.029936s ]
+[ sql ] [ SQL ] SELECT * FROM `lc_console` [ RunTime:0.008436s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_adminer` [ RunTime:0.004117s ]
+[ sql ] [ SQL ] SELECT COUNT(id) AS tp_count FROM `lc_adminer` LIMIT 1 [ RunTime:0.002255s ]
+---------------------------------------------------------------
+[ 2018-08-07T10:01:07+08:00 ] 192.168.100.1 GET /console/dashboard/index.html
+[ info ] 192.168.100.200:8083/console/dashboard/index.html [运行时间：0.529538s][吞吐率：1.89req/s] [内存消耗：3,798.90kb] [文件加载：59]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'console',
+    1 => 'dashboard',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'history=%7Btitle%3A%22%E4%B8%BB%E9%9D%A2%E6%9D%BF%22%2Curl%3A%22http%3A%2F%2F192.168.100.200%3A8082%2Fconsole%2Fdashboard%2Findex.html%22%7D; PHPSESSID=almpqq6rtvc3jb9pr4ahcokr00; cloud_platform=true; BT_PANEL=27013e4521caabe1632ae9f1260e1eb5b2bcb310; serverType=nginx; order=id%20desc; memRealUsed=378; mem-before=378/458%20%28MB%29; memSize=458',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'app130'@'222.171.139.210' (using password: YES)[/www/wwwroot/yangming/thinkphp/library/think/db/Connection.php:295]
+---------------------------------------------------------------
+[ 2018-08-07T10:01:39+08:00 ] 192.168.100.1 GET /console/dashboard/index.html
+[ info ] 192.168.100.200:8083/console/dashboard/index.html [运行时间：0.253014s][吞吐率：3.95req/s] [内存消耗：3,798.90kb] [文件加载：59]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'console',
+    1 => 'dashboard',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'history=%7Btitle%3A%22%E4%B8%BB%E9%9D%A2%E6%9D%BF%22%2Curl%3A%22http%3A%2F%2F192.168.100.200%3A8082%2Fconsole%2Fdashboard%2Findex.html%22%7D; PHPSESSID=almpqq6rtvc3jb9pr4ahcokr00; cloud_platform=true; BT_PANEL=27013e4521caabe1632ae9f1260e1eb5b2bcb310; serverType=nginx; order=id%20desc; memRealUsed=378; mem-before=378/458%20%28MB%29; memSize=458',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'app130'@'222.171.139.210' (using password: YES)[/www/wwwroot/yangming/thinkphp/library/think/db/Connection.php:295]
+---------------------------------------------------------------
+[ 2018-08-07T10:01:40+08:00 ] 192.168.100.1 GET /console/dashboard/index.html
+[ info ] 192.168.100.200:8083/console/dashboard/index.html [运行时间：0.286721s][吞吐率：3.49req/s] [内存消耗：3,798.59kb] [文件加载：59]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'console',
+    1 => 'dashboard',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'history=%7Btitle%3A%22%E4%B8%BB%E9%9D%A2%E6%9D%BF%22%2Curl%3A%22http%3A%2F%2F192.168.100.200%3A8082%2Fconsole%2Fdashboard%2Findex.html%22%7D; PHPSESSID=almpqq6rtvc3jb9pr4ahcokr00; cloud_platform=true; BT_PANEL=27013e4521caabe1632ae9f1260e1eb5b2bcb310; serverType=nginx; order=id%20desc; memRealUsed=378; mem-before=378/458%20%28MB%29; memSize=458',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'app130'@'222.171.139.210' (using password: YES)[/www/wwwroot/yangming/thinkphp/library/think/db/Connection.php:295]
+---------------------------------------------------------------
+[ 2018-08-07T10:05:35+08:00 ] 192.168.100.1 GET /console/dashboard/index.html
+[ info ] 192.168.100.200:8083/console/dashboard/index.html [运行时间：0.158222s][吞吐率：6.32req/s] [内存消耗：3,798.52kb] [文件加载：59]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'console',
+    1 => 'dashboard',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'history=%7Btitle%3A%22%E4%B8%BB%E9%9D%A2%E6%9D%BF%22%2Curl%3A%22http%3A%2F%2F192.168.100.200%3A8082%2Fconsole%2Fdashboard%2Findex.html%22%7D; PHPSESSID=almpqq6rtvc3jb9pr4ahcokr00; cloud_platform=true; BT_PANEL=27013e4521caabe1632ae9f1260e1eb5b2bcb310; serverType=nginx; order=id%20desc; memRealUsed=378; mem-before=378/458%20%28MB%29; memSize=458',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'app130'@'localhost' (using password: YES)[/www/wwwroot/yangming/thinkphp/library/think/db/Connection.php:295]
+---------------------------------------------------------------
+[ 2018-08-07T10:16:11+08:00 ] 192.168.100.1 GET /console/dashboard/index.html
+[ info ] 192.168.100.200:8083/console/dashboard/index.html [运行时间：0.155967s][吞吐率：6.41req/s] [内存消耗：3,842.69kb] [文件加载：60]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'console',
+    1 => 'dashboard',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'history=%7Btitle%3A%22%E4%B8%BB%E9%9D%A2%E6%9D%BF%22%2Curl%3A%22http%3A%2F%2F192.168.100.200%3A8082%2Fconsole%2Fdashboard%2Findex.html%22%7D; PHPSESSID=almpqq6rtvc3jb9pr4ahcokr00; cloud_platform=true; BT_PANEL=27013e4521caabe1632ae9f1260e1eb5b2bcb310; serverType=nginx; order=id%20desc; memRealUsed=378; mem-before=378/458%20%28MB%29; memSize=458',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\console\behavior\ConsoleAuth @action_begin [ RunTime:0.042712s ]
+[ info ] [ RUN ] app\console\controller\Dashboard->index[ /www/wwwroot/yangming/application/console/controller/Dashboard.php ]
+[ info ] [ VIEW ] /www/wwwroot/yangming/public/../application/console/view/dashboard/index.html [ array (
+  0 => 'title',
+  1 => 'info',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000372s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_console` [ RunTime:0.000948s ]
+[ sql ] [ SQL ] SELECT * FROM `lc_console` [ RunTime:0.000050s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_adminer` [ RunTime:0.000946s ]
+[ sql ] [ SQL ] SELECT COUNT(id) AS tp_count FROM `lc_adminer` LIMIT 1 [ RunTime:0.000126s ]
+---------------------------------------------------------------
+[ 2018-08-07T10:17:41+08:00 ] 192.168.100.1 GET /console/dashboard/index.html
+[ info ] 192.168.100.200:8083/console/dashboard/index.html [运行时间：0.193486s][吞吐率：5.17req/s] [内存消耗：3,848.59kb] [文件加载：60]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'console',
+    1 => 'dashboard',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'history=%7Btitle%3A%22%E4%B8%BB%E9%9D%A2%E6%9D%BF%22%2Curl%3A%22http%3A%2F%2F192.168.100.200%3A8082%2Fconsole%2Fdashboard%2Findex.html%22%7D; PHPSESSID=almpqq6rtvc3jb9pr4ahcokr00; cloud_platform=true; BT_PANEL=27013e4521caabe1632ae9f1260e1eb5b2bcb310; serverType=nginx; order=id%20desc; memRealUsed=378; mem-before=378/458%20%28MB%29; memSize=458; adminer_version=4.6.3',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\console\behavior\ConsoleAuth @action_begin [ RunTime:0.059063s ]
+[ info ] [ RUN ] app\console\controller\Dashboard->index[ /www/wwwroot/yangming/application/console/controller/Dashboard.php ]
+[ info ] [ VIEW ] /www/wwwroot/yangming/public/../application/console/view/dashboard/index.html [ array (
+  0 => 'title',
+  1 => 'info',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002238s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_console` [ RunTime:0.003104s ]
+[ sql ] [ SQL ] SELECT * FROM `lc_console` [ RunTime:0.002238s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_adminer` [ RunTime:0.001294s ]
+[ sql ] [ SQL ] SELECT COUNT(id) AS tp_count FROM `lc_adminer` LIMIT 1 [ RunTime:0.002945s ]
+---------------------------------------------------------------
+[ 2018-08-07T10:17:45+08:00 ] 192.168.100.1 GET /console/task/index
+[ info ] 192.168.100.200:8083/console/task/index [运行时间：0.559370s][吞吐率：1.79req/s] [内存消耗：4,437.50kb] [文件加载：66]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'console',
+    1 => 'task',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://192.168.100.200:8083/console/dashboard/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=almpqq6rtvc3jb9pr4ahcokr00; cloud_platform=true; BT_PANEL=27013e4521caabe1632ae9f1260e1eb5b2bcb310; serverType=nginx; order=id%20desc; memRealUsed=378; mem-before=378/458%20%28MB%29; memSize=458; adminer_version=4.6.3',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\console\behavior\ConsoleAuth @action_begin [ RunTime:0.051569s ]
+[ info ] [ RUN ] app\console\controller\Task->index[ /www/wwwroot/yangming/application/console/controller/Task.php ]
+[ info ] [ VIEW ] /www/wwwroot/yangming/public/../application/console/view/task/index.html [ array (
+  0 => 'title',
+  1 => 'list',
+  2 => 'search',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000369s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_console` [ RunTime:0.000856s ]
+[ sql ] [ SQL ] SELECT * FROM `lc_console` [ RunTime:0.000350s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_make_beam` [ RunTime:0.003768s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lc_make_beam` `mb` INNER JOIN `lc_task_flow` `f` ON `f`.`task_id`=`mb`.`task_id` LEFT JOIN `lc_user` `u` ON `u`.`id`=`mb`.`user_id` LIMIT 1 [ RunTime:0.008519s ]
+[ sql ] [ SQL ] SELECT `mb`.`task_id`,`mb`.`title`,`mb`.`user_id`,`u`.`name`,`f`.`status`,`f`.`create_time`,`f`.`finish_time` FROM `lc_make_beam` `mb` INNER JOIN `lc_task_flow` `f` ON `f`.`task_id`=`mb`.`task_id` LEFT JOIN `lc_user` `u` ON `u`.`id`=`mb`.`user_id` LIMIT 0,20 [ RunTime:0.001837s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_task_process` [ RunTime:0.001019s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lc_task_process` WHERE  `task_id` = 1  AND `return_status` = 1 LIMIT 1 [ RunTime:0.009079s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lc_task_process` WHERE  `task_id` = 1  AND `overtime_status` = 1 LIMIT 1 [ RunTime:0.000673s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lc_task_process` WHERE  `task_id` = 2  AND `return_status` = 1 LIMIT 1 [ RunTime:0.000442s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lc_task_process` WHERE  `task_id` = 2  AND `overtime_status` = 1 LIMIT 1 [ RunTime:0.000231s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lc_task_process` WHERE  `task_id` = 3  AND `return_status` = 1 LIMIT 1 [ RunTime:0.000235s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lc_task_process` WHERE  `task_id` = 3  AND `overtime_status` = 1 LIMIT 1 [ RunTime:0.000225s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lc_task_process` WHERE  `task_id` = 4  AND `return_status` = 1 LIMIT 1 [ RunTime:0.000637s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lc_task_process` WHERE  `task_id` = 4  AND `overtime_status` = 1 LIMIT 1 [ RunTime:0.000213s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lc_task_process` WHERE  `task_id` = 19  AND `return_status` = 1 LIMIT 1 [ RunTime:0.000729s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lc_task_process` WHERE  `task_id` = 19  AND `overtime_status` = 1 LIMIT 1 [ RunTime:0.000244s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lc_task_process` WHERE  `task_id` = 21  AND `return_status` = 1 LIMIT 1 [ RunTime:0.000226s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lc_task_process` WHERE  `task_id` = 21  AND `overtime_status` = 1 LIMIT 1 [ RunTime:0.000606s ]
+---------------------------------------------------------------
+[ 2018-08-07T10:17:50+08:00 ] 192.168.100.1 GET /Console/task/inexcel.html
+[ info ] 192.168.100.200:8083/Console/task/inexcel.html [运行时间：0.617118s][吞吐率：1.62req/s] [内存消耗：8,507.38kb] [文件加载：124]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Console',
+    1 => 'task',
+    2 => 'inexcel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://192.168.100.200:8083/console/task/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=almpqq6rtvc3jb9pr4ahcokr00; cloud_platform=true; BT_PANEL=27013e4521caabe1632ae9f1260e1eb5b2bcb310; serverType=nginx; order=id%20desc; memRealUsed=378; mem-before=378/458%20%28MB%29; memSize=458; adminer_version=4.6.3',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\console\behavior\ConsoleAuth @action_begin [ RunTime:0.045501s ]
+[ info ] [ RUN ] app\console\controller\Task->inexcel[ /www/wwwroot/yangming/application/console/controller/Task.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002412s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_console` [ RunTime:0.000631s ]
+[ sql ] [ SQL ] SELECT * FROM `lc_console` [ RunTime:0.000998s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_make_beam` [ RunTime:0.001107s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lc_make_beam` `mb` INNER JOIN `lc_task_flow` `f` ON `f`.`task_id`=`mb`.`task_id` LEFT JOIN `lc_user` `u` ON `u`.`id`=`mb`.`user_id` LIMIT 1 [ RunTime:0.000465s ]
+[ sql ] [ SQL ] SELECT `mb`.`task_id`,`mb`.`title`,`mb`.`user_id`,`u`.`name`,`f`.`status`,`f`.`create_time`,`f`.`finish_time` FROM `lc_make_beam` `mb` INNER JOIN `lc_task_flow` `f` ON `f`.`task_id`=`mb`.`task_id` LEFT JOIN `lc_user` `u` ON `u`.`id`=`mb`.`user_id` LIMIT 0,20 [ RunTime:0.000293s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_task_process` [ RunTime:0.000962s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lc_task_process` WHERE  `task_id` = 1  AND `return_status` = 1 LIMIT 1 [ RunTime:0.000270s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lc_task_process` WHERE  `task_id` = 1  AND `overtime_status` = 1 LIMIT 1 [ RunTime:0.000931s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lc_task_process` WHERE  `task_id` = 2  AND `return_status` = 1 LIMIT 1 [ RunTime:0.000243s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lc_task_process` WHERE  `task_id` = 2  AND `overtime_status` = 1 LIMIT 1 [ RunTime:0.000234s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lc_task_process` WHERE  `task_id` = 3  AND `return_status` = 1 LIMIT 1 [ RunTime:0.000078s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lc_task_process` WHERE  `task_id` = 3  AND `overtime_status` = 1 LIMIT 1 [ RunTime:0.000926s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lc_task_process` WHERE  `task_id` = 4  AND `return_status` = 1 LIMIT 1 [ RunTime:0.000285s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lc_task_process` WHERE  `task_id` = 4  AND `overtime_status` = 1 LIMIT 1 [ RunTime:0.000254s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lc_task_process` WHERE  `task_id` = 19  AND `return_status` = 1 LIMIT 1 [ RunTime:0.000262s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lc_task_process` WHERE  `task_id` = 19  AND `overtime_status` = 1 LIMIT 1 [ RunTime:0.000249s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lc_task_process` WHERE  `task_id` = 21  AND `return_status` = 1 LIMIT 1 [ RunTime:0.000243s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lc_task_process` WHERE  `task_id` = 21  AND `overtime_status` = 1 LIMIT 1 [ RunTime:0.000251s ]
+---------------------------------------------------------------
+[ 2018-08-07T10:18:34+08:00 ] 192.168.100.1 GET /Console/task/detail/task_id/1.html
+[ info ] 192.168.100.200:8083/Console/task/detail/task_id/1.html [运行时间：0.305539s][吞吐率：3.27req/s] [内存消耗：4,833.13kb] [文件加载：71]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Console',
+    1 => 'task',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://192.168.100.200:8083/console/task/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=almpqq6rtvc3jb9pr4ahcokr00; cloud_platform=true; BT_PANEL=27013e4521caabe1632ae9f1260e1eb5b2bcb310; serverType=nginx; order=id%20desc; memRealUsed=378; mem-before=378/458%20%28MB%29; memSize=458; adminer_version=4.6.3',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'task_id' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\console\behavior\ConsoleAuth @action_begin [ RunTime:0.049547s ]
+[ info ] [ RUN ] app\console\controller\Task->detail[ /www/wwwroot/yangming/application/console/controller/Task.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] /www/wwwroot/yangming/public/../application/console/view/task/detail.html [ array (
+  0 => 'title',
+  1 => 'list',
+  2 => 'task_id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000611s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_console` [ RunTime:0.001390s ]
+[ sql ] [ SQL ] SELECT * FROM `lc_console` [ RunTime:0.000294s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_task_process` [ RunTime:0.001519s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lc_task_process` `tp` INNER JOIN `lc_process` `p` ON `p`.`id`=`tp`.`process_id` WHERE  `task_id` = 1 LIMIT 1 [ RunTime:0.000940s ]
+[ sql ] [ SQL ] SELECT `tp`.`id`,`tp`.`process_id`,`p`.`title`,`tp`.`process_status`,`tp`.`return_status`,`tp`.`overtime_status`,`tp`.`confirm_time`,`tp`.`used_time` FROM `lc_task_process` `tp` INNER JOIN `lc_process` `p` ON `p`.`id`=`tp`.`process_id` WHERE  `task_id` = 1 LIMIT 0,200 [ RunTime:0.000770s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_task_flow` [ RunTime:0.001707s ]
+[ sql ] [ SQL ] SELECT * FROM `lc_task_flow` WHERE  `task_id` = 1 LIMIT 1 [ RunTime:0.000298s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.000584s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lc_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000224s ]
+[ sql ] [ SQL ] SELECT `beam_id` FROM `lc_task_flow` WHERE  `task_id` = 1 LIMIT 1 [ RunTime:0.000205s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lc_user` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000643s ]
+[ sql ] [ SQL ] SELECT `rebar_id` FROM `lc_task_flow` WHERE  `task_id` = 1 LIMIT 1 [ RunTime:0.000296s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lc_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000183s ]
+[ sql ] [ SQL ] SELECT `machine_id` FROM `lc_task_flow` WHERE  `task_id` = 1 LIMIT 1 [ RunTime:0.000215s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lc_user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000203s ]
+[ sql ] [ SQL ] SELECT `beam_id` FROM `lc_task_flow` WHERE  `task_id` = 1 LIMIT 1 [ RunTime:0.001166s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lc_user` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000214s ]
+[ sql ] [ SQL ] SELECT `quality_id` FROM `lc_task_flow` WHERE  `task_id` = 1 LIMIT 1 [ RunTime:0.000198s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lc_user` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000030s ]
+[ sql ] [ SQL ] SELECT `rebar_id` FROM `lc_task_flow` WHERE  `task_id` = 1 LIMIT 1 [ RunTime:0.000191s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lc_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000125s ]
+[ sql ] [ SQL ] SELECT `beam_id` FROM `lc_task_flow` WHERE  `task_id` = 1 LIMIT 1 [ RunTime:0.000609s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lc_user` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000189s ]
+[ sql ] [ SQL ] SELECT `quality_id` FROM `lc_task_flow` WHERE  `task_id` = 1 LIMIT 1 [ RunTime:0.000204s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lc_user` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000180s ]
+[ sql ] [ SQL ] SELECT `quality_id` FROM `lc_task_flow` WHERE  `task_id` = 1 LIMIT 1 [ RunTime:0.000202s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lc_user` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000286s ]
+[ sql ] [ SQL ] SELECT `technologist_id` FROM `lc_task_flow` WHERE  `task_id` = 1 LIMIT 1 [ RunTime:0.001055s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lc_user` WHERE  `id` = 13 LIMIT 1 [ RunTime:0.000077s ]
+[ sql ] [ SQL ] SELECT `lab_id` FROM `lc_task_flow` WHERE  `task_id` = 1 LIMIT 1 [ RunTime:0.000205s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lc_user` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000069s ]
+[ sql ] [ SQL ] SELECT `blend_id` FROM `lc_task_flow` WHERE  `task_id` = 1 LIMIT 1 [ RunTime:0.000202s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lc_user` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000211s ]
+[ sql ] [ SQL ] SELECT `beam_id` FROM `lc_task_flow` WHERE  `task_id` = 1 LIMIT 1 [ RunTime:0.000735s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lc_user` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000241s ]
+[ sql ] [ SQL ] SELECT `beam_id` FROM `lc_task_flow` WHERE  `task_id` = 1 LIMIT 1 [ RunTime:0.000221s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lc_user` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000236s ]
+[ sql ] [ SQL ] SELECT `lab_id` FROM `lc_task_flow` WHERE  `task_id` = 1 LIMIT 1 [ RunTime:0.000328s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lc_user` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000156s ]
+[ sql ] [ SQL ] SELECT `beam_id` FROM `lc_task_flow` WHERE  `task_id` = 1 LIMIT 1 [ RunTime:0.000638s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lc_user` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000201s ]
+[ sql ] [ SQL ] SELECT `prestress_id` FROM `lc_task_flow` WHERE  `task_id` = 1 LIMIT 1 [ RunTime:0.000217s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lc_user` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000119s ]
+[ sql ] [ SQL ] SELECT `lab_id` FROM `lc_task_flow` WHERE  `task_id` = 1 LIMIT 1 [ RunTime:0.000222s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lc_user` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000194s ]
+[ sql ] [ SQL ] SELECT `prestress_id` FROM `lc_task_flow` WHERE  `task_id` = 1 LIMIT 1 [ RunTime:0.000898s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lc_user` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000196s ]
+[ sql ] [ SQL ] SELECT `beam_id` FROM `lc_task_flow` WHERE  `task_id` = 1 LIMIT 1 [ RunTime:0.000202s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lc_user` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000195s ]
+[ sql ] [ SQL ] SELECT `lab_id` FROM `lc_task_flow` WHERE  `task_id` = 1 LIMIT 1 [ RunTime:0.000122s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lc_user` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000198s ]
+[ sql ] [ SQL ] SELECT `prestress_id` FROM `lc_task_flow` WHERE  `task_id` = 1 LIMIT 1 [ RunTime:0.000237s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lc_user` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000793s ]
+[ sql ] [ SQL ] SELECT `technologist_id` FROM `lc_task_flow` WHERE  `task_id` = 1 LIMIT 1 [ RunTime:0.000240s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lc_user` WHERE  `id` = 13 LIMIT 1 [ RunTime:0.000214s ]
+[ sql ] [ SQL ] SELECT `prestress_id` FROM `lc_task_flow` WHERE  `task_id` = 1 LIMIT 1 [ RunTime:0.000174s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lc_user` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000196s ]
+[ sql ] [ SQL ] SELECT `technologist_id` FROM `lc_task_flow` WHERE  `task_id` = 1 LIMIT 1 [ RunTime:0.000203s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lc_user` WHERE  `id` = 13 LIMIT 1 [ RunTime:0.000223s ]
+[ sql ] [ SQL ] SELECT `prestress_id` FROM `lc_task_flow` WHERE  `task_id` = 1 LIMIT 1 [ RunTime:0.000596s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lc_user` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000201s ]
+[ sql ] [ SQL ] SELECT `technologist_id` FROM `lc_task_flow` WHERE  `task_id` = 1 LIMIT 1 [ RunTime:0.000199s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lc_user` WHERE  `id` = 13 LIMIT 1 [ RunTime:0.000089s ]
+[ sql ] [ SQL ] SELECT `prestress_id` FROM `lc_task_flow` WHERE  `task_id` = 1 LIMIT 1 [ RunTime:0.000222s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lc_user` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000164s ]
+[ sql ] [ SQL ] SELECT `technologist_id` FROM `lc_task_flow` WHERE  `task_id` = 1 LIMIT 1 [ RunTime:0.001017s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lc_user` WHERE  `id` = 13 LIMIT 1 [ RunTime:0.000092s ]
+[ sql ] [ SQL ] SELECT `prestress_id` FROM `lc_task_flow` WHERE  `task_id` = 1 LIMIT 1 [ RunTime:0.000208s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lc_user` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000131s ]
+[ sql ] [ SQL ] SELECT `quality_id` FROM `lc_task_flow` WHERE  `task_id` = 1 LIMIT 1 [ RunTime:0.000652s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lc_user` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000210s ]
+[ sql ] [ SQL ] SELECT * FROM `lc_task_flow` WHERE  `task_id` = 1 LIMIT 1 [ RunTime:0.000239s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lc_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000055s ]
+---------------------------------------------------------------
+[ 2018-08-07T10:18:37+08:00 ] 192.168.100.1 GET /Console/task/inexcel_process/task_id/1.html
+[ info ] 192.168.100.200:8083/Console/task/inexcel_process/task_id/1.html [运行时间：0.472294s][吞吐率：2.12req/s] [内存消耗：9,179.89kb] [文件加载：124]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Console',
+    1 => 'task',
+    2 => 'inexcel_process',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://192.168.100.200:8083/Console/task/detail/task_id/1.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=almpqq6rtvc3jb9pr4ahcokr00; cloud_platform=true; BT_PANEL=27013e4521caabe1632ae9f1260e1eb5b2bcb310; serverType=nginx; order=id%20desc; memRealUsed=378; mem-before=378/458%20%28MB%29; memSize=458; adminer_version=4.6.3',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'task_id' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\console\behavior\ConsoleAuth @action_begin [ RunTime:0.050733s ]
+[ info ] [ RUN ] app\console\controller\Task->inexcel_process[ /www/wwwroot/yangming/application/console/controller/Task.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000728s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_console` [ RunTime:0.000947s ]
+[ sql ] [ SQL ] SELECT * FROM `lc_console` [ RunTime:0.000368s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_task_process` [ RunTime:0.001559s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lc_task_process` `tp` INNER JOIN `lc_process` `p` ON `p`.`id`=`tp`.`process_id` WHERE  `task_id` = 1 LIMIT 1 [ RunTime:0.000359s ]
+[ sql ] [ SQL ] SELECT `tp`.`id`,`tp`.`process_id`,`p`.`title`,`tp`.`process_status`,`tp`.`return_status`,`tp`.`overtime_status`,`tp`.`confirm_time`,`tp`.`used_time` FROM `lc_task_process` `tp` INNER JOIN `lc_process` `p` ON `p`.`id`=`tp`.`process_id` WHERE  `task_id` = 1 LIMIT 0,200 [ RunTime:0.000308s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_task_flow` [ RunTime:0.000990s ]
+[ sql ] [ SQL ] SELECT * FROM `lc_task_flow` WHERE  `task_id` = 1 LIMIT 1 [ RunTime:0.000625s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.000818s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lc_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000040s ]
+[ sql ] [ SQL ] SELECT `beam_id` FROM `lc_task_flow` WHERE  `task_id` = 1 LIMIT 1 [ RunTime:0.000207s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lc_user` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000888s ]
+[ sql ] [ SQL ] SELECT `rebar_id` FROM `lc_task_flow` WHERE  `task_id` = 1 LIMIT 1 [ RunTime:0.000273s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lc_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000270s ]
+[ sql ] [ SQL ] SELECT `machine_id` FROM `lc_task_flow` WHERE  `task_id` = 1 LIMIT 1 [ RunTime:0.000943s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lc_user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000360s ]
+[ sql ] [ SQL ] SELECT `beam_id` FROM `lc_task_flow` WHERE  `task_id` = 1 LIMIT 1 [ RunTime:0.000220s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lc_user` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.001155s ]
+[ sql ] [ SQL ] SELECT `quality_id` FROM `lc_task_flow` WHERE  `task_id` = 1 LIMIT 1 [ RunTime:0.000260s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lc_user` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000198s ]
+[ sql ] [ SQL ] SELECT `rebar_id` FROM `lc_task_flow` WHERE  `task_id` = 1 LIMIT 1 [ RunTime:0.000001s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lc_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000191s ]
+[ sql ] [ SQL ] SELECT `beam_id` FROM `lc_task_flow` WHERE  `task_id` = 1 LIMIT 1 [ RunTime:0.000784s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lc_user` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000219s ]
+[ sql ] [ SQL ] SELECT `quality_id` FROM `lc_task_flow` WHERE  `task_id` = 1 LIMIT 1 [ RunTime:0.000142s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lc_user` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000083s ]
+[ sql ] [ SQL ] SELECT `quality_id` FROM `lc_task_flow` WHERE  `task_id` = 1 LIMIT 1 [ RunTime:0.000191s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lc_user` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000706s ]
+[ sql ] [ SQL ] SELECT `technologist_id` FROM `lc_task_flow` WHERE  `task_id` = 1 LIMIT 1 [ RunTime:0.000190s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lc_user` WHERE  `id` = 13 LIMIT 1 [ RunTime:0.000001s ]
+[ sql ] [ SQL ] SELECT `lab_id` FROM `lc_task_flow` WHERE  `task_id` = 1 LIMIT 1 [ RunTime:0.000281s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lc_user` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000958s ]
+[ sql ] [ SQL ] SELECT `blend_id` FROM `lc_task_flow` WHERE  `task_id` = 1 LIMIT 1 [ RunTime:0.000370s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lc_user` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000135s ]
+[ sql ] [ SQL ] SELECT `beam_id` FROM `lc_task_flow` WHERE  `task_id` = 1 LIMIT 1 [ RunTime:0.000864s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lc_user` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000213s ]
+[ sql ] [ SQL ] SELECT `beam_id` FROM `lc_task_flow` WHERE  `task_id` = 1 LIMIT 1 [ RunTime:0.000141s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lc_user` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000269s ]
+[ sql ] [ SQL ] SELECT `lab_id` FROM `lc_task_flow` WHERE  `task_id` = 1 LIMIT 1 [ RunTime:0.000962s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lc_user` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000125s ]
+[ sql ] [ SQL ] SELECT `beam_id` FROM `lc_task_flow` WHERE  `task_id` = 1 LIMIT 1 [ RunTime:0.000856s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lc_user` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000903s ]
+[ sql ] [ SQL ] SELECT `prestress_id` FROM `lc_task_flow` WHERE  `task_id` = 1 LIMIT 1 [ RunTime:0.000468s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lc_user` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000142s ]
+[ sql ] [ SQL ] SELECT `lab_id` FROM `lc_task_flow` WHERE  `task_id` = 1 LIMIT 1 [ RunTime:0.000994s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lc_user` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000273s ]
+[ sql ] [ SQL ] SELECT `prestress_id` FROM `lc_task_flow` WHERE  `task_id` = 1 LIMIT 1 [ RunTime:0.000207s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lc_user` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000192s ]
+[ sql ] [ SQL ] SELECT `beam_id` FROM `lc_task_flow` WHERE  `task_id` = 1 LIMIT 1 [ RunTime:0.000014s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lc_user` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000193s ]
+[ sql ] [ SQL ] SELECT `lab_id` FROM `lc_task_flow` WHERE  `task_id` = 1 LIMIT 1 [ RunTime:0.000825s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lc_user` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000196s ]
+[ sql ] [ SQL ] SELECT `prestress_id` FROM `lc_task_flow` WHERE  `task_id` = 1 LIMIT 1 [ RunTime:0.000026s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lc_user` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000208s ]
+[ sql ] [ SQL ] SELECT `technologist_id` FROM `lc_task_flow` WHERE  `task_id` = 1 LIMIT 1 [ RunTime:0.000629s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lc_user` WHERE  `id` = 13 LIMIT 1 [ RunTime:0.000317s ]
+[ sql ] [ SQL ] SELECT `prestress_id` FROM `lc_task_flow` WHERE  `task_id` = 1 LIMIT 1 [ RunTime:0.000193s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lc_user` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000014s ]
+[ sql ] [ SQL ] SELECT `technologist_id` FROM `lc_task_flow` WHERE  `task_id` = 1 LIMIT 1 [ RunTime:0.000229s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lc_user` WHERE  `id` = 13 LIMIT 1 [ RunTime:0.000731s ]
+[ sql ] [ SQL ] SELECT `prestress_id` FROM `lc_task_flow` WHERE  `task_id` = 1 LIMIT 1 [ RunTime:0.000195s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lc_user` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000001s ]
+[ sql ] [ SQL ] SELECT `technologist_id` FROM `lc_task_flow` WHERE  `task_id` = 1 LIMIT 1 [ RunTime:0.000194s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lc_user` WHERE  `id` = 13 LIMIT 1 [ RunTime:0.000718s ]
+[ sql ] [ SQL ] SELECT `prestress_id` FROM `lc_task_flow` WHERE  `task_id` = 1 LIMIT 1 [ RunTime:0.000191s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lc_user` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000037s ]
+[ sql ] [ SQL ] SELECT `technologist_id` FROM `lc_task_flow` WHERE  `task_id` = 1 LIMIT 1 [ RunTime:0.000308s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lc_user` WHERE  `id` = 13 LIMIT 1 [ RunTime:0.000962s ]
+[ sql ] [ SQL ] SELECT `prestress_id` FROM `lc_task_flow` WHERE  `task_id` = 1 LIMIT 1 [ RunTime:0.000268s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lc_user` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000200s ]
+[ sql ] [ SQL ] SELECT `quality_id` FROM `lc_task_flow` WHERE  `task_id` = 1 LIMIT 1 [ RunTime:0.000082s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lc_user` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000200s ]
+[ sql ] [ SQL ] SELECT * FROM `lc_task_flow` WHERE  `task_id` = 1 LIMIT 1 [ RunTime:0.000700s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lc_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000169s ]
+---------------------------------------------------------------
+[ 2018-08-07T10:57:33+08:00 ] 192.168.100.1 POST /api/task_process/getTaskProgress
+[ info ] 192.168.100.200:8083/api/task_process/getTaskProgress [运行时间：0.315658s][吞吐率：3.17req/s] [内存消耗：4,280.70kb] [文件加载：69]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'task_process',
+    2 => 'getTaskProgress',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '418',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarynGbXqV9YMLYcX7xK',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=almpqq6rtvc3jb9pr4ahcokr00; cloud_platform=true; BT_PANEL=27013e4521caabe1632ae9f1260e1eb5b2bcb310; serverType=nginx; order=id%20desc; memRealUsed=378; mem-before=378/458%20%28MB%29; memSize=458; adminer_version=4.6.3',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '1',
+  'task_id' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\TaskProcess->getTaskProgress[ /www/wwwroot/yangming/application/api/controller/TaskProcess.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000782s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.002217s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000338s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_task_flow` [ RunTime:0.000744s ]
+[ sql ] [ SQL ] SELECT `f`.`task_id`,`f`.`technologist_id`,`f`.`rebar_id`,`f`.`beam_id`,`f`.`quality_id`,`f`.`lab_id`,`f`.`machine_id`,`f`.`prestress_id`,`f`.`blend_id`,`f`.`process_id`,`f`.`status`,`f`.`create_time`,u.name as technologist_name FROM `lc_task_flow` `f` LEFT JOIN `lc_user` `u` ON `u`.`id`=`f`.`technologist_id` WHERE  `f`.`task_id` = '1' LIMIT 1 [ RunTime:0.000383s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lc_user` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000332s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lc_user` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000204s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lc_user` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.000626s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lc_user` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000262s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lc_user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000242s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lc_user` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000229s ]
+[ sql ] [ SQL ] SELECT `name` FROM `lc_user` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000184s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_task_process` [ RunTime:0.000902s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lc_task_process` `tp` INNER JOIN `lc_process` `p` ON `p`.`id`=`tp`.`process_id` WHERE  `task_id` = 1 LIMIT 1 [ RunTime:0.000492s ]
+[ sql ] [ SQL ] SELECT `tp`.`process_id`,`p`.`title`,`p`.`time_limit`,`tp`.`process_status`,`tp`.`confirm_time`,`tp`.`used_time`,`tp`.`return_status`,`tp`.`overtime_status`,`tp`.`receive_department`,`tp`.`finish_department`,`tp`.`inform_paper`,`tp`.`technologist_affirm` FROM `lc_task_process` `tp` INNER JOIN `lc_process` `p` ON `p`.`id`=`tp`.`process_id` WHERE  `task_id` = 1 LIMIT 0,200 [ RunTime:0.000393s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_process` [ RunTime:0.000932s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lc_process` WHERE  `time_limit` = 1 LIMIT 1 [ RunTime:0.000218s ]
+[ sql ] [ SQL ] SELECT `id`,`title`,`duration` FROM `lc_process` WHERE  `time_limit` = 1 LIMIT 0,100 [ RunTime:0.000242s ]

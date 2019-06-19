@@ -1,0 +1,54 @@
+<div class="unboxing_foot">
+    <div class="unboxing_foot1">
+        <a href="{:url('Auction/index')}">
+            <img {if condition="request()->controller() eq 'Auction' "}
+                 src="/static/mobile/img/every_foot1_03.png"
+                {else/}
+                src="/static/mobile/img/unboxing_foot1_03.png"
+                {/if}
+            alt="" style="width: 0.4rem;height:
+            0.37rem" class="unboxing_foot1_pic">
+            <p class="unboxing_foot1_font" {if condition="request()->controller() eq 'Auction' "} style="color: #f42e38" {/if}>竞拍</p>
+        </a>
+    </div>
+    <div class="unboxing_foot1">
+        <a href="{:url('Latest/index')}">
+            <img {if condition="request()->controller() eq 'Latest' "}
+                 src="/static/mobile/img/deal_foot_13.png"
+                 {else/}
+                src="/static/mobile/img/unboxing_foot2_05.png"
+                {/if}
+            alt="" style="width: 0.37rem;height: 0.37rem" class="unboxing_foot1_pic">
+            <p class="unboxing_foot1_font" {if condition="request()->controller() eq 'Latest' "} style="color:
+            #f42e38" {/if}>最新成交</p>
+        </a>
+    </div>
+    <div class="unboxing_foot1">
+        <a href="{:url('Share/index')}">
+            <img {if condition="request()->controller() eq 'Share' "}
+                 src="/static/mobile/img/unboxing_foot3_07.png"
+                 {else/}
+                src="/static/mobile/img/every_foot3_07.png"
+                {/if}
+            alt="" style="width: 0.44rem;height: 0.37rem" class="unboxing_foot1_pic">
+            <p class="unboxing_foot1_font" {if condition="request()->controller() eq 'Share' "} style="color: #f42e38" {/if}>晒单</p>
+        </a>
+    </div>
+    <div class="unboxing_foot1">
+        <a href="{:url('Webshow/lucky_turntable_game',['user_id'=>$Think.session.user_id])}">
+            <img src="/static/mobile/img/unboxing_foot4_10.png" alt="" style="width: 0.37rem;height: 0.37rem" class="unboxing_foot1_pic">
+            <p class="unboxing_foot1_font" >抽奖</p>
+        </a>
+    </div>
+    <div class="unboxing_foot1" id="mine">
+        <a href="{:url('Personal/index')}">
+            <img {if condition="request()->controller() eq 'Personal' "}
+                 src="/static/mobile/img/mine_foot2_05.png"
+                 {else/}
+                src="/static/mobile/img/unboxing_foot5_09.png"
+                {/if}
+            alt="" style="width: 0.34rem;height: 0.37rem" class="unboxing_foot1_pic">
+            <p class="unboxing_foot1_font" {if condition="request()->controller() eq 'Personal' "} style="color: #f42e38" {/if}>我的</p>
+        </a>
+    </div>
+</div>

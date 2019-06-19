@@ -1,0 +1,36 @@
+---------------------------------------------------------------
+[ 2018-08-15T09:53:10+08:00 ] 192.168.100.1 POST /api/common_task/getDocument
+[ info ] 192.168.100.200:8083/api/common_task/getDocument [运行时间：0.441443s][吞吐率：2.27req/s] [内存消耗：3,373.70kb] [文件加载：54]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'common_task',
+    2 => 'getDocument',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '324',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarywU2KBq2fEvuzX7I4',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=almpqq6rtvc3jb9pr4ahcokr00; BT_PANEL=27013e4521caabe1632ae9f1260e1eb5b2bcb310; serverType=nginx; order=id%20desc; memRealUsed=378; mem-before=378/458%20%28MB%29; memSize=458',
+)
+[ info ] [ PARAM ] array (
+  'task_id' => '25',
+)
+[ info ] [ RUN ] app\api\controller\CommonTask->getDocument[ /www/wwwroot/yangming/application/api/controller/CommonTask.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.047506s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_task_flow` [ RunTime:0.066228s ]
+[ sql ] [ SQL ] SELECT `process_id` FROM `lc_task_flow` WHERE  `task_id` = 25 LIMIT 1 [ RunTime:0.001289s ]

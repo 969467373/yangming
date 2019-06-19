@@ -1,0 +1,136 @@
+---------------------------------------------------------------
+[ 2018-07-18T10:32:20+08:00 ] 192.168.100.1 POST /api/make_beam/checkTask
+[ info ] 192.168.100.200:8083/api/make_beam/checkTask [运行时间：0.478731s][吞吐率：2.09req/s] [内存消耗：3,737.90kb] [文件加载：57]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'make_beam',
+    2 => 'checkTask',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '612',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryYMtRubAFPol1DgQo',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '9',
+  'task_id' => '1',
+  'check_status' => '1',
+  'explain' => '',
+)
+[ info ] [ RUN ] app\api\controller\MakeBeam->checkTask[ /www/wwwroot/yangming/application/api/controller/MakeBeam.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.052172s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.056964s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.014818s ]
+---------------------------------------------------------------
+[ 2018-07-18T16:01:39+08:00 ] 192.168.100.1 POST /api/make_beam/checkTask
+[ info ] 192.168.100.200:8083/api/make_beam/checkTask [运行时间：0.137692s][吞吐率：7.26req/s] [内存消耗：3,747.87kb] [文件加载：57]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'make_beam',
+    2 => 'checkTask',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '612',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryRK1lhgnxNkQzzME4',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '9',
+  'task_id' => '1',
+  'check_status' => '1',
+  'explain' => '',
+)
+[ info ] [ RUN ] app\api\controller\MakeBeam->checkTask[ /www/wwwroot/yangming/application/api/controller/MakeBeam.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002048s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.001194s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000264s ]
+---------------------------------------------------------------
+[ 2018-07-18T16:28:45+08:00 ] 192.168.100.1 POST /api/make_beam/getTaskList
+[ info ] 192.168.100.200:8083/api/make_beam/getTaskList [运行时间：0.181232s][吞吐率：5.52req/s] [内存消耗：2,196.12kb] [文件加载：47]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'make_beam',
+    2 => 'getTaskList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '417',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryzPcy9yPKCliZ7vGB',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => '1',
+  'status' => '0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-18T16:28:46+08:00 ] 192.168.100.1 GET /api/make_beam/getTaskList
+[ info ] 192.168.100.200:8083/api/make_beam/getTaskList [运行时间：0.101572s][吞吐率：9.85req/s] [内存消耗：1,790.73kb] [文件加载：37]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '404',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '417',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryzPcy9yPKCliZ7vGB',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File

@@ -1,0 +1,147 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="__HOME__/images/favicon.png" type="image/png">
+
+
+
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/css/validform.css?">
+
+</head>
+
+<body>
+<select class="prov">
+    <option value="">--请选择省--</option>
+    {volist name="prov" id="vo"}
+    <option value="{$vo.code}">{$vo.name}</option>
+    {/volist}
+</select>
+<select class="city">
+    <option value="">--请选择市--</option>
+</select>
+<select class="area">
+    <option value="">--请选择区--</option>
+</select>
+
+<hr>
+
+<select class="liandong" id="prov">
+    <option value="">--请选择省--</option>
+    {volist name="prov" id="vo"}
+    <option value="{$vo.code}">{$vo.name}</option>
+    {/volist}
+</select>
+<select class="liandong" id="city">
+    <option value="">--请选择市--</option>
+</select>
+<select id="area">
+    <option value="">--请选择区--</option>
+</select>
+
+<script src="__HOME__/js/jquery-1.11.1.min.js"></script>
+<script src="__HOME__/js/jquery-migrate-1.2.1.min.js"></script>
+<script src="__HOME__/js/jquery-ui-1.10.3.min.js"></script>
+<script src="__HOME__/js/bootstrap.min.js"></script>
+<script src="__HOME__/js/modernizr.min.js"></script>
+<script src="__HOME__/js/jquery.sparkline.min.js"></script>
+<script src="__HOME__/js/toggles.min.js"></script>
+<script src="__HOME__/js/retina.min.js"></script>
+<script src="__HOME__/js/jquery.cookies.js"></script>
+
+
+<script src="__HOME__/js/jquery.autogrow-textarea.js"></script>
+<script src="__HOME__/js/bootstrap-timepicker.min.js"></script>
+<script src="__HOME__/js/jquery.maskedinput.min.js"></script>
+<script src="__HOME__/js/jquery.tagsinput.min.js"></script>
+<script src="__HOME__/js/jquery.mousewheel.js"></script>
+<script src="__HOME__/js/custom.js"></script>
+
+
+
+<!-- JQ验证 -->
+<script src="__PUBLIC__/js/Validform_v5.3.2_min.js"></script>
+
+</body>
+</html>
+
+<!--三级联动-->
+<script>
+    $(function(){
+        $('.prov').change(function(){
+
+            var code = $(this).val();
+            //console.log(code);
+
+            $.post("{:url('Index/city')}",{
+
+                code:code,
+
+            },function(data){
+                console.log(data);
+                if(data.city != "" && data.city != null) {
+                    $('.city').empty();
+
+                    $(".city").append("<option value='" +  "'>" + "--请选择市--" + "</option>");
+                    for (var i = 0; i < data.city.length; i++) {
+                        $(".city").append("<option value='" + data.city[i].code + "'>" + data.city[i].name + "</option>");//新增
+                    }
+                    $(".city option:eq(0)").attr('selected', 'selected');//选中第一个
+                }
+            });
+        })
+
+
+        $('.city').change(function(){
+
+            var code = $(this).val();
+            $.post("{:url('Index/area')}",{
+                code:code,
+
+            },function(data){
+                //console.log(data);
+                if(data.area != "" && data.area != null) {
+                    $('.area').empty();
+
+                    $(".area").append("<option value='" +  "'>" + "--请选择区--" + "</option>");
+                    for (var i = 0; i < data.area.length; i++) {
+                        $(".area").append("<option value='" + data.area[i].code + "'>" +
+                                data.area[i].name + "</option>");//新增
+                    }
+                    $(".area option:eq(0)").attr('selected', 'selected');//选中第一个
+                }
+            });
+        })
+    });
+</script>
+
+
+<!--三级联动2-->
+<script>
+    $(function(){
+        $('.liandong').change(function(){
+
+            var type = $(this).attr('id');
+            var code = $(this).val();
+
+            $.post("{:url('Index/ajaxGetAdress')}",{
+                type:type,
+                code:code,
+            },function(data){
+                //console.log(data);
+                if(data.type =='prov'){
+                    //赋值市
+                    $("#city").html(data.str);
+                }else{
+                    //赋值区
+                    $("#area").html(data.str);
+                }
+            });
+        })
+    });
+</script>
+

@@ -1,0 +1,1 @@
+<?phpnamespace app\common\model;use think\Exception;use think\Session;//任务查看class TaskRead extends BaseModel{    //添加查看记录    function add($data)    {        return $this->allowField(true)->save($data);    }}

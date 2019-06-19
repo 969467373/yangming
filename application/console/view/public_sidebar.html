@@ -1,0 +1,19 @@
+<div class="leftpanel">
+
+    <div class="leftpanelinner"><!-- This is only visible to small devices -->
+        <ul class="nav nav-pills nav-stacked nav-bracket">
+            {volist name="$Think.session.left_menu" id="menu"}
+            <li class="nav-parent {if condition=" in_array(strtolower(request()->controller().'_'.request()->action()),$menu.level_one.include)"} nav-active active {/if}">
+                <a href=""><i class="glyphicon glyphicon-align-justify"></i><span>{$menu.level_one.title}</span></a>
+                <ul class="children" {if condition="in_array(strtolower(request()->controller().'_'.request()->action()),$menu.level_one.include)" } style="display:block;" {/if}>
+                {volist name="menu.level_two" id="slave"}
+                    <li {if condition="in_array(strtolower(request()->controller().'_'.request()->action()),$slave.include)" } class="active" {/if}>
+                        <a href="{$slave.url}"><i class="fa fa-caret-right"></i>{$slave.title}</a>
+                    </li>
+                {/volist}
+                </ul>
+            </li>
+            {/volist}
+        </ul>
+    </div>
+</div>

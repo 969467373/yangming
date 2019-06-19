@@ -1,0 +1,259 @@
+---------------------------------------------------------------
+[ 2018-07-23T09:24:48+08:00 ] 192.168.100.1 POST /api/task_flow/getDoingTaskList
+[ info ] 192.168.100.200:8083/api/task_flow/getDoingTaskList [运行时间：0.627875s][吞吐率：1.59req/s] [内存消耗：3,753.39kb] [文件加载：57]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'task_flow',
+    2 => 'getDoingTaskList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '17',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => 3,
+)
+[ info ] [ RUN ] app\api\controller\TaskFlow->getDoingTaskList[ /www/wwwroot/yangming/application/api/controller/TaskFlow.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.108843s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.056583s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.001304s ]
+---------------------------------------------------------------
+[ 2018-07-23T11:43:53+08:00 ] 192.168.100.1 POST /api/user_information/getUserIndex
+[ info ] 192.168.100.200:8083/api/user_information/getUserIndex [运行时间：0.410807s][吞吐率：2.43req/s] [内存消耗：4,113.76kb] [文件加载：67]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user_information',
+    2 => 'getUserIndex',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '17',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => 1,
+)
+[ info ] [ RUN ] app\api\controller\UserInformation->getUserIndex[ /www/wwwroot/yangming/application/api/controller/UserInformation.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001323s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.001336s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.003645s ]
+[ sql ] [ SQL ] SELECT `department_id` FROM `lc_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000318s ]
+[ sql ] [ SQL ] SELECT `u`.`name`,`u`.`phone`,`u`.`avatar`,`u`.`department_id`,`d`.`title` FROM `lc_user` `u` INNER JOIN `lc_department` `d` ON `u`.`department_id`=`d`.`id` WHERE  `u`.`id` = 1 LIMIT 1 [ RunTime:0.039220s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_task_flow` [ RunTime:0.033137s ]
+---------------------------------------------------------------
+[ 2018-07-23T11:58:27+08:00 ] 192.168.100.1 POST /api/user_information/getUserIndex
+[ info ] 192.168.100.200:8083/api/user_information/getUserIndex [运行时间：0.160916s][吞吐率：6.21req/s] [内存消耗：4,112.89kb] [文件加载：67]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user_information',
+    2 => 'getUserIndex',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '17',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => 1,
+)
+[ info ] [ RUN ] app\api\controller\UserInformation->getUserIndex[ /www/wwwroot/yangming/application/api/controller/UserInformation.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000468s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.000860s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000821s ]
+[ sql ] [ SQL ] SELECT `department_id` FROM `lc_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000229s ]
+[ sql ] [ SQL ] SELECT `u`.`name`,`u`.`phone`,`u`.`avatar`,`u`.`department_id`,`d`.`title` FROM `lc_user` `u` INNER JOIN `lc_department` `d` ON `u`.`department_id`=`d`.`id` WHERE  `u`.`id` = 1 LIMIT 1 [ RunTime:0.000024s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_task_flow` [ RunTime:0.001194s ]
+---------------------------------------------------------------
+[ 2018-07-23T11:59:42+08:00 ] 192.168.100.1 POST /api/user_information/getUserIndex
+[ info ] 192.168.100.200:8083/api/user_information/getUserIndex [运行时间：0.163354s][吞吐率：6.12req/s] [内存消耗：4,112.89kb] [文件加载：67]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user_information',
+    2 => 'getUserIndex',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '17',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => 1,
+)
+[ info ] [ RUN ] app\api\controller\UserInformation->getUserIndex[ /www/wwwroot/yangming/application/api/controller/UserInformation.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000480s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.000827s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000270s ]
+[ sql ] [ SQL ] SELECT `department_id` FROM `lc_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000687s ]
+[ sql ] [ SQL ] SELECT `u`.`name`,`u`.`phone`,`u`.`avatar`,`u`.`department_id`,`d`.`title` FROM `lc_user` `u` INNER JOIN `lc_department` `d` ON `u`.`department_id`=`d`.`id` WHERE  `u`.`id` = 1 LIMIT 1 [ RunTime:0.000074s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_task_flow` [ RunTime:0.001577s ]
+---------------------------------------------------------------
+[ 2018-07-23T12:00:21+08:00 ] 192.168.100.1 POST /api/user_information/getInfomation
+[ info ] 192.168.100.200:8083/api/user_information/getInfomation [运行时间：0.153688s][吞吐率：6.51req/s] [内存消耗：3,756.92kb] [文件加载：57]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user_information',
+    2 => 'getInfomation',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '17',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => 1,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\UserInformation->getInfomation[ /www/wwwroot/yangming/application/api/controller/UserInformation.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000512s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.001184s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000359s ]
+[ sql ] [ SQL ] SELECT `u`.`name`,`u`.`phone`,`u`.`avatar`,`u`.`department_id`,`d`.`title` FROM `lc_user` `u` INNER JOIN `lc_department` `d` ON `u`.`department_id`=`d`.`id` WHERE  `u`.`id` = 1 LIMIT 1 [ RunTime:0.000272s ]
+---------------------------------------------------------------
+[ 2018-07-23T14:59:06+08:00 ] 192.168.100.1 POST /api/user_information/getUserIndex
+[ info ] 192.168.100.200:8083/api/user_information/getUserIndex [运行时间：0.145167s][吞吐率：6.89req/s] [内存消耗：3,753.06kb] [文件加载：57]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user_information',
+    2 => 'getUserIndex',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '18',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'user_id' => 10,
+)
+[ info ] [ RUN ] app\api\controller\UserInformation->getUserIndex[ /www/wwwroot/yangming/application/api/controller/UserInformation.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000404s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.001058s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.001589s ]
+---------------------------------------------------------------
+[ 2018-07-23T17:25:07+08:00 ] 192.168.100.1 POST /api/make_beam/checkTask
+[ info ] 192.168.100.200:8083/api/make_beam/checkTask [运行时间：0.170022s][吞吐率：5.88req/s] [内存消耗：3,822.71kb] [文件加载：58]
+[ info ] [ LANG ] /www/wwwroot/yangming/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'make_beam',
+    2 => 'checkTask',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.100.200:8083',
+  'connection' => 'keep-alive',
+  'content-length' => '87',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://app01.app.longcai.net',
+  'power-by' => 'http://www.xiaoyaoji.com.cn',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'content-type' => 'application/json',
+  'referer' => 'http://app01.app.longcai.net/dashboard/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '4',
+  'user_id' => '10',
+  'task_id' => '4',
+  'check_status' => '1',
+  'explain' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\MakeBeam->checkTask[ /www/wwwroot/yangming/application/api/controller/MakeBeam.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000202s ] mysql:host=127.0.0.1;dbname=yangming;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lc_user` [ RunTime:0.001122s ]
+[ sql ] [ SQL ] SELECT `id` FROM `lc_user` WHERE  `id` = 10 LIMIT 1 [ RunTime:0.001157s ]

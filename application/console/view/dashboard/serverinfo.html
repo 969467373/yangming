@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="__ASSETS__/images/favicon.png" type="image/png">
+
+    <title>{$title}</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="__ASSETS__/css/style.default.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="__ASSETS__/js/html5shiv.js"></script>
+    <script src="__ASSETS__/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+<body>
+  <section>
+  {include file='public_sidebar'}<!-- leftpanel -->
+    <div class="mainpanel">
+    {include file='public_header'}	
+      <div class="pageheader">
+        <h2><i class="fa fa-home"></i>{$title}<span>欢迎光临平台...</span></h2>
+        <div class="breadcrumb-wrapper">
+          <span class="label">您现在的位置:</span>
+          <ol class="breadcrumb">
+            <li>平台首页</li>
+            <li class="active">{$title}</li>
+          </ol>
+        </div>
+      </div>
+
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="table-responsive">
+              <table  class="table table-bordered mb30">
+                <thead>
+                  <tr><th colspan="2" scope="col">服务器信息<img onclick="show();" style="float:right;margin-top:5px;" src="__ASSETS__/images/xl.png"/></th></tr>
+                </thead>
+                <tbody id="server">
+                {volist name="info" id="vo"}
+                  <tr>
+                    <td width="600px;">{$key}</td>
+                    <td width="1200px">{$vo}</td>
+                  </tr>
+                {/volist}
+                </tbody>
+              </table>
+            </div><!-- table-responsive -->
+          </div><!-- col-sm-7 -->
+        </div><!-- row -->
+
+
+      </div><!-- contentpanel -->
+    </div><!-- mainpanel -->
+  </section>
+
+  <script src="__ASSETS__/js/jquery-1.11.1.min.js"></script>
+  <script src="__ASSETS__/js/jquery-migrate-1.2.1.min.js"></script>
+  <script src="__ASSETS__/js/jquery-ui-1.10.3.min.js"></script>
+  <script src="__ASSETS__/js/bootstrap.min.js"></script>
+  <script src="__ASSETS__/js/modernizr.min.js"></script>
+  <script src="__ASSETS__/js/jquery.sparkline.min.js"></script>
+  <script src="__ASSETS__/js/toggles.min.js"></script>
+  <script src="__ASSETS__/js/retina.min.js"></script>
+  <script src="__ASSETS__/js/jquery.cookies.js"></script>
+  <script>
+    function show()
+    {
+      var a = $("#server").css("display");
+      if(a === "none")
+      {
+          $("#server").css("display","block");
+      }else{
+          $("#server").css("display","none");
+      }
+    }
+  </script>
+  <!--<script src="__ASSETS__/js/flot/jquery.flot.min.js"></script>-->
+  <!--<script src="__ASSETS__/js/flot/jquery.flot.resize.min.js"></script>-->
+  <!--<script src="__ASSETS__/js/flot/jquery.flot.spline.min.js"></script>-->
+  <!--<script src="__ASSETS__/js/morris.min.js"></script>-->
+  <!--<script src="__ASSETS__/js/raphael-2.1.0.min.js"></script>-->
+
+  <script src="__ASSETS__/js/custom.js"></script>
+  <!--<script src="__ASSETS__/js/dashboard.js"></script>-->
+</body>
+</html>
